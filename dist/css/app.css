@@ -14364,3 +14364,19 @@ footer .footer-sub {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/* line 1, src/sass/app/blog.scss */
+.news-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* line 5, src/sass/app/blog.scss */
+.news-wrapper .card-text {
+  overflow: hidden;
+}
+
+/* line 7, src/sass/app/blog.scss */
+.news-wrapper .card-text.truncated-text {
+  height: 150px;
+}

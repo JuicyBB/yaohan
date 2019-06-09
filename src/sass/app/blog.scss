@@ -1,0 +1,11 @@
+.news-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+
+  .card-text {
+    overflow: hidden;
+    &.truncated-text {
+      height: 150px;
+    }
+  }
+}
