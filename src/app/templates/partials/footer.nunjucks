@@ -22,27 +22,7 @@
             <h3 class="heading-5 mb-4">
               <i class="fas fa-map-marked mr-3"></i>Visit Yaohan Centre
             </h3>
-            <ul class="list-unstyled">
-              <li class="font-weight-bold">Contact information</li>
-              <li class="d-flex align-items-center">
-                <i class="fas fa-map-marker-alt mr-2"></i>
-                3700 No. 3 Rd, Richmond B.C.
-              </li>
-              <li class="d-flex align-items-center">
-                <i class="fas fa-directions mr-2"></i>
-                <a href="https://goo.gl/maps/8xWHWMUSNqg8qkmK8" target="_blank">
-                  Google maps direction
-                </a>
-              </li>
-              <li class="d-flex align-items-center">
-                <i class="fas fa-phone mr-2"></i>
-                <a href="tel:1-604-231-0601">604-231-0601</a>
-              </li>
-              <li class="d-flex align-items-center">
-                <i class="fas fa-envelope mr-2"></i>
-                <a href="contact.html">Send us a message</a>
-              </li>
-            </ul>
+            {% include "partials/contact_info.nunjucks" %}
           </div>
         </div>
       </div>
