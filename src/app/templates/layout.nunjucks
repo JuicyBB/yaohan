@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Yaohan Centre</title>
+    <meta
+      name="description"
+      content="Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping. Much more than a Mall, Yaohan Centre is a place where you can have lots of fun with friends and family. We offer a wealth of products and services including fine fashions, souvenirs, gifts, oriental arts & crafts, paintings, herbal health food, toys, jewelry, cosmetics, home appliances, realty, floral, insurance, foreign exchange, travel and medical needs at your convenience. For relaxation and enjoyment, visit the salons, music and book stores. You can also visit our famous supermarket which provides a wide range of Japanese and Chinese Products."
+    />
+    <meta name="author" content="Yaohan Centre" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#42ba69" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/app.min.css" />
+  </head>
+
+  <body>
+    <nav class="fixed-top">
+      <div class="navbar-sub bg-primary">
+        <div class="container">
+          <ul class="lang-select list-unstyled">
+            <li class="active">
+              <a href="#">EN</a>
+            </li>
+            <li>
+              <a href="#">中文</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-main navbar navbar-expand-md navbar-light bg-white">
+        <div class="container position-relative">
+          <div class="logo-wrapper">
+            <a href="index.html" class="logo-link">
+              <img class="logo" src="img/logo.svg" alt="Yaohan Centre" />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#main_menu"
+            aria-controls="main_menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main_menu">
+            <ul class="navbar-nav ml-auto">
+              {% block nav_menu %}{% endblock %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    {% block content %}{% endblock %} {% include "partials/footer.nunjucks" %}
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

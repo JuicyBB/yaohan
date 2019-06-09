@@ -1,0 +1,12 @@
+<ul class="list-unstyled mall-hours">
+  <li class="font-weight-bold">Monday to Sunday</li>
+  <li>
+    <span>1st Floor</span>
+    <span>9:00am - 9:00pm</span></li>
+  <li>
+    <span>2st Floor</span>
+    <span>11:00am - 7:00pm</span></li>
+  <li>
+    <span>Supermarket</span>
+    <span>9:00am - 11:00pm</span></li>
+</ul>

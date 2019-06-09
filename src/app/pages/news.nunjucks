@@ -1,0 +1,19 @@
+{% extends "layout.nunjucks" %}
+
+<!-- Navigation-->
+{% block nav_menu %} {% import 'macros/nav.nunjucks' as nav %}
+<!-- Set page-->
+{{ nav.active("news") }}
+{% endblock %}
+
+<!-- Page content-->
+{% block content %}
+<section class="section">
+  <div class="container">
+    <header>
+      <h1>News</h1>
+      <h2 class="heading-4">Address, hours, direction or send us a message.</h2>
+    </header>
+  </div>
+</section>
+{% endblock %}

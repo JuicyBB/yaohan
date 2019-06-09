@@ -1,0 +1,95 @@
+{% extends "layout.nunjucks" %}
+
+<!-- Navigation-->
+{% block nav_menu %}
+  {% import 'macros/nav.nunjucks' as nav %}
+  <!-- Set page-->
+  {{nav.active('home')}}
+{% endblock %}
+
+<!-- Page content-->
+{% block content %}
+  <section class="hero">
+    <div class="hero-bg-wrapper">
+      <div class="hero-img"></div>
+    </div>
+    <div class="hero-content">
+      <div class="container position-relative">
+        <div class="mall-hours-wrapper">
+          <h2>
+            <i class="far fa-clock mr-1"></i>
+            Shopping Mall Hours
+          </h2>
+          <div class="mall-hours-list mb-4">
+          {% include "partials/mall_hours.nunjucks" %}
+          </div>
+          <a class="btn btn-info d-block d-sm-inline-block" href="contact.html" role="button">
+            <i class="fas fa-map-marked-alt mr-1"></i>
+            Address &amp; Map
+          </a>
+          <span class="d-block d-sm-inline-block mx-1 my-2"></span>
+          <a class="btn btn-highlight d-block d-sm-inline-block" href="contact.html" role="button">
+            <i class="fas fa-sitemap mr-1"></i>
+            Mall Directory
+          </a>
+        </div>
+        <a class="to-directory d-none d-lg-block" href="directory.html">
+          <i class="fas fa-calendar-day mr-1"></i>
+          News &amp; Events
+          <i class="fas fa-long-arrow-alt-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <header class="text-center">
+        <h1 class="font-weight-bold">Visit Yaohan Centre</h1>
+        <h2>Eat, shop and more.</h2>
+      </header>
+      <div class="my-5"></div>
+      <div class="row">
+        <div class="col-md">
+          <img src="img/bg.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
+        </div>
+        <div class="col-md">
+          <p>Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping.</p>
+          <p>Much more than a Mall, Yaohan Centre is a place where you can have lots of fun with friends and family. We offer a wealth of products and services including fine fashions, souvenirs, gifts, oriental arts &amp; crafts, paintings, herbal health food, toys, jewelry, cosmetics, home appliances, realty, floral, insurance, foreign exchange, travel and medical needs at your convenience.</p>
+          <p>For relaxation and enjoyment, visit the salons, music and book stores. You can also visit our famous supermarket which provides a wide range of Japanese and Chinese Products.</p>
+          <a class="btn btn-primary" href="directory.html">
+            <i class="fas fa-sitemap mr-1"></i>
+            Mall Directory
+            <i class="fas fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <header class="text-center">
+        <h2 class="font-weight-bold">Latest News &amp; Events</h1>
+        <a class="btn btn-link btn-lg" href="news.html">
+          See all news &amp; events 
+          <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+      </header>
+      <div class="my-5"></div>
+      <div class="row justify-content-md-center">
+        <div class="col-lg-5 col-md">
+          <img 
+            src="img/bg.jpg" 
+            alt="Visit Yaohan Centre" 
+            class="img-fluid mb-4">
+        </div>
+        <div class="col-lg-5 col-md">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sint cum aliquid consectetur nam porro assumenda ducimus animi eligendi? Iure, nam? Quibusdam voluptas quod ab doloremque porro totam ducimus quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sint cum aliquid consectetur nam porro assumenda ducimus animi eligendi? Iure, nam? Quibusdam voluptas quod ab doloremque porro totam ducimus quos.</p>
+          <a class="btn btn-primary" href="news.html">View Article<i class="fas fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
