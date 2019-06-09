@@ -8,12 +8,13 @@
 
 <!-- Page content-->
 {% block content %}
-<section class="section">
+<header class="page-header">
   <div class="container">
-    <header>
-      <h1>Mall Directory</h1>
-      <h2 class="heading-4">Address, hours, direction or send us a message.</h2>
-    </header>
+    <h1 class="font-weight-bold">Mall Directory</h1>
+    <h2 class="heading-5">Floor plans and business information</h2>
   </div>
+</header>
+<section class="section">
+  <div class="container"></div>
 </section>
 {% endblock %}
