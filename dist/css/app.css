@@ -14104,64 +14104,64 @@ button:focus {
 
 /* line 27, src/sass/app/base.scss */
 .page-header {
-  margin-top: 8rem;
-  padding: 2.5rem 0;
+  padding: 9.5rem 0 3rem;
+  text-align: center;
+  background-color: #eff9f5;
 }
 
 @media (max-width: 768.98px) {
   /* line 27, src/sass/app/base.scss */
   .page-header {
-    margin-top: 5rem;
-    padding: 2rem 0;
+    padding: 7rem 0 2rem;
   }
 }
 
 /* line 36, src/sass/app/base.scss */
-.mall-hours {
+.info-list {
   line-height: 2;
   margin: 0;
 }
 
 /* line 39, src/sass/app/base.scss */
-.mall-hours li {
+.info-list li {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+/* line 43, src/sass/app/base.scss */
+.info-list.mall-hours li {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
 
-/* line 45, src/sass/app/base.scss */
+/* line 48, src/sass/app/base.scss */
 footer {
   background-color: #317759;
   color: #eff9f5;
 }
 
-/* line 48, src/sass/app/base.scss */
+/* line 51, src/sass/app/base.scss */
 footer .footer-main {
   padding: 3rem 0;
 }
 
 @media (max-width: 768.98px) {
-  /* line 48, src/sass/app/base.scss */
+  /* line 51, src/sass/app/base.scss */
   footer .footer-main {
     padding: 3rem 0;
   }
 }
 
-/* line 54, src/sass/app/base.scss */
+/* line 57, src/sass/app/base.scss */
 footer .footer-block {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 1.5rem 2rem;
   height: 100%;
 }
 
-/* line 59, src/sass/app/base.scss */
-footer ul {
-  line-height: 2;
-  margin: 0;
-}
-
-/* line 63, src/sass/app/base.scss */
+/* line 62, src/sass/app/base.scss */
 footer .footer-sub {
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.3);

@@ -15,6 +15,71 @@
   </div>
 </header>
 <section class="section">
-  <div class="container"></div>
+  <div class="container">
+    <!-- Success message -->
+    <div class="alert alert-success alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+      </button>
+      <div class="message-content text-center">Your message has been sent!</div>
+    </div>
+    <!-- Error message -->
+    <div class="alert alert-danger alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+      </button>
+      <div class="message-content text-center">Something went wrong, please try again.</div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="holder.js/100x180/" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Contact Information</h4>
+            {% include "partials/contact_info.nunjucks" %}
+          </div>
+        </div>
+        <div class="card my-4">
+          <img class="card-img-top" src="holder.js/100x180/" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Mall Hours</h4>
+            {% include "partials/mall_hours.nunjucks" %}
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="container">
+          <h3 class="heading-4">Send us a message</h3>
+          <p>We will get back to you as soon as possible.</p>
+          <!-- Contact form start -->
+          <form>
+            <div class="form-group">
+              <label for="contact_name">Full Name</label>
+              <input type="email" class="form-control" id="contact_name" placeholder="Enter full name">
+            </div>
+            <div class="form-group">
+              <label for="contact_email">Email Address</label>
+              <input type="email" class="form-control" id="contact_email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="contact_phone">Phone Number</label>
+              <input type="tel" class="form-control" id="contact_phone" placeholder="Enter phone number">
+            </div>
+            <div class="form-group">
+              <label for="contact_message">Message</label>
+              <textarea class="form-control" rows="5" id="contact_message" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="far fa-envelope mr-2"></i>
+              Send Message
+            </button>
+          </form><!-- Contact form ends -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 {% endblock %}
