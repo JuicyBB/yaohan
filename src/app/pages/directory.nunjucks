@@ -3,7 +3,7 @@
 <!-- Navigation-->
 {% block nav_menu %} {% import 'macros/nav.nunjucks' as nav %}
 <!-- Set page-->
-{{ nav.active("directory") }}
+{{ nav.active("directory", tr) }}
 {% endblock %}
 
 <!-- Page content-->

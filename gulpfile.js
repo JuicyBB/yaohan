@@ -33,6 +33,7 @@ var watch = require("gulp-watch");
 var livereload = require("gulp-livereload");
 var package = require("./package.json");
 var nunjucksRender = require("gulp-nunjucks-render");
+var data = require('gulp-data');
 
 // Scripts
 var jshint = settings.scripts ? require("gulp-jshint") : null;
@@ -89,6 +90,11 @@ var paths = {
     templates: "src/app/templates",
     output: "dist/",
   },
+};
+
+var localization = {
+  en: require('./src/localization/en'),
+  cn: require('./src/localization/cn'),
 };
 
 /**
@@ -332,11 +338,12 @@ gulp.task("clean:docs", function() {
 });
 
 // Nunjucks compile task
-gulp.task("build:html", function() {
+gulp.task("build:html:en", function() {
   // Gets .html and .nunjucks files in pages
   return (
     gulp
       .src(paths.html.input)
+      .pipe(data({tr: localization.en}))
       // Renders template with nunjucks
       .pipe(
         nunjucksRender({
@@ -344,7 +351,24 @@ gulp.task("build:html", function() {
         })
       )
       // output files in app folder
-      .pipe(gulp.dest(paths.html.output))
+      .pipe(gulp.dest(paths.html.output + '/en'))
+  );
+});
+
+gulp.task("build:html:cn", function() {
+  // Gets .html and .nunjucks files in pages
+  return (
+    gulp
+      .src(paths.html.input)
+      .pipe(data({tr: localization.cn}))
+      // Renders template with nunjucks
+      .pipe(
+        nunjucksRender({
+          path: [paths.html.templates],
+        })
+      )
+      // output files in app folder
+      .pipe(gulp.dest(paths.html.output + '/cn'))
   );
 });
 
@@ -374,7 +398,8 @@ gulp.task("compile", [
   "build:scripts",
   "build:polyfills",
   "build:static",
-  "build:html",
+  "build:html:en",
+  "build:html:cn",
   // 'build:svgs'
 ]);
 

@@ -1,10 +1,17 @@
+/*!
+ * epikode v1.0.0: Epikode website
+ * (c) 2019 
+ * ISC License
+ * http://github.com/your-username/project
+ */
+
 /**
  * =======================
  * Navigation
  * =======================
  */
 (function() {
-  $(document).on("click", function(e) {
+  $(document).on("click", (function(e) {
     console.log("test");
     var menu_opened = $("#main_menu").hasClass("show");
     if (
@@ -14,7 +21,7 @@
     ) {
       $("#main_menu").collapse("toggle");
     }
-  });
+  }));
 
   if (location.href.indexOf('/en/') > -1 ) {
     $('.site-en').addClass('active');
@@ -22,13 +29,13 @@
     $('.site-cn').addClass('active');
   }
 
-  $('.site-en').click(function() {
+  $('.site-en').click((function() {
     location.href = location.pathname.replace('/cn/', '/en/');
-  });
+  }));
 
-  $('.site-cn').click(function() {
+  $('.site-cn').click((function() {
     location.href = location.pathname.replace('/en/', '/cn/');
-  });
+  }));
 })();
 
 /**
@@ -37,10 +44,10 @@
  * =======================
  */
 (function() {
-  $(document).ready(function() {
+  $(document).ready((function() {
     var maxHeight = 150;
 
-    $("#news_blog .card").each(function() {
+    $("#news_blog .card").each((function() {
       var current = $(this).find(".card-text");
       // truncate if more than max height
       if (current.height() > maxHeight) {
@@ -52,7 +59,7 @@
           .find(".more-link")
           .remove();
       }
-    });
+    }));
 
     var untruncate = function() {
       var card = $(this)
@@ -64,5 +71,5 @@
     };
 
     $(".more-link").bind("click", untruncate);
-  });
+  }));
 })();

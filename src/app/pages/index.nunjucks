@@ -4,7 +4,7 @@
 {% block nav_menu %}
   {% import 'macros/nav.nunjucks' as nav %}
   <!-- Set page-->
-  {{nav.active('home')}}
+  {{nav.active('home', tr)}}
 {% endblock %}
 
 <!-- Page content-->
@@ -18,7 +18,7 @@
         <div class="mall-hours-wrapper">
           <h2>
             <i class="far fa-clock mr-1"></i>
-            Shopping Mall Hours
+            {{ tr['Shopping Mall Hours'] }}
           </h2>
           <div class="mall-hours-list mb-4">
           {% include "partials/mall_hours.nunjucks" %}
@@ -51,7 +51,7 @@
       <div class="my-5"></div>
       <div class="row">
         <div class="col-md">
-          <img src="img/bg.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
+          <img src="../img/bg.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
         </div>
         <div class="col-md">
           <p>Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping.</p>

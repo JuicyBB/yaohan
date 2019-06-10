@@ -1,6 +1,5 @@
 {
   "liveServer.settings.port": 5501,
-  "editor.formatOnSave": true,
   "liveServer.settings.root": "/dist",
   "liveServer.settings.ignoreFiles": [
     ".vscode/**",
