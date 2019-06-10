@@ -68,6 +68,8 @@
       </div>
     </nav>
 
+    <div class="nav-overlay"></div>
+
     {% block content %}{% endblock %} {% include "partials/footer.nunjucks" %}
 
     <script
@@ -85,6 +87,8 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfamRh37UzbamVNr6xiJ3C16gA4WIcgJA&callback=initMap"></script>
     <script src="../js/scripts.js"></script>
   </body>
 </html>

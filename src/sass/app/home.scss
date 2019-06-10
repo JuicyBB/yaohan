@@ -60,6 +60,10 @@
     position: absolute;
     left: 1rem;
     bottom: 0;
+    transition: background-color 300ms ease;
+    &:hover {
+      background-color: darken($slate, 3%);
+    }
   }
 
   h2 {

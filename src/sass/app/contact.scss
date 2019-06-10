@@ -1,0 +1,11 @@
+.contact-container {
+  max-width: 1000px;
+}
+#map {
+  margin-top: 6rem;
+  @include media-breakpoint-down(sm) {
+    margin-top: 4.5rem;
+  }
+  height: 300px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}

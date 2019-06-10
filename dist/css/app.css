@@ -2767,7 +2767,7 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   padding: 0.8rem 2rem;
   font-size: 1rem;
   font-weight: 400;
@@ -2882,7 +2882,7 @@ select.form-control:focus::-ms-value {
 
 /* line 137, src/sass/bootstrap/_forms.scss */
 .form-control-sm {
-  height: calc( 1.5em + 0.5rem + 2px);
+  height: calc( 1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -2891,7 +2891,7 @@ select.form-control:focus::-ms-value {
 
 /* line 145, src/sass/bootstrap/_forms.scss */
 .form-control-lg {
-  height: calc( 1.5em + 1rem + 2px);
+  height: calc( 1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -2978,7 +2978,7 @@ textarea.form-control {
   margin-left: 0;
 }
 
-/* line 30, src/sass/bootstrap/mixins/_forms.scss */
+/* line 29, src/sass/bootstrap/mixins/_forms.scss */
 .valid-feedback {
   display: none;
   width: 100%;
@@ -2987,7 +2987,7 @@ textarea.form-control {
   color: #28a745;
 }
 
-/* line 38, src/sass/bootstrap/mixins/_forms.scss */
+/* line 37, src/sass/bootstrap/mixins/_forms.scss */
 .valid-tooltip {
   position: absolute;
   top: 100%;
@@ -2995,7 +2995,7 @@ textarea.form-control {
   display: none;
   max-width: 100%;
   padding: 0.25rem 0.5rem;
-  margin-top: .1rem;
+  margin-top: 0.1rem;
   font-size: 0.875rem;
   line-height: 1.5;
   color: #fff;
@@ -3003,126 +3003,126 @@ textarea.form-control {
   border-radius: 0.25rem;
 }
 
-/* line 54, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .form-control:valid, .form-control.is-valid {
+/* line 53, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .form-control:valid, .form-control.valid {
   border-color: #28a745;
   padding-right: calc(1.5em + 1.6rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: center right calc( 0.375em + 0.4rem);
+  background-position: 98% calc( 0.375em + 0.4rem);
   background-size: calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
-/* line 66, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .form-control:valid:focus, .form-control.is-valid:focus {
+/* line 65, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .form-control:valid:focus, .form-control.valid:focus {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
-/* line 71, src/sass/bootstrap/mixins/_forms.scss */
+/* line 70, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .form-control:valid ~ .valid-feedback,
-.was-validated .form-control:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback,
-.form-control.is-valid ~ .valid-tooltip {
+.was-validated .form-control:valid ~ .valid-tooltip, .form-control.valid ~ .valid-feedback,
+.form-control.valid ~ .valid-tooltip {
   display: block;
 }
 
-/* line 80, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated textarea.form-control:valid, textarea.form-control.is-valid {
+/* line 79, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated textarea.form-control:valid, textarea.form-control.valid {
   padding-right: calc(1.5em + 1.6rem);
-  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
+  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
 }
 
-/* line 90, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-select:valid, .custom-select.is-valid {
+/* line 89, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-select:valid, .custom-select.valid {
   border-color: #28a745;
-  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
+  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 2rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 3rem/calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
-/* line 99, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-select:valid:focus, .custom-select.is-valid:focus {
+/* line 103, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-select:valid:focus, .custom-select.valid:focus {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
-/* line 104, src/sass/bootstrap/mixins/_forms.scss */
+/* line 108, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-select:valid ~ .valid-feedback,
-.was-validated .custom-select:valid ~ .valid-tooltip, .custom-select.is-valid ~ .valid-feedback,
-.custom-select.is-valid ~ .valid-tooltip {
+.was-validated .custom-select:valid ~ .valid-tooltip, .custom-select.valid ~ .valid-feedback,
+.custom-select.valid ~ .valid-tooltip {
   display: block;
 }
 
-/* line 115, src/sass/bootstrap/mixins/_forms.scss */
+/* line 118, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .form-control-file:valid ~ .valid-feedback,
-.was-validated .form-control-file:valid ~ .valid-tooltip, .form-control-file.is-valid ~ .valid-feedback,
-.form-control-file.is-valid ~ .valid-tooltip {
+.was-validated .form-control-file:valid ~ .valid-tooltip, .form-control-file.valid ~ .valid-feedback,
+.form-control-file.valid ~ .valid-tooltip {
   display: block;
 }
 
-/* line 125, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {
+/* line 128, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.valid ~ .form-check-label {
   color: #28a745;
 }
 
-/* line 129, src/sass/bootstrap/mixins/_forms.scss */
+/* line 132, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .form-check-input:valid ~ .valid-feedback,
-.was-validated .form-check-input:valid ~ .valid-tooltip, .form-check-input.is-valid ~ .valid-feedback,
-.form-check-input.is-valid ~ .valid-tooltip {
+.was-validated .form-check-input:valid ~ .valid-tooltip, .form-check-input.valid ~ .valid-feedback,
+.form-check-input.valid ~ .valid-tooltip {
   display: block;
-}
-
-/* line 139, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:valid ~ .custom-control-label, .custom-control-input.is-valid ~ .custom-control-label {
-  color: #28a745;
 }
 
 /* line 142, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:valid ~ .custom-control-label::before, .custom-control-input.is-valid ~ .custom-control-label::before {
+.was-validated .custom-control-input:valid ~ .custom-control-label, .custom-control-input.valid ~ .custom-control-label {
+  color: #28a745;
+}
+
+/* line 145, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:valid ~ .custom-control-label::before, .custom-control-input.valid ~ .custom-control-label::before {
   border-color: #28a745;
 }
 
-/* line 147, src/sass/bootstrap/mixins/_forms.scss */
+/* line 150, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-control-input:valid ~ .valid-feedback,
-.was-validated .custom-control-input:valid ~ .valid-tooltip, .custom-control-input.is-valid ~ .valid-feedback,
-.custom-control-input.is-valid ~ .valid-tooltip {
+.was-validated .custom-control-input:valid ~ .valid-tooltip, .custom-control-input.valid ~ .valid-feedback,
+.custom-control-input.valid ~ .valid-tooltip {
   display: block;
 }
 
-/* line 153, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
+/* line 156, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.valid:checked ~ .custom-control-label::before {
   border-color: #34ce57;
   background-color: #34ce57;
 }
 
-/* line 160, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.is-valid:focus ~ .custom-control-label::before {
+/* line 163, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.valid:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
-/* line 164, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:valid:focus:not(:checked) ~ .custom-control-label::before, .custom-control-input.is-valid:focus:not(:checked) ~ .custom-control-label::before {
+/* line 167, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:valid:focus:not(:checked) ~ .custom-control-label::before, .custom-control-input.valid:focus:not(:checked) ~ .custom-control-label::before {
   border-color: #28a745;
 }
 
-/* line 175, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
+/* line 178, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.valid ~ .custom-file-label {
   border-color: #28a745;
 }
 
-/* line 179, src/sass/bootstrap/mixins/_forms.scss */
+/* line 182, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-file-input:valid ~ .valid-feedback,
-.was-validated .custom-file-input:valid ~ .valid-tooltip, .custom-file-input.is-valid ~ .valid-feedback,
-.custom-file-input.is-valid ~ .valid-tooltip {
+.was-validated .custom-file-input:valid ~ .valid-tooltip, .custom-file-input.valid ~ .valid-feedback,
+.custom-file-input.valid ~ .valid-tooltip {
   display: block;
 }
 
-/* line 185, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-file-input:valid:focus ~ .custom-file-label, .custom-file-input.is-valid:focus ~ .custom-file-label {
+/* line 188, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-file-input:valid:focus ~ .custom-file-label, .custom-file-input.valid:focus ~ .custom-file-label {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
-/* line 30, src/sass/bootstrap/mixins/_forms.scss */
+/* line 29, src/sass/bootstrap/mixins/_forms.scss */
 .invalid-feedback {
   display: none;
   width: 100%;
@@ -3131,7 +3131,7 @@ textarea.form-control {
   color: #dc3545;
 }
 
-/* line 38, src/sass/bootstrap/mixins/_forms.scss */
+/* line 37, src/sass/bootstrap/mixins/_forms.scss */
 .invalid-tooltip {
   position: absolute;
   top: 100%;
@@ -3139,7 +3139,7 @@ textarea.form-control {
   display: none;
   max-width: 100%;
   padding: 0.25rem 0.5rem;
-  margin-top: .1rem;
+  margin-top: 0.1rem;
   font-size: 0.875rem;
   line-height: 1.5;
   color: #fff;
@@ -3147,121 +3147,121 @@ textarea.form-control {
   border-radius: 0.25rem;
 }
 
-/* line 54, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .form-control:invalid, .form-control.is-invalid {
+/* line 53, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .form-control:invalid, .form-control.invalid {
   border-color: #dc3545;
   padding-right: calc(1.5em + 1.6rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
   background-repeat: no-repeat;
-  background-position: center right calc( 0.375em + 0.4rem);
+  background-position: 98% calc( 0.375em + 0.4rem);
   background-size: calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
-/* line 66, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+/* line 65, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .form-control:invalid:focus, .form-control.invalid:focus {
   border-color: #dc3545;
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
-/* line 71, src/sass/bootstrap/mixins/_forms.scss */
+/* line 70, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .form-control:invalid ~ .invalid-feedback,
-.was-validated .form-control:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback,
-.form-control.is-invalid ~ .invalid-tooltip {
+.was-validated .form-control:invalid ~ .invalid-tooltip, .form-control.invalid ~ .invalid-feedback,
+.form-control.invalid ~ .invalid-tooltip {
   display: block;
 }
 
-/* line 80, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
+/* line 79, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated textarea.form-control:invalid, textarea.form-control.invalid {
   padding-right: calc(1.5em + 1.6rem);
-  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
+  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
 }
 
-/* line 90, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-select:invalid, .custom-select.is-invalid {
+/* line 89, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-select:invalid, .custom-select.invalid {
   border-color: #dc3545;
-  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
+  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 2rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") #fff no-repeat center right 3rem/calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
-/* line 99, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-select:invalid:focus, .custom-select.is-invalid:focus {
+/* line 103, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-select:invalid:focus, .custom-select.invalid:focus {
   border-color: #dc3545;
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
-/* line 104, src/sass/bootstrap/mixins/_forms.scss */
+/* line 108, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-select:invalid ~ .invalid-feedback,
-.was-validated .custom-select:invalid ~ .invalid-tooltip, .custom-select.is-invalid ~ .invalid-feedback,
-.custom-select.is-invalid ~ .invalid-tooltip {
+.was-validated .custom-select:invalid ~ .invalid-tooltip, .custom-select.invalid ~ .invalid-feedback,
+.custom-select.invalid ~ .invalid-tooltip {
   display: block;
 }
 
-/* line 115, src/sass/bootstrap/mixins/_forms.scss */
+/* line 118, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .form-control-file:invalid ~ .invalid-feedback,
-.was-validated .form-control-file:invalid ~ .invalid-tooltip, .form-control-file.is-invalid ~ .invalid-feedback,
-.form-control-file.is-invalid ~ .invalid-tooltip {
+.was-validated .form-control-file:invalid ~ .invalid-tooltip, .form-control-file.invalid ~ .invalid-feedback,
+.form-control-file.invalid ~ .invalid-tooltip {
   display: block;
 }
 
-/* line 125, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
+/* line 128, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.invalid ~ .form-check-label {
   color: #dc3545;
 }
 
-/* line 129, src/sass/bootstrap/mixins/_forms.scss */
+/* line 132, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .form-check-input:invalid ~ .invalid-feedback,
-.was-validated .form-check-input:invalid ~ .invalid-tooltip, .form-check-input.is-invalid ~ .invalid-feedback,
-.form-check-input.is-invalid ~ .invalid-tooltip {
+.was-validated .form-check-input:invalid ~ .invalid-tooltip, .form-check-input.invalid ~ .invalid-feedback,
+.form-check-input.invalid ~ .invalid-tooltip {
   display: block;
-}
-
-/* line 139, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:invalid ~ .custom-control-label, .custom-control-input.is-invalid ~ .custom-control-label {
-  color: #dc3545;
 }
 
 /* line 142, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:invalid ~ .custom-control-label::before, .custom-control-input.is-invalid ~ .custom-control-label::before {
+.was-validated .custom-control-input:invalid ~ .custom-control-label, .custom-control-input.invalid ~ .custom-control-label {
+  color: #dc3545;
+}
+
+/* line 145, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:invalid ~ .custom-control-label::before, .custom-control-input.invalid ~ .custom-control-label::before {
   border-color: #dc3545;
 }
 
-/* line 147, src/sass/bootstrap/mixins/_forms.scss */
+/* line 150, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-control-input:invalid ~ .invalid-feedback,
-.was-validated .custom-control-input:invalid ~ .invalid-tooltip, .custom-control-input.is-invalid ~ .invalid-feedback,
-.custom-control-input.is-invalid ~ .invalid-tooltip {
+.was-validated .custom-control-input:invalid ~ .invalid-tooltip, .custom-control-input.invalid ~ .invalid-feedback,
+.custom-control-input.invalid ~ .invalid-tooltip {
   display: block;
 }
 
-/* line 153, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before, .custom-control-input.is-invalid:checked ~ .custom-control-label::before {
+/* line 156, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before, .custom-control-input.invalid:checked ~ .custom-control-label::before {
   border-color: #e4606d;
   background-color: #e4606d;
 }
 
-/* line 160, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
+/* line 163, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.invalid:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
-/* line 164, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-control-input:invalid:focus:not(:checked) ~ .custom-control-label::before, .custom-control-input.is-invalid:focus:not(:checked) ~ .custom-control-label::before {
+/* line 167, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-control-input:invalid:focus:not(:checked) ~ .custom-control-label::before, .custom-control-input.invalid:focus:not(:checked) ~ .custom-control-label::before {
   border-color: #dc3545;
 }
 
-/* line 175, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label {
+/* line 178, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.invalid ~ .custom-file-label {
   border-color: #dc3545;
 }
 
-/* line 179, src/sass/bootstrap/mixins/_forms.scss */
+/* line 182, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-file-input:invalid ~ .invalid-feedback,
-.was-validated .custom-file-input:invalid ~ .invalid-tooltip, .custom-file-input.is-invalid ~ .invalid-feedback,
-.custom-file-input.is-invalid ~ .invalid-tooltip {
+.was-validated .custom-file-input:invalid ~ .invalid-tooltip, .custom-file-input.invalid ~ .invalid-feedback,
+.custom-file-input.invalid ~ .invalid-tooltip {
   display: block;
 }
 
-/* line 185, src/sass/bootstrap/mixins/_forms.scss */
-.was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:focus ~ .custom-file-label {
+/* line 188, src/sass/bootstrap/mixins/_forms.scss */
+.was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.invalid:focus ~ .custom-file-label {
   border-color: #dc3545;
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
@@ -4739,7 +4739,7 @@ input[type="button"].btn-block {
 /* line 130, src/sass/bootstrap/_input-group.scss */
 .input-group-lg > .form-control:not(textarea),
 .input-group-lg > .custom-select {
-  height: calc( 1.5em + 1rem + 2px);
+  height: calc( 1.5em + 1rem + 2px);
 }
 
 /* line 135, src/sass/bootstrap/_input-group.scss */
@@ -4758,7 +4758,7 @@ input[type="button"].btn-block {
 /* line 147, src/sass/bootstrap/_input-group.scss */
 .input-group-sm > .form-control:not(textarea),
 .input-group-sm > .custom-select {
-  height: calc( 1.5em + 0.5rem + 2px);
+  height: calc( 1.5em + 0.5rem + 2px);
 }
 
 /* line 152, src/sass/bootstrap/_input-group.scss */
@@ -4954,8 +4954,8 @@ input[type="button"].btn-block {
 .custom-switch .custom-control-label::after {
   top: calc(0.25rem + 2px);
   left: calc(-2.25rem + 2px);
-  width: calc( 1rem - 4px);
-  height: calc( 1rem - 4px);
+  width: calc( 1rem - 4px);
+  height: calc( 1rem - 4px);
   background-color: #adb5bd;
   border-radius: 0.5rem;
   transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4984,7 +4984,7 @@ input[type="button"].btn-block {
 .custom-select {
   display: inline-block;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   padding: 0.8rem 3rem 0.8rem 2rem;
   font-size: 1rem;
   font-weight: 400;
@@ -5033,7 +5033,7 @@ input[type="button"].btn-block {
 
 /* line 268, src/sass/bootstrap/_custom-forms.scss */
 .custom-select-sm {
-  height: calc( 1.5em + 0.5rem + 2px);
+  height: calc( 1.5em + 0.5rem + 2px);
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
@@ -5042,7 +5042,7 @@ input[type="button"].btn-block {
 
 /* line 276, src/sass/bootstrap/_custom-forms.scss */
 .custom-select-lg {
-  height: calc( 1.5em + 1rem + 2px);
+  height: calc( 1.5em + 1rem + 2px);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -5054,7 +5054,7 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   margin-bottom: 0;
 }
 
@@ -5063,7 +5063,7 @@ input[type="button"].btn-block {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   margin: 0;
   opacity: 0;
 }
@@ -5096,7 +5096,7 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   padding: 0.8rem 2rem;
   font-weight: 400;
   line-height: 1.5;
@@ -14159,9 +14159,15 @@ footer .footer-block {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 1.5rem 2rem;
   height: 100%;
+  transition: background-color 300ms ease;
 }
 
 /* line 62, src/sass/app/base.scss */
+footer .footer-block:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 66, src/sass/app/base.scss */
 footer .footer-sub {
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.3);
@@ -14273,6 +14279,35 @@ footer .footer-sub {
   }
 }
 
+@media (max-width: 768.98px) {
+  /* line 75, src/sass/app/nav.scss */
+  body.nav-show {
+    overflow: hidden;
+  }
+  /* line 77, src/sass/app/nav.scss */
+  body.nav-show .nav-overlay {
+    display: block;
+    opacity: 1;
+  }
+  /* line 84, src/sass/app/nav.scss */
+  body.nav-collapsing .nav-overlay {
+    display: block;
+    transition: opacity 350ms ease;
+  }
+  /* line 90, src/sass/app/nav.scss */
+  .nav-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1020;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+  }
+}
+
 /* line 1, src/sass/app/home.scss */
 .hero {
   height: 100vh;
@@ -14355,10 +14390,15 @@ footer .footer-sub {
     position: absolute;
     left: 1rem;
     bottom: 0;
+    transition: background-color 300ms ease;
+  }
+  /* line 64, src/sass/app/home.scss */
+  .mall-hours-wrapper:hover {
+    background-color: #23312b;
   }
 }
 
-/* line 65, src/sass/app/home.scss */
+/* line 69, src/sass/app/home.scss */
 .mall-hours-wrapper h2 {
   font-size: 1.25em;
   text-transform: uppercase;
@@ -14379,4 +14419,25 @@ footer .footer-sub {
 /* line 7, src/sass/app/blog.scss */
 .news-wrapper .card-text.truncated-text {
   height: 150px;
+}
+
+/* line 1, src/sass/app/contact.scss */
+.contact-container {
+  max-width: 1000px;
+}
+
+/* line 4, src/sass/app/contact.scss */
+#map {
+  margin-top: 6rem;
+  height: 300px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+@media (max-width: 768.98px) {
+  /* line 4, src/sass/app/contact.scss */
+  #map {
+    margin-top: 4.5rem;
+  }
 }

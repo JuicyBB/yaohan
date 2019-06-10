@@ -14,8 +14,10 @@
     <i class="fas fa-phone mr-2"></i>
     <a href="tel:1-604-231-0601">604-231-0601</a>
   </li>
+  {% if page != "contact" %}
   <li>
     <i class="far fa-envelope mr-2"></i>
     <a href="contact.html">Send us a message</a>
   </li>
+  {% endif %}
 </ul>

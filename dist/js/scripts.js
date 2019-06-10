@@ -11,14 +11,25 @@
  * =======================
  */
 (function() {
-  $(document).on("click", (function(e) {
-    console.log("test");
-    var menu_opened = $("#main_menu").hasClass("show");
-    if (
-      !$(e.target).closest("#main_menu").length &&
-      !$(e.target).is("#main_menu") &&
-      menu_opened === true
-    ) {
+  var navIsOpen = false;
+  $("#main_menu").on("shown.bs.collapse", (function() {
+    $("body").removeClass("nav-collapsing");
+  }));
+  $("#main_menu").on("show.bs.collapse", (function() {
+    navIsOpen = true;
+    $("body").addClass("nav-collapsing nav-show");
+  }));
+  $("#main_menu").on("hidden.bs.collapse", (function() {
+    $("body").removeClass("nav-show nav-collapsing");
+  }));
+  $("#main_menu").on("hide.bs.collapse", (function() {
+    navIsOpen = false;
+    $("body")
+      .addClass("nav-collapsing")
+      .removeClass("nav-show");
+  }));
+  $(".nav-overlay").on("click", (function(e) {
+    if (navIsOpen) {
       $("#main_menu").collapse("toggle");
     }
   }));
@@ -72,4 +83,17 @@
 
     $(".more-link").bind("click", untruncate);
   }));
+})();
+
+/**
+ * =======================
+ * Contact Form
+ * =======================
+ */
+(function() {
+  $.validate({
+    form: "#contactForm",
+    errorMessageClass: "invalid-feedback",
+    errorElementClass: "invalid",
+  });
 })();

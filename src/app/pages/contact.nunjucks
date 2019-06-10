@@ -1,3 +1,4 @@
+{% set page = "contact" %}
 {% extends "layout.nunjucks" %}
 
 <!-- Navigation-->
@@ -8,16 +9,11 @@
 
 <!-- Page content-->
 {% block content %}
-<header class="page-header">
-  <div class="container">
-    <h1 class="font-weight-bold">Contact Us</h1>
-    <h2 class="heading-5">Address, mall hours, direction or send us a message</h2>
-  </div>
-</header>
-<section class="section">
+<div id="map"></div>
+<section class="section contact-section">
   <div class="container">
     <!-- Success message -->
-    <div class="alert alert-success alert-dismissible" role="alert">
+    <div class="alert alert-success alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         <span class="sr-only">Close</span>
@@ -25,61 +21,106 @@
       <div class="message-content text-center">Your message has been sent!</div>
     </div>
     <!-- Error message -->
-    <div class="alert alert-danger alert-dismissible" role="alert">
+    <div class="alert alert-danger alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         <span class="sr-only">Close</span>
       </button>
       <div class="message-content text-center">Something went wrong, please try again.</div>
     </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Contact Information</h4>
-            {% include "partials/contact_info.nunjucks" %}
-          </div>
-        </div>
-        <div class="card my-4">
-          <img class="card-img-top" src="holder.js/100x180/" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Mall Hours</h4>
-            {% include "partials/mall_hours.nunjucks" %}
-          </div>
+    <div class="row justify-content-between">
+      <div class="col-xl-4 col-lg-5 col-md">
+        <header>
+          <h1 class="heading-4 font-weight-bold">Find us</h1>
+          <p class="text-muted">Visit Yaohan Centre in Richmond</p>
+        </header>
+        <div class="mb-5">
+          {% include "partials/contact_info.nunjucks" %}
+          <hr>
+          {% include "partials/mall_hours.nunjucks" %}
         </div>
       </div>
-      <div class="col-sm-8">
-        <div class="container">
-          <h3 class="heading-4">Send us a message</h3>
-          <p>We will get back to you as soon as possible.</p>
-          <!-- Contact form start -->
-          <form>
+      <div class="col-xl-7 col-lg-7 col-md">
+        <h3 class="heading-4 font-weight-bold">Send us a message</h3>
+        <p class="text-muted">All fields are required.</p>
+        <form id="contactForm" autocomplete="on">
             <div class="form-group">
-              <label for="contact_name">Full Name</label>
-              <input type="email" class="form-control" id="contact_name" placeholder="Enter full name">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Enter full name"
+                data-validation="required"
+                data-validation-error-msg="Please enter your name"
+                autocomplete="name"
+                autocomplete="name"
+              />
             </div>
             <div class="form-group">
-              <label for="contact_email">Email Address</label>
-              <input type="email" class="form-control" id="contact_email" placeholder="Enter email">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Enter email"
+                data-validation="email"
+                data-validation-error-msg="Please a valid email"
+                autocomplete="email"
+              />
             </div>
             <div class="form-group">
-              <label for="contact_phone">Phone Number</label>
-              <input type="tel" class="form-control" id="contact_phone" placeholder="Enter phone number">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                name="phone"
+                placeholder="Enter phone number"
+                data-validation="number,length"
+                data-validation-ignore="-()"
+                data-validation-length="min10"
+                data-validation-error-msg="Please enter a valid phone number"
+                autocomplete="tel"
+              />
             </div>
             <div class="form-group">
-              <label for="contact_message">Message</label>
-              <textarea class="form-control" rows="5" id="contact_message" placeholder="Enter your message"></textarea>
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                rows="5"
+                id="message"
+                name="message"
+                placeholder="Enter your message"
+                data-validation="required"
+                data-validation-error-msg="Please include a message"
+              ></textarea>
             </div>
             <button type="submit" class="btn btn-primary">
               <i class="far fa-envelope mr-2"></i>
               Send Message
             </button>
-          </form><!-- Contact form ends -->
-        </div>
+          </form>
+          <!-- Contact form ends -->
       </div>
     </div>
   </div>
 </div>
 </section>
+
+</script>
+<script type="text/javascript">
+  function initMap() {
+    var yaohan = {lat: 49.1862473, lng: -123.1355265};
+    var map = new google.maps.Map(
+      document.getElementById('map'), {
+        zoom: 14, 
+        center: yaohan
+      }
+    );
+    var marker = new google.maps.Marker({position: yaohan, map: map});
+  }
+</script>
 {% endblock %}

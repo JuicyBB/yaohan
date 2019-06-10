@@ -58,6 +58,10 @@ footer {
     background-color: rgba(#000, 0.25);
     padding: 1.5rem 2rem;
     height: 100%;
+    transition: background-color 300ms ease;
+    &:hover {
+      background-color: rgba(#000, 0.4);
+    }
   }
   .footer-sub {
     padding: 1rem 0;
