@@ -12,8 +12,11 @@ $((function() {
   xhr.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         var data = JSON.parse(xhr.response);
+        date = new Date(data[0].date);
         $('.blog .title').html(data[0].title.rendered);
-        $('.blog img').attr('src', data[0].jetpack_featured_media_url);
+        $('.blog img').attr('src', data[0].jetpack_featured_media_url)
+                      .attr('alt', data[0].title.rendered);
+        $('.blog .date').html(date.toDateString());
         $('.blog .excerpt').html(data[0].excerpt.rendered);
       }
   };
@@ -66,11 +69,11 @@ $((function() {
               date = new Date(post.date);
 
             card.attr('id', post.id);
-            card.find('.card-img-top').attr('src', post.jetpack_featured_media_url);
+            card.find('.card-img-top').attr('src', post.jetpack_featured_media_url)
+                .attr('alt', post.title.rendered);
             card.find('.card-title').html(post.title.rendered);
             card.find('.card-text').html(post.content.rendered);
-            card.find('.card-date').html(date.toDateString());
-
+            card.find('.card-date').html('Posted on ' + date.toDateString());
             card.appendTo('.card-wrapper');
             bindMore(card);
           }));

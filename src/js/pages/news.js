@@ -44,11 +44,11 @@ $(function() {
               date = new Date(post.date);
 
             card.attr('id', post.id);
-            card.find('.card-img-top').attr('src', post.jetpack_featured_media_url);
+            card.find('.card-img-top').attr('src', post.jetpack_featured_media_url)
+                .attr('alt', post.title.rendered);
             card.find('.card-title').html(post.title.rendered);
             card.find('.card-text').html(post.content.rendered);
-            card.find('.card-date').html(date.toDateString());
-
+            card.find('.card-date').html('Posted on ' + date.toDateString());
             card.appendTo('.card-wrapper');
             bindMore(card);
           });

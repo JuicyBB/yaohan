@@ -80,8 +80,9 @@
             class="img-fluid mb-4">
         </div>
         <div class="col-lg-5 col-md">
-          <h4 class="title font-weight-bold">Title</h4>
-          <div class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sint cum aliquid consectetur nam porro assumenda ducimus animi eligendi? Iure, nam? Quibusdam voluptas quod ab doloremque porro totam ducimus quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sint cum aliquid consectetur nam porro assumenda ducimus animi eligendi? Iure, nam? Quibusdam voluptas quod ab doloremque porro totam ducimus quos.</div>
+          <h4 class="title font-weight-bold"></h4>
+          <div class="font-sm text-muted my-2 date"></div>
+          <div class="excerpt"></div>
           <a class="btn btn-primary" href="news.html">View Article<i class="fas fa-arrow-right ml-2"></i>
           </a>
         </div>
