@@ -110,7 +110,6 @@
 </div>
 </section>
 
-</script>
 <script type="text/javascript">
   function initMap() {
     var yaohan = {lat: 49.1862473, lng: -123.1355265};
@@ -123,4 +122,5 @@
     var marker = new google.maps.Marker({position: yaohan, map: map});
   }
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfamRh37UzbamVNr6xiJ3C16gA4WIcgJA&callback=initMap"></script>
 {% endblock %}
