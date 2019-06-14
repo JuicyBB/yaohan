@@ -1,11 +1,6 @@
 {% set page = "contact" %}
+{% set pageTitle = "Contact Us" %}
 {% extends "layout.nunjucks" %}
-
-<!-- Navigation-->
-{% block nav_menu %} {% import 'macros/nav.nunjucks' as nav %}
-<!-- Set page-->
-{{ nav.active("contact", tr) }}
-{% endblock %}
 
 <!-- Page content-->
 {% block content %}
@@ -116,7 +111,8 @@
     var map = new google.maps.Map(
       document.getElementById('map'), {
         zoom: 14, 
-        center: yaohan
+        center: yaohan,
+        mapTypeControl: false,
       }
     );
     var marker = new google.maps.Marker({position: yaohan, map: map});

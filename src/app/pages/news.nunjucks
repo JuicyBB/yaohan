@@ -1,17 +1,16 @@
-{% extends "layout.nunjucks" %}
-
-<!-- Navigation-->
-{% block nav_menu %} {% import 'macros/nav.nunjucks' as nav %}
-<!-- Set page-->
-{{ nav.active("news", tr) }}
-{% endblock %}
+{% set page = "news" %} {% set pageTitle = "News & Events" %} {% extends "layout.nunjucks" %}
 
 <!-- Page content-->
 {% block content %}
 <header class="page-header">
   <div class="container">
-    <h1 class="font-weight-bold">News &amp; Events</h1>
-    <h2 class="heading-5 text-muted">Find out what's happening at Yaohan Centre</h2>
+    <svg class="icon header-icon">
+      <use xlink:href="#announce" />
+    </svg>
+    <div class="headlines">
+      <h1 class="font-weight-bold">News &amp; Events</h1>
+      <h2 class="heading-6 text-muted">Find out what's happening at Yaohan Centre</h2>
+    </div>
   </div>
 </header>
 <section class="section">
@@ -21,28 +20,13 @@
         <div class="card card-tmpl mb-4 hide">
           <img src="img/bg.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h3 class="card-title">Lorem ipsum dolor sit</h3>
-            <div class="card-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum odit dolores
-              eos illum illo explicabo neque. In nostrum fugiat illum, quisquam aut amet nemo,
-              provident, dolores iure asperiores tempora aspernatur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Voluptatum odit dolores eos illum illo explicabo neque. In nostrum fugiat
-              illum, quisquam aut amet nemo, provident, dolores iure asperiores tempora
-              aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Voluptatum odit dolores eos illum
-              illo explicabo neque. In nostrum fugiat illum, quisquam aut amet nemo, provident,
-              dolores iure asperiores tempora aspernatur. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Voluptatum odit dolores eos illum illo explicabo neque. In nostrum fugiat illum,
-              quisquam aut amet nemo, provident, dolores iure asperiores tempora aspernatur.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </div>
+            <h3 class="card-title"></h3>
+            <div class="card-text"></div>
             <a href="javascript:void(0);" class="more-link mt-2 d-inline-block">
               <i class="fas fa-plus mr-2"></i>
               Read more
             </a>
-            <div class="font-sm text-muted mt-4 card-date">Posted on 2019-01-01 10:00pm</div>
+            <div class="font-sm text-muted mt-4 card-date"></div>
           </div>
         </div>
       </div>

@@ -1,3 +1,7 @@
+:lang(cn) body {
+  font-family: "Microsoft JhengHei", 微軟正黑體, "lato", "Arial", sans-serif;
+}
+
 a,
 button {
   transition: all 0.3s ease;
@@ -26,10 +30,32 @@ button {
 
 .page-header {
   padding: 9.5rem 0 3rem;
-  text-align: center;
   background-color: $light;
   @include media-breakpoint-down(sm) {
     padding: 7rem 0 2rem;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-up(md) {
+      justify-content: center;
+    }
+  }
+
+  .header-icon {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+      height: 7em;
+      width: 8em;
+      margin-right: 1.5em;
+    }
+
+    use {
+      fill: #8ba99c;
+    }
   }
 }
 
@@ -42,6 +68,18 @@ button {
   }
   &.mall-hours li {
     justify-content: space-between;
+  }
+}
+
+.nav-pills {
+  .nav-item:not(:last-child) {
+    margin-right: 1em;
+  }
+  .nav-link {
+    border-radius: 0.25rem;
+    border: 0.15em solid $nav-pills-link-active-bg;
+    padding: 0.85em;
+    color: $nav-pills-link-active-bg;
   }
 }
 

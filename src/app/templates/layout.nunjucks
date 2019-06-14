@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ tr['locale'] }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Yaohan Centre</title>
-    <meta
-      name="description"
-      content="Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping. Much more than a Mall, Yaohan Centre is a place where you can have lots of fun with friends and family. We offer a wealth of products and services including fine fashions, souvenirs, gifts, oriental arts & crafts, paintings, herbal health food, toys, jewelry, cosmetics, home appliances, realty, floral, insurance, foreign exchange, travel and medical needs at your convenience. For relaxation and enjoyment, visit the salons, music and book stores. You can also visit our famous supermarket which provides a wide range of Japanese and Chinese Products."
-    />
+    <title>{{ tr[pageTitle] }} - {{ tr["meta-title"] }}</title>
+    <meta name="description" content="{{ tr['meta-description'] }}" />
     <meta name="author" content="Yaohan Centre" />
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
@@ -28,49 +25,19 @@
   </head>
 
   <body>
-    <nav class="fixed-top">
-      <div class="navbar-sub bg-primary">
-        <div class="container">
-          <ul class="lang-select list-unstyled">
-            <li class="site-en">
-              <a href="#">EN</a>
-            </li>
-            <li class="site-cn">
-              <a href="#">中文</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="navbar-main navbar navbar-expand-md navbar-light bg-white">
-        <div class="container position-relative">
-          <div class="logo-wrapper">
-            <a href="index.html" class="logo-link">
-              <img class="logo" src="../img/logo.svg" alt="Yaohan Centre" />
-            </a>
-          </div>
-          <button
-            class="navbar-toggler ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#main_menu"
-            aria-controls="main_menu"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="main_menu">
-            <ul class="navbar-nav ml-auto">
-              {% block nav_menu %}{% endblock %}
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
 
-    <div class="nav-overlay"></div>
+    <!-- Navigation-->
+    {% import 'macros/nav.nunjucks' as nav %}
+    {{ nav.active(page, tr) }}
 
-    {% block content %}{% endblock %} {% include "partials/footer.nunjucks" %}
+    <!-- Main content-->
+    {% block content %}{% endblock %} 
+    
+    <!-- Footer -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!-- SVG Sprite -->
+    {% include "partials/svg_sprite.nunjucks" %}
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

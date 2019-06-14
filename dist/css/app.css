@@ -5,6 +5,7 @@
  * http://github.com/your-username/project
  */
 
+@charset "UTF-8";
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -32,7 +33,7 @@
   --info: #07887c;
   --highlight: #d63d54;
   --danger: #dc3545;
-  --light: #eff9f5;
+  --light: #e0eae6;
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -2557,7 +2558,7 @@ pre code {
 .table-light,
 .table-light > th,
 .table-light > td {
-  background-color: #fbfdfc;
+  background-color: #f6f9f8;
 }
 
 /* line 14, src/sass/bootstrap/mixins/_table-row.scss */
@@ -2565,18 +2566,18 @@ pre code {
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-  border-color: #f7fcfa;
+  border-color: #eff4f2;
 }
 
 /* line 13, src/sass/bootstrap/mixins/_hover.scss */
 .table-hover .table-light:hover {
-  background-color: #eaf5ef;
+  background-color: #e7efec;
 }
 
 /* line 32, src/sass/bootstrap/mixins/_table-row.scss */
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-  background-color: #eaf5ef;
+  background-color: #e7efec;
 }
 
 /* line 7, src/sass/bootstrap/mixins/_table-row.scss */
@@ -3645,41 +3646,41 @@ fieldset:disabled a.btn {
 /* line 60, src/sass/bootstrap/_buttons.scss */
 .btn-light {
   color: #212529;
-  background-color: #eff9f5;
-  border-color: #eff9f5;
+  background-color: #e0eae6;
+  border-color: #e0eae6;
 }
 
 /* line 13, src/sass/bootstrap/mixins/_hover.scss */
 .btn-light:hover {
   color: #212529;
-  background-color: #d3efe4;
-  border-color: #caebde;
+  background-color: #c9dbd4;
+  border-color: #c2d5cd;
 }
 
 /* line 18, src/sass/bootstrap/mixins/_buttons.scss */
 .btn-light:focus, .btn-light.focus {
-  box-shadow: 0 0 0 0.2rem rgba(208, 217, 214, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(195, 204, 202, 0.5);
 }
 
 /* line 29, src/sass/bootstrap/mixins/_buttons.scss */
 .btn-light.disabled, .btn-light:disabled {
   color: #212529;
-  background-color: #eff9f5;
-  border-color: #eff9f5;
+  background-color: #e0eae6;
+  border-color: #e0eae6;
 }
 
 /* line 40, src/sass/bootstrap/mixins/_buttons.scss */
 .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
 .show > .btn-light.dropdown-toggle {
   color: #212529;
-  background-color: #caebde;
-  border-color: #c1e8d8;
+  background-color: #c2d5cd;
+  border-color: #bad0c7;
 }
 
 /* line 50, src/sass/bootstrap/mixins/_buttons.scss */
 .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(208, 217, 214, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(195, 204, 202, 0.5);
 }
 
 /* line 60, src/sass/bootstrap/_buttons.scss */
@@ -3952,25 +3953,25 @@ fieldset:disabled a.btn {
 
 /* line 66, src/sass/bootstrap/_buttons.scss */
 .btn-outline-light {
-  color: #eff9f5;
-  border-color: #eff9f5;
+  color: #e0eae6;
+  border-color: #e0eae6;
 }
 
 /* line 13, src/sass/bootstrap/mixins/_hover.scss */
 .btn-outline-light:hover {
   color: #212529;
-  background-color: #eff9f5;
-  border-color: #eff9f5;
+  background-color: #e0eae6;
+  border-color: #e0eae6;
 }
 
 /* line 71, src/sass/bootstrap/mixins/_buttons.scss */
 .btn-outline-light:focus, .btn-outline-light.focus {
-  box-shadow: 0 0 0 0.2rem rgba(239, 249, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(224, 234, 230, 0.5);
 }
 
 /* line 76, src/sass/bootstrap/mixins/_buttons.scss */
 .btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: #eff9f5;
+  color: #e0eae6;
   background-color: transparent;
 }
 
@@ -3978,14 +3979,14 @@ fieldset:disabled a.btn {
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
   color: #212529;
-  background-color: #eff9f5;
-  border-color: #eff9f5;
+  background-color: #e0eae6;
+  border-color: #e0eae6;
 }
 
 /* line 89, src/sass/bootstrap/mixins/_buttons.scss */
 .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(239, 249, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(224, 234, 230, 0.5);
 }
 
 /* line 66, src/sass/bootstrap/_buttons.scss */
@@ -4395,7 +4396,7 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #eff9f5;
+  background-color: #e0eae6;
 }
 
 /* line 153, src/sass/bootstrap/_dropdown.scss */
@@ -5405,7 +5406,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #47b184;
+  background-color: #6c757d;
 }
 
 /* line 95, src/sass/bootstrap/_nav.scss */
@@ -6605,19 +6606,19 @@ a.badge-danger:focus, a.badge-danger.focus {
 /* line 51, src/sass/bootstrap/_badge.scss */
 .badge-light {
   color: #212529;
-  background-color: #eff9f5;
+  background-color: #e0eae6;
 }
 
 /* line 17, src/sass/bootstrap/mixins/_hover.scss */
 a.badge-light:hover, a.badge-light:focus {
   color: #212529;
-  background-color: #caebde;
+  background-color: #c2d5cd;
 }
 
 /* line 11, src/sass/bootstrap/mixins/_badge.scss */
 a.badge-light:focus, a.badge-light.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(239, 249, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(224, 234, 230, 0.5);
 }
 
 /* line 51, src/sass/bootstrap/_badge.scss */
@@ -6797,19 +6798,19 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 /* line 48, src/sass/bootstrap/_alert.scss */
 .alert-light {
-  color: #7c817f;
-  background-color: #fcfefd;
-  border-color: #fbfdfc;
+  color: #747a78;
+  background-color: #f9fbfa;
+  border-color: #f6f9f8;
 }
 
 /* line 6, src/sass/bootstrap/mixins/_alert.scss */
 .alert-light hr {
-  border-top-color: #eaf5ef;
+  border-top-color: #e7efec;
 }
 
 /* line 10, src/sass/bootstrap/mixins/_alert.scss */
 .alert-light .alert-link {
-  color: #636765;
+  color: #5b605e;
 }
 
 /* line 48, src/sass/bootstrap/_alert.scss */
@@ -6925,7 +6926,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   z-index: 1;
   color: #495057;
   text-decoration: none;
-  background-color: #eff9f5;
+  background-color: #e0eae6;
 }
 
 /* line 33, src/sass/bootstrap/_list-group.scss */
@@ -7294,21 +7295,21 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 /* line 4, src/sass/bootstrap/mixins/_list-group.scss */
 .list-group-item-light {
-  color: #7c817f;
-  background-color: #fbfdfc;
+  color: #747a78;
+  background-color: #f6f9f8;
 }
 
 /* line 17, src/sass/bootstrap/mixins/_hover.scss */
 .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
-  color: #7c817f;
-  background-color: #eaf5ef;
+  color: #747a78;
+  background-color: #e7efec;
 }
 
 /* line 14, src/sass/bootstrap/mixins/_list-group.scss */
 .list-group-item-light.list-group-item-action.active {
   color: #fff;
-  background-color: #7c817f;
-  border-color: #7c817f;
+  background-color: #747a78;
+  border-color: #747a78;
 }
 
 /* line 4, src/sass/bootstrap/mixins/_list-group.scss */
@@ -8380,14 +8381,14 @@ button.bg-danger:focus {
 
 /* line 6, src/sass/bootstrap/mixins/_background-variant.scss */
 .bg-light {
-  background-color: #eff9f5 !important;
+  background-color: #e0eae6 !important;
 }
 
 /* line 17, src/sass/bootstrap/mixins/_hover.scss */
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #caebde !important;
+  background-color: #c2d5cd !important;
 }
 
 /* line 6, src/sass/bootstrap/mixins/_background-variant.scss */
@@ -8494,7 +8495,7 @@ button.bg-dark:focus {
 
 /* line 20, src/sass/bootstrap/utilities/_borders.scss */
 .border-light {
-  border-color: #eff9f5 !important;
+  border-color: #e0eae6 !important;
 }
 
 /* line 20, src/sass/bootstrap/utilities/_borders.scss */
@@ -13895,12 +13896,12 @@ a.text-danger:hover, a.text-danger:focus {
 
 /* line 6, src/sass/bootstrap/mixins/_text-emphasis.scss */
 .text-light {
-  color: #eff9f5 !important;
+  color: #e0eae6 !important;
 }
 
 /* line 17, src/sass/bootstrap/mixins/_hover.scss */
 a.text-light:hover, a.text-light:focus {
-  color: #b7e4d2 !important;
+  color: #b2cbc1 !important;
 }
 
 /* line 6, src/sass/bootstrap/mixins/_text-emphasis.scss */
@@ -14067,62 +14068,102 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* line 1, src/sass/app/base.scss */
+:lang(cn) body {
+  font-family: "Microsoft JhengHei", 微軟正黑體, "lato", "Arial", sans-serif;
+}
+
+/* line 5, src/sass/app/base.scss */
 a,
 button {
   transition: all 0.3s ease;
   transition-duration: 500ms;
 }
 
-/* line 5, src/sass/app/base.scss */
+/* line 9, src/sass/app/base.scss */
 a:focus,
 button:focus {
   outline: none;
 }
 
-/* line 10, src/sass/app/base.scss */
+/* line 14, src/sass/app/base.scss */
 .font-sm {
   font-size: 0.875rem;
 }
 
-/* line 14, src/sass/app/base.scss */
+/* line 18, src/sass/app/base.scss */
 .font-xs {
   font-size: 0.75rem;
 }
 
-/* line 18, src/sass/app/base.scss */
+/* line 22, src/sass/app/base.scss */
 .section {
   padding: 6rem 0;
   background-color: #fff;
 }
 
 @media (max-width: 768.98px) {
-  /* line 18, src/sass/app/base.scss */
+  /* line 22, src/sass/app/base.scss */
   .section {
     padding: 3rem 0;
   }
 }
 
-/* line 27, src/sass/app/base.scss */
+/* line 31, src/sass/app/base.scss */
 .page-header {
   padding: 9.5rem 0 3rem;
-  text-align: center;
-  background-color: #eff9f5;
+  background-color: #e0eae6;
 }
 
 @media (max-width: 768.98px) {
-  /* line 27, src/sass/app/base.scss */
+  /* line 31, src/sass/app/base.scss */
   .page-header {
     padding: 7rem 0 2rem;
   }
 }
 
-/* line 36, src/sass/app/base.scss */
+/* line 38, src/sass/app/base.scss */
+.page-header .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+@media (min-width: 769px) {
+  /* line 38, src/sass/app/base.scss */
+  .page-header .container {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+/* line 47, src/sass/app/base.scss */
+.page-header .header-icon {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  /* line 47, src/sass/app/base.scss */
+  .page-header .header-icon {
+    display: block;
+    height: 7em;
+    width: 8em;
+    margin-right: 1.5em;
+  }
+}
+
+/* line 56, src/sass/app/base.scss */
+.page-header .header-icon use {
+  fill: #8ba99c;
+}
+
+/* line 62, src/sass/app/base.scss */
 .info-list {
   line-height: 2;
   margin: 0;
 }
 
-/* line 39, src/sass/app/base.scss */
+/* line 65, src/sass/app/base.scss */
 .info-list li {
   display: -ms-flexbox;
   display: flex;
@@ -14130,31 +14171,44 @@ button:focus {
       align-items: center;
 }
 
-/* line 43, src/sass/app/base.scss */
+/* line 69, src/sass/app/base.scss */
 .info-list.mall-hours li {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
 
-/* line 48, src/sass/app/base.scss */
-footer {
-  background-color: #317759;
-  color: #eff9f5;
+/* line 75, src/sass/app/base.scss */
+.nav-pills .nav-item:not(:last-child) {
+  margin-right: 1em;
 }
 
-/* line 51, src/sass/app/base.scss */
+/* line 78, src/sass/app/base.scss */
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  border: 0.15em solid #6c757d;
+  padding: 0.85em;
+  color: #6c757d;
+}
+
+/* line 86, src/sass/app/base.scss */
+footer {
+  background-color: #317759;
+  color: #e0eae6;
+}
+
+/* line 89, src/sass/app/base.scss */
 footer .footer-main {
   padding: 3rem 0;
 }
 
 @media (max-width: 768.98px) {
-  /* line 51, src/sass/app/base.scss */
+  /* line 89, src/sass/app/base.scss */
   footer .footer-main {
     padding: 3rem 0;
   }
 }
 
-/* line 57, src/sass/app/base.scss */
+/* line 95, src/sass/app/base.scss */
 footer .footer-block {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 1.5rem 2rem;
@@ -14162,12 +14216,12 @@ footer .footer-block {
   transition: background-color 300ms ease;
 }
 
-/* line 62, src/sass/app/base.scss */
+/* line 100, src/sass/app/base.scss */
 footer .footer-block:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 66, src/sass/app/base.scss */
+/* line 104, src/sass/app/base.scss */
 footer .footer-sub {
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.3);
@@ -14207,7 +14261,7 @@ footer .footer-sub {
   .navbar-main .dropdown-menu {
     box-shadow: none;
     text-align: center;
-    background-color: #eff9f5;
+    background-color: #e0eae6;
     margin: 0 -1rem;
   }
 }
@@ -14408,6 +14462,72 @@ footer .footer-sub {
   font-size: 1.25em;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+/* line 3, src/sass/app/directory.scss */
+.category-list {
+  margin: 2em -0.5em 0;
+}
+
+/* line 6, src/sass/app/directory.scss */
+.category-list .toggle-wrapper {
+  padding: 0 0.5em;
+}
+
+/* line 11, src/sass/app/directory.scss */
+.category-toggle {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 1.5em 1em;
+  border-radius: 4px;
+}
+
+/* line 20, src/sass/app/directory.scss */
+.category-toggle svg {
+  width: 3em;
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+/* line 25, src/sass/app/directory.scss */
+.category-toggle use {
+  fill: #fff;
+}
+
+/* line 30, src/sass/app/directory.scss */
+#toggle_food .category-toggle {
+  background-color: #fd7e14;
+}
+
+/* line 34, src/sass/app/directory.scss */
+#toggle_health .category-toggle {
+  background-color: #d63d54;
+}
+
+/* line 38, src/sass/app/directory.scss */
+#toggle_clothing .category-toggle {
+  background-color: #6f42c1;
+}
+
+/* line 42, src/sass/app/directory.scss */
+#toggle_arts .category-toggle {
+  background-color: #007bff;
+}
+
+/* line 46, src/sass/app/directory.scss */
+#toggle_gift .category-toggle {
+  background-color: #07887c;
+}
+
+/* line 50, src/sass/app/directory.scss */
+#toggle_specialty .category-toggle {
+  background-color: #28a745;
 }
 
 /* line 1, src/sass/app/blog.scss */

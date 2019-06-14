@@ -1,18 +1,24 @@
 module.exports = {
     'locale': 'cn',
+    
+    // Meta
+    'meta-title' : '八佰伴中心',
+    'meta-description' : '八佰伴中心 是加拿大卑詩省列治文市第一批發展成功之華人商場,於一九九三年開業，至現時為止八佰伴中心仍然是本地居民及旅客的購物地標。',
 
-    // Nav
+    // Page Titles
     'Home' : '首頁',
+    'Yaohan Centre Homepage' : '八佰伴中心首頁',
     'Mall Directory' : '購物指南',
+    'News & Events' : '促銷活動',
     'News &amp; Events' : '促銷活動',
     'Contact Us' : '聯系我們',
 
     // Index
-    'Shopping Mall Hours' : '營業時間',
+    'Shopping Mall Hours' : '商場營業時間',
 
     // Mall Hours
     'Monday to Sunday' : '星期一至星期日',
-    '1st Floor' : '一樓',
-    '2nd Floor' : '二樓',
+    '1st Floor' : '商場一樓',
+    '2nd Floor' : '商場二樓',
     'Supermarket' : '超級市場',
 }

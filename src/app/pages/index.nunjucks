@@ -1,11 +1,6 @@
+{% set page = "home" %}
+{% set pageTitle = "Yaohan Centre Homepage" %}
 {% extends "layout.nunjucks" %}
-
-<!-- Navigation-->
-{% block nav_menu %}
-  {% import 'macros/nav.nunjucks' as nav %}
-  <!-- Set page-->
-  {{nav.active('home', tr)}}
-{% endblock %}
 
 <!-- Page content-->
 {% block content %}
@@ -30,7 +25,7 @@
           <span class="d-block d-sm-inline-block mx-1 my-2"></span>
           <a class="btn btn-highlight d-block d-sm-inline-block" href="contact.html" role="button">
             <i class="fas fa-sitemap mr-1"></i>
-            Mall Directory
+            {{tr['Mall Directory']}}
           </a>
         </div>
         <a class="to-directory d-none d-lg-block" href="directory.html">
@@ -59,7 +54,7 @@
           <p>For relaxation and enjoyment, visit the salons, music and book stores. You can also visit our famous supermarket which provides a wide range of Japanese and Chinese Products.</p>
           <a class="btn btn-primary" href="directory.html">
             <i class="fas fa-sitemap mr-1"></i>
-            Mall Directory
+            {{tr['Mall Directory']}}
             <i class="fas fa-arrow-right ml-2"></i>
           </a>
         </div>
@@ -80,7 +75,7 @@
       <div class="row justify-content-md-center blog">
         <div class="col-lg-5 col-md">
           <img 
-            src="img/bg.jpg" 
+            src="../img/bg.jpg" 
             alt="Visit Yaohan Centre" 
             class="img-fluid mb-4">
         </div>

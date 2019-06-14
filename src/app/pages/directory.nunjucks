@@ -1,20 +1,123 @@
-{% extends "layout.nunjucks" %}
-
-<!-- Navigation-->
-{% block nav_menu %} {% import 'macros/nav.nunjucks' as nav %}
-<!-- Set page-->
-{{ nav.active("directory", tr) }}
-{% endblock %}
+{% set page = "directory" %} {% set pageTitle = "Mall Directory" %} {% extends
+"layout.nunjucks" %}
 
 <!-- Page content-->
 {% block content %}
 <header class="page-header">
   <div class="container">
-    <h1 class="font-weight-bold">Mall Directory</h1>
-    <h2 class="heading-5 text-muted">Floor plans and business information</h2>
+    <svg class="icon header-icon">
+      <use xlink:href="#mall-3" />
+    </svg>
+    <div class="headlines">
+      <h1 class="font-weight-bold">{{ tr["Mall Directory"] }}</h1>
+      <h2 class="heading-6 mb-0 text-muted">Floor plans and business information</h2>
+    </div>
   </div>
 </header>
 <section class="section">
-  <div class="container"></div>
+  <div class="container">
+    <!-- MAP/LIST Tab toggles -->
+    <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          id="map_view_toggle"
+          data-toggle="pill"
+          href="#map_view_tab"
+          role="tab"
+          aria-controls="map_view_tab"
+          aria-selected="true"
+          >Map View</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          id="list_view_toggle"
+          data-toggle="pill"
+          href="#list_view_tab"
+          role="tab"
+          aria-controls="list_view_tab"
+          aria-selected="false"
+          >Category View</a
+        >
+      </li>
+    </ul>
+    <!-- End of MAP/LIST Tab toggles -->
+
+    <div class="tab-content" id="pills-tabContent">
+      <!-- MAP VIEW TAB -->
+      <div
+        class="tab-pane fade"
+        id="map_view_tab"
+        role="tabpanel"
+        aria-labelledby="map_view_toggle"
+      >
+        123...
+      </div>
+
+      <!-- LIST VIEW TAB -->
+      <div
+        class="tab-pane fade show active"
+        id="list_view_tab"
+        role="tabpanel"
+        aria-labelledby="list_view_toggle"
+      >
+
+        <!-- Category selection -->
+        <ul class="row list-unstyled category-list">
+          <li id="toggle_food" class="toggle-wrapper col-lg">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#food" />
+            </svg>
+            <span>Food & Grocery</span>
+            </div>
+          </li>
+          <li id="toggle_health" class="toggle-wrapper col-lg">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#health" />
+            </svg>
+            <span>Health & Beauty</span>
+            </div>
+          </li>
+          <li id="toggle_clothing" class="toggle-wrapper col-lg">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#clothing" />
+            </svg>
+            <span>Clothing & Accessory</span>
+            </div>
+          </li>
+          <li id="toggle_arts" class="toggle-wrapper col-lg">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#arts" />
+            </svg>
+            <span>Arts & Craft</span>
+            </div>
+          </li>
+          <li id="toggle_gift" class="toggle-wrapper col-lg">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#gift" />
+            </svg>
+            <span>Gift & Hobby</span>
+            </div>
+          </li>
+          <li id="toggle_specialty" class="toggle-wrapper col-lg">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#shop" />
+            </svg>
+            <span>Specialty & Service</span>
+            </div>
+          </li>
+        </ul>
+        <!-- End of Category selection -->
+      </div>
+    </div>
+  </div>
 </section>
 {% endblock %}

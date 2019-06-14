@@ -1,14 +1,55 @@
 {% macro active(activePage = 'home', tr = {}) %}
-  <li class="nav-item {%if activePage == 'home' %}active{% endif %}">
-    <a class="nav-link" href="index.html">{{tr['Home']}}<span class="sr-only">(current)</span></a>
-  </li>
-  <li class="nav-item {%if activePage == 'directory' %}active{% endif %}">
-    <a class="nav-link" href="directory.html">{{tr['Mall Directory']}}</a>
-  </li>
-  <li class="nav-item {%if activePage == 'news' %}active{% endif %}">
-    <a class="nav-link" href="news.html">{{tr['News &amp; Events']}}</a>
-  </li>
-  <li class="nav-item {%if activePage == 'contact' %}active{% endif %}">
-    <a class="nav-link" href="contact.html">{{tr['Contact Us']}}</a>
-  </li>
+<nav class="fixed-top">
+  <div class="navbar-sub bg-primary">
+    <div class="container">
+      <ul class="lang-select list-unstyled">
+        <li class="site-en">
+          <a href="#">EN</a>
+        </li>
+        <li class="site-cn">
+          <a href="#">中文</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="navbar-main navbar navbar-expand-md navbar-light bg-white">
+    <div class="container position-relative">
+      <div class="logo-wrapper">
+        <a href="index.html" class="logo-link">
+          <img class="logo" src="../img/logo.svg" alt="Yaohan Centre" />
+        </a>
+      </div>
+      <button
+        class="navbar-toggler ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#main_menu"
+        aria-controls="main_menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main_menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item {%if activePage == 'home' %}active{% endif %}">
+            <a class="nav-link" href="index.html"
+              >{{ tr["Home"] }}<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item {%if activePage == 'directory' %}active{% endif %}">
+            <a class="nav-link" href="directory.html">{{ tr["Mall Directory"] }}</a>
+          </li>
+          <li class="nav-item {%if activePage == 'news' %}active{% endif %}">
+            <a class="nav-link" href="news.html">{{ tr["News & Events"] }}</a>
+          </li>
+          <li class="nav-item {%if activePage == 'contact' %}active{% endif %}">
+            <a class="nav-link" href="contact.html">{{ tr["Contact Us"] }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay"></div>
 {% endmacro %}

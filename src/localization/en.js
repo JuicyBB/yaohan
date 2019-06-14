@@ -1,10 +1,16 @@
 module.exports = {
     'locale': 'en',
 
-    // Nav
+    // Meta
+    'meta-title' : 'Yaohan Centre',
+    'meta-description' : 'Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping.',
+
+    // Navigation & Page Titles
     'Home' : 'Home',
+    'Yaohan Centre Homepage' : 'Yaohan Centre Homepage',
     'Mall Directory' : 'Mall Directory',
-    'News &amp; Events' : 'News & Events',
+    'News & Events' : 'News & Events',
+    'News &amp; Events' : 'News &amp; Events',
     'Contact Us' : 'Contact Us',
 
     // Index

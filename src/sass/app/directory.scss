@@ -1,0 +1,52 @@
+
+
+.category-list {
+  margin: 2em -0.5em 0;
+
+  .toggle-wrapper {
+    padding: 0 0.5em;
+  }
+}
+
+.category-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 1.5em 1em;
+  border-radius: 4px;
+
+  svg {
+    width: 3em;
+    height: 3em;
+    margin-bottom: 1em;
+  }
+  use {
+    fill: #fff;
+  }
+}
+
+#toggle_food .category-toggle {
+  background-color: $orange;
+}
+
+#toggle_health .category-toggle {
+  background-color: $pink;
+}
+
+#toggle_clothing .category-toggle {
+  background-color: $purple;
+}
+
+#toggle_arts .category-toggle {
+  background-color: $blue;
+}
+
+#toggle_gift .category-toggle {
+  background-color: $teal;
+}
+
+#toggle_specialty .category-toggle {
+  background-color: $green;
+}
