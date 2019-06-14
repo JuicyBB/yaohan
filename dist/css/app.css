@@ -14173,6 +14173,11 @@ footer .footer-sub {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* line 72, src/sass/app/base.scss */
+.hide {
+  display: none !important;
+}
+
 /* line 1, src/sass/app/nav.scss */
 .navbar-main {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);

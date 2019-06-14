@@ -17,37 +17,40 @@
 <section class="section">
   <div class="container">
     <div id="news_blog" class="news-wrapper">
-      <div class="card mb-4">
-        <img src="img/bg.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h3 class="card-title">Lorem ipsum dolor sit</h3>
-          <div class="card-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum odit dolores
-            eos illum illo explicabo neque. In nostrum fugiat illum, quisquam aut amet nemo,
-            provident, dolores iure asperiores tempora aspernatur. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Voluptatum odit dolores eos illum illo explicabo neque. In nostrum fugiat
-            illum, quisquam aut amet nemo, provident, dolores iure asperiores tempora
-            aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Voluptatum odit dolores eos illum
-            illo explicabo neque. In nostrum fugiat illum, quisquam aut amet nemo, provident,
-            dolores iure asperiores tempora aspernatur. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatum odit dolores eos illum illo explicabo neque. In nostrum fugiat illum,
-            quisquam aut amet nemo, provident, dolores iure asperiores tempora aspernatur.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <div class="card-wrapper">
+        <div class="card card-tmpl mb-4 hide">
+          <img src="img/bg.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h3 class="card-title">Lorem ipsum dolor sit</h3>
+            <div class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum odit dolores
+              eos illum illo explicabo neque. In nostrum fugiat illum, quisquam aut amet nemo,
+              provident, dolores iure asperiores tempora aspernatur. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Voluptatum odit dolores eos illum illo explicabo neque. In nostrum fugiat
+              illum, quisquam aut amet nemo, provident, dolores iure asperiores tempora
+              aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Voluptatum odit dolores eos illum
+              illo explicabo neque. In nostrum fugiat illum, quisquam aut amet nemo, provident,
+              dolores iure asperiores tempora aspernatur. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatum odit dolores eos illum illo explicabo neque. In nostrum fugiat illum,
+              quisquam aut amet nemo, provident, dolores iure asperiores tempora aspernatur.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <a href="javascript:void(0);" class="more-link mt-2 d-inline-block">
+              <i class="fas fa-plus mr-2"></i>
+              Read more
+            </a>
+            <div class="font-sm text-muted mt-4 card-date">Posted on 2019-01-01 10:00pm</div>
           </div>
-          <a href="javascript:void(0);" class="more-link mt-2 d-inline-block">
-            <i class="fas fa-plus mr-2"></i>
-            Read more
-          </a>
-          <div class="font-sm text-muted mt-4">Posted on 2019-01-01 10:00pm</div>
         </div>
       </div>
       <div class="text-center">
-        <button type="button" class="btn btn-primary">Load more posts</button>
+        <button id="load_more" type="button" class="btn btn-primary">Load more posts</button>
       </div>
     </div>
   </div>
 </section>
+<script src="../js/pages/news.js" defer></script>
 {% endblock %}
