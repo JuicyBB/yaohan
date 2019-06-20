@@ -120,4 +120,5 @@
     </div>
   </div>
 </section>
+<script src="../js/pages/directory.js" defer></script>
 {% endblock %}
