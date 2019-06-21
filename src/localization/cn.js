@@ -21,4 +21,12 @@ module.exports = {
     '1st Floor' : '商場一樓',
     '2nd Floor' : '商場二樓',
     'Supermarket' : '超級市場',
-}
+
+    // Directory
+    'Food & Grocery' : '食品雑貨',
+    'Health & Beauty' : '健康保険',
+    'Clothing & Accessories' : '服装首飾',
+    'Arts & Craft' : '手工藝品',
+    'Gifts & Hobby' : '禮物休閑',
+    'Specialty & Service' : '其它服務',
+};

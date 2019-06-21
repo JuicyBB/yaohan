@@ -21,4 +21,12 @@ module.exports = {
     '1st Floor' : '1st Floor',
     '2nd Floor' : '2nd Floor',
     'Supermarket' : 'Supermarket',
-}
+
+    // Directory
+    'Food & Grocery' : 'Food & Grocery',
+    'Health & Beauty' : 'Health & Beauty',
+    'Clothing & Accessories' : 'Clothing & Accessories',
+    'Arts & Craft' : 'Arts & Craft',
+    'Gifts & Hobby' : 'Gifts & Hobby',
+    'Specialty & Service' : 'Specialty & Service',
+};
