@@ -153,14 +153,19 @@
       <div class="col-xl-7 col-lg-7 col-md">
         <h3 class="heading-4 font-weight-bold">Send us a message</h3>
         <p class="text-muted">All fields are required.</p>
-        <form id="contactForm" autocomplete="on">
+        <form 
+          id="contactForm" 
+          autocomplete="on"
+          action="https://yaohanblog.data.blog/contact/#contact-form-3"
+          method="POST"
+          target="contactFrame">
             <div class="form-group">
               <label for="name">Full Name</label>
               <input
                 type="text"
                 class="form-control"
                 id="name"
-                name="name"
+                name="g3-name"
                 placeholder="Enter full name"
                 data-validation="required"
                 data-validation-error-msg="Please enter your name"
@@ -174,7 +179,7 @@
                 type="email"
                 class="form-control"
                 id="email"
-                name="email"
+                name="g3-email"
                 placeholder="Enter email"
                 data-validation="email"
                 data-validation-error-msg="Please a valid email"
@@ -187,7 +192,7 @@
                 type="tel"
                 class="form-control"
                 id="phone"
-                name="phone"
+                name="g3-phonenumber"
                 placeholder="Enter phone number"
                 data-validation="number,length"
                 data-validation-ignore="-()"
@@ -202,25 +207,31 @@
                 class="form-control"
                 rows="5"
                 id="message"
-                name="message"
+                name="g3-comment"
                 placeholder="Enter your message"
                 data-validation="required"
                 data-validation-error-msg="Please include a message"
               ></textarea>
             </div>
+            <input type="hidden" id="_wpnonce" name="_wpnonce" value="0ddd1c9dad">
+            <input type="hidden" name="_wp_http_referer" value="http://www.yaohancentre.com/contact.html">
+            <input type="hidden" name="contact-form-id" value="3">
+            <input type="hidden" name="action" value="grunion-contact-form">
+            <input type="hidden" name="contact-form-hash" value="6692159b8fdf0f378e537baa225c38d6357d08b6">
             <button type="submit" class="btn btn-primary">
               <i class="far fa-envelope mr-2"></i>
               Send Message
             </button>
           </form>
+          <iframe width="0" height="0" border="0" name="contactFrame" id="contactFrame"></iframe>
           <!-- Contact form ends -->
       </div>
     </div>
   </div>
 </div>
 </section>
+<script type="text/javascript" src="../js/pages/contact.js" defer></script>
 
-</script>
 <script type="text/javascript">
   function initMap() {
     var yaohan = {lat: 49.1862473, lng: -123.1355265};
@@ -234,6 +245,7 @@
     var marker = new google.maps.Marker({position: yaohan, map: map});
   }
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfamRh37UzbamVNr6xiJ3C16gA4WIcgJA&callback=initMap"></script>
  
     
     <!-- Footer -->
@@ -332,7 +344,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfamRh37UzbamVNr6xiJ3C16gA4WIcgJA&callback=initMap"></script>
     <script src="../js/scripts.js"></script>
   </body>
 </html>
