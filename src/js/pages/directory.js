@@ -5,8 +5,8 @@ var getStoreImageUrl = function(img) {
 };
 
 var DATA = {
-  mapwidth: "2000",
-  mapheight: "2000",
+  mapwidth: "1000",
+  mapheight: "500",
   groups: [
     {
       id: "food",
@@ -49,23 +49,23 @@ var DATA = {
     {
       id: "ground",
       title: "Ground floor",
-      map: "images/apartment/ground.jpg",
-      minimap: "images/apartment/ground-small.jpg",
+      map: "/img/plugins/mall-ground.svg",
+      minimap: "/img/plugins/mall-ground.svg",
       locations: [
         {
-          id: "1000",
-          title: "Osaka Supermarket",
-          type: "Supermarket",
-          category: "food",
-          phone: "604-276-8808",
-          email: "customer.service@tntsupermarket.com",
-          description: "",
-          x: "",
-          y: "",
+          "id": "nordstrom",
+					"title": "Osaka Supermarket",
+					"type": "Supermarket",
+					"category": "food",
+					"phone": "604-276-8808",
+					"email": "customer.service@tntsupermarket.com",
+          "description": "",
           image: getStoreImageUrl("1000"),
           thumbnail: getStoreImageUrl("1000"),
-          website: "https://www.tnt-supermarket.com",
-          title_cn: "大阪超級市場",
+					"x": "0.7856",
+					"y": "0.2022",
+					"link": "https://www.tnt-supermarket.com",
+					"title_cn": "大阪超級市場"
         },
         {
           id: "1035",
@@ -79,7 +79,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "華菀粥麵",
         },
         {
@@ -94,7 +94,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "駿興",
         },
         {
@@ -109,7 +109,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "金飯碗",
         },
         {
@@ -124,7 +124,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "百德潮洲美食",
         },
         {
@@ -139,7 +139,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "綠豆苗",
         },
         {
@@ -154,7 +154,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "果汁王",
         },
         {
@@ -169,7 +169,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "福寶堂",
         },
         {
@@ -184,7 +184,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "咖哩屋",
         },
         {
@@ -199,7 +199,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "新世紀",
         },
         {
@@ -214,7 +214,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "愛家面館",
         },
         {
@@ -229,7 +229,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "田園東北麵館",
         },
         {
@@ -244,7 +244,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "大塘燒臘",
         },
         {
@@ -259,7 +259,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "韓國食品",
         },
         {
@@ -274,7 +274,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "友禾圖書",
         },
         {
@@ -289,7 +289,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "理想假期工作坊",
         },
         {
@@ -304,7 +304,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "平安保險",
         },
         {
@@ -319,7 +319,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "永盛參茸海味",
         },
         {
@@ -334,7 +334,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "加聯銀業",
         },
         {
@@ -349,7 +349,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "時代教育集團",
         },
       ],
@@ -357,8 +357,8 @@ var DATA = {
     {
       id: "second",
       title: "Second floor",
-      map: "images/apartment/second.jpg",
-      minimap: "images/apartment/second-small.jpg",
+      map: "/img/plugins/mall-first.svg",
+      minimap: "/img/plugins/mall-first.svg",
       locations: [
         {
           id: "2120",
@@ -372,7 +372,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "加拿大生活体驗館",
         },
         {
@@ -387,7 +387,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "千田髮廊",
         },
         {
@@ -402,7 +402,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "好時光",
         },
         {
@@ -417,7 +417,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "髮軒",
         },
         {
@@ -432,7 +432,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "華之寶中醫針灸診所",
         },
         {
@@ -447,7 +447,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "保康西藥房",
         },
         {
@@ -462,7 +462,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "八佰伴中心牙醫",
         },
         {
@@ -477,7 +477,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "洪健邦醫生醫務所",
         },
         {
@@ -492,7 +492,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "芝寶靈芝專門店",
         },
         {
@@ -507,7 +507,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "Quick Cut",
         },
         {
@@ -522,7 +522,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "優絲美",
         },
         {
@@ -537,7 +537,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "Pinky Fashion",
         },
         {
@@ -552,7 +552,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "Yobo",
         },
         {
@@ -567,7 +567,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "第一街時裝",
         },
         {
@@ -582,7 +582,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "維泉",
         },
         {
@@ -597,7 +597,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "Byworld",
         },
         {
@@ -612,7 +612,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "藝苑",
         },
         {
@@ -627,7 +627,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "藝聯",
         },
         {
@@ -642,7 +642,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "2.12藝廊",
         },
         {
@@ -657,7 +657,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "中國畫廊",
         },
         {
@@ -672,7 +672,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "福井屋",
         },
         {
@@ -687,7 +687,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "Game 館",
         },
         {
@@ -702,7 +702,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "紅參健康食品",
         },
         {
@@ -717,7 +717,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "福之島",
         },
         {
@@ -732,7 +732,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "福之島",
         },
         {
@@ -747,7 +747,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "大萊",
         },
         {
@@ -762,7 +762,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "金鈺堂",
         },
         {
@@ -777,7 +777,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "海天旅游",
         },
         {
@@ -792,7 +792,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "統信国際",
         },
         {
@@ -807,7 +807,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "PG Homes",
         },
         {
@@ -822,7 +822,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "金達旅遊",
         },
         {
@@ -837,7 +837,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "克拉利淨水設備",
         },
         {
@@ -852,7 +852,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "美樂假期",
         },
         {
@@ -867,7 +867,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "統信国際",
         },
         {
@@ -882,7 +882,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "華豐參茸海味店",
         },
         {
@@ -897,7 +897,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "貨幣坊",
         },
         {
@@ -912,7 +912,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "小螞蟻教育",
         },
         {
@@ -927,7 +927,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "海岸商務中心",
         },
         {
@@ -942,7 +942,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "置業地產",
         },
         {
@@ -957,7 +957,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "雅芳婷",
         },
         {
@@ -972,7 +972,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "新城市眼鏡",
         },
         {
@@ -987,7 +987,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "萬視眼鏡",
         },
         {
@@ -1002,7 +1002,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "振龍電器",
         },
         {
@@ -1017,7 +1017,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "蕙蘭婚紗",
         },
         {
@@ -1032,7 +1032,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "金宏國際",
         },
         {
@@ -1047,7 +1047,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "甘泉淨水系統",
         },
         {
@@ -1062,7 +1062,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "iTalkBB",
         },
         {
@@ -1077,7 +1077,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "晶之谷",
         },
         {
@@ -1092,7 +1092,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "星加旅遊",
         },
         {
@@ -1107,7 +1107,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "九鑫換滙",
         },
         {
@@ -1122,7 +1122,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "至活旅遊",
         },
         {
@@ -1137,7 +1137,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
         },
         {
           id: "2500",
@@ -1151,7 +1151,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "參芝林",
         },
         {
@@ -1166,7 +1166,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "參芝林",
         },
         {
@@ -1181,7 +1181,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "醉春秋",
         },
         {
@@ -1196,7 +1196,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "法律公証人",
         },
         {
@@ -1211,7 +1211,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "法律公証人",
         },
         {
@@ -1226,7 +1226,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "瑞信會計事務所",
         },
         {
@@ -1241,7 +1241,7 @@ var DATA = {
           y: "",
           image: getStoreImageUrl("noimage"),
           thumbnail: getStoreImageUrl("noimage"),
-          website: "",
+          link: "",
           title_cn: "瑞信啇業房產",
         },
       ],
@@ -1293,10 +1293,10 @@ $(function() {
         .html(store.email)
         .attr("href", 'mailto:' + store.email);
       card.find(".store-description").html(store.description);
-      if (store.website) {
-        card.find(".store-website a")
-          .html('Visit Website')
-          .attr("href", store.website);
+      if (store.link) {
+        card.find(".store-link a")
+          .html('Visit link')
+          .attr("href", store.link);
       }
       card.appendTo("#stores");
     });
