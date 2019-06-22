@@ -6,12 +6,12 @@
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
               <i class="far fa-clock mr-2"></i>
-              Yaohan Centre Hours
+              {{ tr['Shopping Mall Hours'] }}
             </h3>
             {% include "partials/mall_hours.nunjucks" %}
             <div class="my-1">
               <a href="directory.html">
-                View store directory
+                {{ tr['View store directory'] }}
                 <i class="fas fa-long-arrow-alt-right ml-2"></i>
               </a>
             </div>

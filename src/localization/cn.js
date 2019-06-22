@@ -12,6 +12,7 @@ module.exports = {
     'News & Events' : '促銷活動',
     'News &amp; Events' : '促銷活動',
     'Contact Us' : '聯系我們',
+    'View store directory' : '進入購物向導',
 
     // Index
     'Shopping Mall Hours' : '商場營業時間',

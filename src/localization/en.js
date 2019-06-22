@@ -12,6 +12,7 @@ module.exports = {
     'News & Events' : 'News & Events',
     'News &amp; Events' : 'News &amp; Events',
     'Contact Us' : 'Contact Us',
+    'View store directory' : 'View store directory',
 
     // Index
     'Shopping Mall Hours' : 'Shopping Mall Hours',

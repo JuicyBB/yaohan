@@ -25,12 +25,12 @@
           <span class="d-block d-sm-inline-block mx-1 my-2"></span>
           <a class="btn btn-highlight d-block d-sm-inline-block" href="contact.html" role="button">
             <i class="fas fa-sitemap mr-1"></i>
-            {{tr['Mall Directory']}}
+            {{ tr['Mall Directory'] }}
           </a>
         </div>
-        <a class="to-directory d-none d-lg-block" href="directory.html">
+        <a class="to-directory d-none d-lg-block" href="news.html">
           <i class="fas fa-calendar-day mr-1"></i>
-          News &amp; Events
+          {{ tr['News &amp; Events'] }}
           <i class="fas fa-long-arrow-alt-right ml-2"></i>
         </a>
       </div>
