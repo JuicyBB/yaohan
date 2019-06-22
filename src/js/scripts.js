@@ -34,18 +34,20 @@ $(function() {
   });
 
   // Translation
-  if (location.href.indexOf("/en/") > -1) {
-    $(".site-en").addClass("active");
-  } else {
+  if (location.href.indexOf("/cn/") > -1) {
     $(".site-cn").addClass("active");
+  } else {
+    $(".site-en").addClass("active");
   }
 
   $(".site-en").click(function() {
-    location.href = location.pathname.replace("/cn/", "/en/");
+    location.href = location.pathname.replace("/cn/", "/");
   });
 
   $(".site-cn").click(function() {
-    location.href = location.pathname.replace("/en/", "/cn/");
+    var p = location.pathname;
+    var index = location.pathname.lastIndexOf('/');
+    location.href = p.substring(0,index)+'/cn/'+p.substring(index+1);
   });
 });
 

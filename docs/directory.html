@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Contact Us - Yaohan Centre</title>
+    <title>Mall Directory - Yaohan Centre</title>
     <meta name="description" content="Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping." />
     <meta name="author" content="Yaohan Centre" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png" />
-    <link rel="manifest" href="../favicon/site.webmanifest" />
-    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#42ba69" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#42ba69" />
     <meta name="msapplication-TileColor" content="#ffc40d" />
     <meta name="theme-color" content="#ffffff" />
     <link
@@ -21,7 +21,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="../css/app.min.css" />
+    <link rel="stylesheet" href="css/app.min.css" />
   </head>
 
   <body>
@@ -46,7 +46,7 @@
     <div class="container position-relative">
       <div class="logo-wrapper">
         <a href="index.html" class="logo-link">
-          <img class="logo" src="../img/logo.svg" alt="Yaohan Centre" />
+          <img class="logo" src="img/logo.svg" alt="Yaohan Centre" />
         </a>
       </div>
       <button
@@ -67,13 +67,13 @@
               >Home<span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="directory.html">Mall Directory</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="news.html">News &amp; Events</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
         </ul>
@@ -86,166 +86,128 @@
 
     <!-- Main content-->
     
-<div id="map"></div>
-<section class="section contact-section">
+<header class="page-header">
   <div class="container">
-    <!-- Success message -->
-    <div class="alert alert-success alert-dismissible d-none" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-        <span class="sr-only">Close</span>
-      </button>
-      <div class="message-content text-center">Your message has been sent!</div>
+    <svg class="icon header-icon">
+      <use xlink:href="#mall-3" />
+    </svg>
+    <div class="headlines">
+      <h1 class="font-weight-bold">Mall Directory</h1>
+      <h2 class="heading-6 mb-0 text-muted">Floor plans and business information</h2>
     </div>
-    <!-- Error message -->
-    <div class="alert alert-danger alert-dismissible d-none" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-        <span class="sr-only">Close</span>
-      </button>
-      <div class="message-content text-center">Something went wrong, please try again.</div>
-    </div>
-    <div class="row justify-content-between">
-      <div class="col-xl-4 col-lg-5 col-md">
-        <header>
-          <h1 class="heading-4 font-weight-bold">Find us</h1>
-          <p class="text-muted">Visit Yaohan Centre in Richmond</p>
-        </header>
-        <div class="mb-5">
-          <ul class="list-unstyled info-list contact-info">
-  <li class="font-weight-bold">Address, map and phone</li>
-  <li class="d-flex align-items-center">
-    <i class="fas fa-map-marker-alt mr-2"></i>
-    3700 No. 3 Rd, Richmond B.C.
-  </li>
-  <li>
-    <i class="fas fa-directions mr-2"></i>
-    <a href="https://goo.gl/maps/8xWHWMUSNqg8qkmK8" target="_blank">
-      Google maps direction
-    </a>
-  </li>
-  <li>
-    <i class="fas fa-phone mr-2"></i>
-    <a href="tel:1-604-231-0601">604-231-0601</a>
-  </li>
-  
-</ul>
+  </div>
+</header>
+<section class="section">
+  <div class="container">
+    <!-- MAP/LIST Tab toggles -->
+    <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          id="map_view_toggle"
+          data-toggle="pill"
+          href="#map_view_tab"
+          role="tab"
+          aria-controls="map_view_tab"
+          aria-selected="true"
+          >Map View</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          id="list_view_toggle"
+          data-toggle="pill"
+          href="#list_view_tab"
+          role="tab"
+          aria-controls="list_view_tab"
+          aria-selected="false"
+          >Category View</a
+        >
+      </li>
+    </ul>
+    <!-- End of MAP/LIST Tab toggles -->
 
-          <hr>
-          <ul class="list-unstyled info-list mall-hours">
-  <li class="font-weight-bold">Monday to Sunday</li>
-  <li>
-    <span>1st Floor</span>
-    <span>9:00am - 9:00pm</span>
-  </li>
-  <li>
-    <span>2nd Floor</span>
-    <span>11:00am - 7:00pm</span>
-  </li>
-  <li>
-    <span>Supermarket</span>
-    <span>9:00am - 11:00pm</span>
-  </li>
-</ul>
-
-        </div>
+    <div class="tab-content" id="pills-tabContent">
+      <!-- MAP VIEW TAB -->
+      <div
+        class="tab-pane fade"
+        id="map_view_tab"
+        role="tabpanel"
+        aria-labelledby="map_view_toggle"
+      >
+        123...
       </div>
-      <div class="col-xl-7 col-lg-7 col-md">
-        <h3 class="heading-4 font-weight-bold">Send us a message</h3>
-        <p class="text-muted">All fields are required.</p>
-        <form 
-          id="contactForm" 
-          autocomplete="on"
-          action="https://yaohanblog.data.blog/contact/#contact-form-3"
-          method="POST"
-          target="contactFrame">
-            <div class="form-group">
-              <label for="name">Full Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                name="g3-name"
-                placeholder="Enter full name"
-                data-validation="required"
-                data-validation-error-msg="Please enter your name"
-                autocomplete="name"
-                autocomplete="name"
-              />
+
+      <!-- LIST VIEW TAB -->
+      <div
+        class="tab-pane fade show active"
+        id="list_view_tab"
+        role="tabpanel"
+        aria-labelledby="list_view_toggle"
+      >
+
+        <!-- Category selection -->
+        <ul class="row list-unstyled category-list">
+          <li id="toggle_food" class="toggle-wrapper col-lg" data-category="food">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#food" />
+            </svg>
+            <span>Food &amp; Grocery</span>
             </div>
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                name="g3-email"
-                placeholder="Enter email"
-                data-validation="email"
-                data-validation-error-msg="Please a valid email"
-                autocomplete="email"
-              />
+          </li>
+          <li id="toggle_health" class="toggle-wrapper col-lg" data-category="health">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#health" />
+            </svg>
+            <span>Health &amp; Beauty</span>
             </div>
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input
-                type="tel"
-                class="form-control"
-                id="phone"
-                name="g3-phonenumber"
-                placeholder="Enter phone number"
-                data-validation="number,length"
-                data-validation-ignore="-()"
-                data-validation-length="min10"
-                data-validation-error-msg="Please enter a valid phone number"
-                autocomplete="tel"
-              />
+          </li>
+          <li id="toggle_clothing" class="toggle-wrapper col-lg" data-category="clothing">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#clothing" />
+            </svg>
+            <span>Clothing &amp; Accessories</span>
             </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea
-                class="form-control"
-                rows="5"
-                id="message"
-                name="g3-comment"
-                placeholder="Enter your message"
-                data-validation="required"
-                data-validation-error-msg="Please include a message"
-              ></textarea>
+          </li>
+          <li id="toggle_arts" class="toggle-wrapper col-lg" data-category="arts">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#arts" />
+            </svg>
+            <span>Arts &amp; Craft</span>
             </div>
-            <input type="hidden" id="_wpnonce" name="_wpnonce" value="0ddd1c9dad">
-            <input type="hidden" name="_wp_http_referer" value="http://www.yaohancentre.com/contact.html">
-            <input type="hidden" name="contact-form-id" value="3">
-            <input type="hidden" name="action" value="grunion-contact-form">
-            <input type="hidden" name="contact-form-hash" value="6692159b8fdf0f378e537baa225c38d6357d08b6">
-            <button type="submit" class="btn btn-primary">
-              <i class="far fa-envelope mr-2"></i>
-              Send Message
-            </button>
-          </form>
-          <iframe width="0" height="0" border="0" name="contactFrame" id="contactFrame"></iframe>
-          <!-- Contact form ends -->
+          </li>
+          <li id="toggle_gift" class="toggle-wrapper col-lg" data-category="gifts">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#gift" />
+            </svg>
+            <span>Gifts &amp; Hobby</span>
+            </div>
+          </li>
+          <li id="toggle_specialty" class="toggle-wrapper col-lg" data-category="specialty">
+            <div class="category-toggle">
+            <svg class="icon header-icon">
+              <use xlink:href="#shop" />
+            </svg>
+            <span>Specialty &amp; Service</span>
+            </div>
+          </li>
+        </ul>
+        <!-- End of Category selection -->
+        <div id="tab-content">
+            <table id="tab-results">
+            </table>
+          </div>
       </div>
     </div>
   </div>
-</div>
 </section>
-<script type="text/javascript" src="../js/pages/contact.js" defer></script>
-
-<script type="text/javascript">
-  function initMap() {
-    var yaohan = {lat: 49.1862473, lng: -123.1355265};
-    var map = new google.maps.Map(
-      document.getElementById('map'), {
-        zoom: 14, 
-        center: yaohan,
-        mapTypeControl: false,
-      }
-    );
-    var marker = new google.maps.Marker({position: yaohan, map: map});
-  }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfamRh37UzbamVNr6xiJ3C16gA4WIcgJA&callback=initMap"></script>
+<script src="js/pages/directory.js" defer></script>
  
     
     <!-- Footer -->
@@ -305,6 +267,11 @@
     <a href="tel:1-604-231-0601">604-231-0601</a>
   </li>
   
+  <li>
+    <i class="far fa-envelope mr-2"></i>
+    <a href="contact.html">Send us a message</a>
+  </li>
+  
 </ul>
 
           </div>
@@ -344,6 +311,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-    <script src="../js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

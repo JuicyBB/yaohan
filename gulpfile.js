@@ -34,6 +34,7 @@ var livereload = require("gulp-livereload");
 var package = require("./package.json");
 var nunjucksRender = require("gulp-nunjucks-render");
 var data = require('gulp-data');
+var replace = require('gulp-string-replace');
 
 // Scripts
 var jshint = settings.scripts ? require("gulp-jshint") : null;
@@ -61,23 +62,23 @@ var fileinclude = settings.docs ? require("gulp-file-include") : null;
 
 var paths = {
   input: "src/**/*",
-  output: "dist/",
+  output: "docs/",
   scripts: {
     input: "src/js/**/*",
     polyfills: "!src/js/*.polyfill.js",
-    output: "dist/js/",
+    output: "docs/js/",
   },
   styles: {
     input: "src/sass/app.scss",
-    output: "dist/css/",
+    output: "docs/css/",
   },
   svgs: {
     input: "src/svg/*",
-    output: "dist/svg/",
+    output: "docs/svg/",
   },
   static: {
     input: "src/static/**/*",
-    output: "dist/",
+    output: "docs/",
   },
   docs: {
     input: "src/docs/*.{html,md,markdown}",
@@ -88,7 +89,7 @@ var paths = {
   html: {
     input: "src/app/pages/**/*.nunjucks",
     templates: "src/app/templates",
-    output: "dist/",
+    output: "docs/",
   },
 };
 
@@ -160,7 +161,7 @@ var jsTasks = lazypipe()
   );
 
 // Lint, minify, and concatenate scripts
-gulp.task("build:scripts", ["clean:dist"], function() {
+gulp.task("build:scripts", ["clean:docs"], function() {
   if (!settings.scripts) return;
 
   return gulp
@@ -181,7 +182,7 @@ gulp.task("build:scripts", ["clean:dist"], function() {
 });
 
 // Create scripts with polyfills
-gulp.task("build:polyfills", ["clean:dist"], function() {
+gulp.task("build:polyfills", ["clean:docs"], function() {
   if (!settings.polyfills) return;
 
   return gulp
@@ -197,7 +198,7 @@ gulp.task("build:polyfills", ["clean:dist"], function() {
 });
 
 // Process, lint, and minify Sass files
-gulp.task("build:styles", ["clean:dist"], function() {
+gulp.task("build:styles", ["clean:docs"], function() {
   if (!settings.styles) return;
 
   return gulp
@@ -232,7 +233,7 @@ gulp.task("build:styles", ["clean:dist"], function() {
 });
 
 // Generate SVG sprites
-gulp.task("build:svgs", ["clean:dist"], function() {
+gulp.task("build:svgs", ["clean:docs"], function() {
   if (!settings.svgs) return;
 
   return gulp
@@ -261,7 +262,7 @@ gulp.task("build:svgs", ["clean:dist"], function() {
 });
 
 // Copy static files into output folder
-gulp.task("build:static", ["clean:dist"], function() {
+gulp.task("build:static", ["clean:docs"], function() {
   if (!settings.static) return;
 
   return gulp
@@ -282,7 +283,7 @@ gulp.task("lint:scripts", function() {
 });
 
 // Remove pre-existing content from output folders
-gulp.task("clean:dist", function() {
+gulp.task("clean:docs", function() {
   del.sync([paths.output]);
 });
 
@@ -311,14 +312,14 @@ gulp.task("build:docs", ["compile", "clean:docs"], function() {
     .pipe(gulp.dest(paths.docs.output));
 });
 
-// Copy distribution files to docs
-gulp.task("copy:dist", ["compile", "clean:docs"], function() {
+// Copy docsribution files to docs
+gulp.task("copy:docs", ["compile", "clean:docs"], function() {
   if (!settings.docs) return;
 
   return gulp
     .src(paths.output + "/**")
     .pipe(plumber())
-    .pipe(gulp.dest(paths.docs.output + "/dist"));
+    .pipe(gulp.dest(paths.docs.output + "/docs"));
 });
 
 // Copy documentation assets to docs
@@ -338,7 +339,7 @@ gulp.task("clean:docs", function() {
 });
 
 // Nunjucks compile task
-gulp.task("build:html:en", function() {
+gulp.task("build:html", function() {
   // Gets .html and .nunjucks files in pages
   return (
     gulp
@@ -350,8 +351,10 @@ gulp.task("build:html:en", function() {
           path: [paths.html.templates],
         })
       )
+      // Fix paths
+      .pipe(replace(/(\.\.\/)/g, ""))
       // output files in app folder
-      .pipe(gulp.dest(paths.html.output + '/en'))
+      .pipe(gulp.dest(paths.html.output))
   );
 });
 
@@ -393,18 +396,18 @@ gulp.task("refresh", ["compile", "docs"], function() {
 // Compile files
 gulp.task("compile", [
   "lint:scripts",
-  "clean:dist",
+  "clean:docs",
   "build:styles",
   "build:scripts",
   "build:polyfills",
   "build:static",
-  "build:html:en",
+  "build:html",
   "build:html:cn",
   // 'build:svgs'
 ]);
 
 // Generate documentation
-gulp.task("docs", ["clean:docs", "build:docs", "copy:dist", "copy:assets"]);
+gulp.task("docs", ["clean:docs", "build:docs", "copy:docs", "copy:assets"]);
 
 // Compile files and generate docs (default)
 gulp.task("default", [
