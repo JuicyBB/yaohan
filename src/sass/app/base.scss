@@ -20,7 +20,15 @@ button {
 }
 
 .section {
-  padding: 6rem 0;
+  padding: 2.5rem 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: 2rem 0;
+  }
+}
+
+.page-section {
+  padding: 5rem 0;
   background-color: #fff;
 
   @include media-breakpoint-down(sm) {
@@ -29,10 +37,10 @@ button {
 }
 
 .page-header {
-  padding: 9.5rem 0 3rem;
+  padding: ($fixed-head-height + 3rem) 0 3rem;
   background-color: $light;
   @include media-breakpoint-down(sm) {
-    padding: 7rem 0 2rem;
+    padding: ($fixed-head-height-mobile + 2.75rem) 0 2rem;
   }
 
   .container {

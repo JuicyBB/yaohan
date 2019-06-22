@@ -3,6 +3,24 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
+// Heights
+$subnav-height: 2rem;
+$nav-link-height: 5rem;
+$nav-link-padding-y: 0;
+$nav-link-padding-x: 1rem;
+$fixed-head-height: $subnav-height + $nav-link-height;
+
+$nav-link-height-mobile: 3.75rem;
+$fixed-head-height-mobile: $subnav-height + $nav-link-height-mobile;
+
+$logo-height: 4rem;
+$logo-wrap-width: 14rem;
+$logo-wrap-height: 8rem;
+
+$logo-height-mobile: 3.25rem;
+$logo-wrap-width-mobile: 11rem;
+$logo-wrap-height-mobile: 6.5rem;
+
 // Color system
 
 $white: #fff !default;
@@ -724,9 +742,6 @@ $zindex-popover: 1060 !default;
 $zindex-tooltip: 1070 !default;
 
 // Navs
-
-$nav-link-padding-y: 1rem !default;
-$nav-link-padding-x: 1rem !default;
 $nav-link-disabled-color: $gray-600 !default;
 
 $nav-tabs-border-color: $gray-300 !default;
@@ -746,7 +761,7 @@ $nav-divider-margin-y: $spacer / 2 !default;
 
 // Navbar
 
-$navbar-padding-y: $spacer / 2 !default;
+$navbar-padding-y: 0 !default;
 $navbar-padding-x: 0 !default;
 
 $navbar-nav-link-padding-x: 1rem !default;

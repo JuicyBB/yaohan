@@ -2768,7 +2768,7 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   padding: 0.8rem 2rem;
   font-size: 1rem;
   font-weight: 400;
@@ -2883,7 +2883,7 @@ select.form-control:focus::-ms-value {
 
 /* line 137, src/sass/bootstrap/_forms.scss */
 .form-control-sm {
-  height: calc( 1.5em + 0.5rem + 2px);
+  height: calc( 1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -2892,7 +2892,7 @@ select.form-control:focus::-ms-value {
 
 /* line 145, src/sass/bootstrap/_forms.scss */
 .form-control-lg {
-  height: calc( 1.5em + 1rem + 2px);
+  height: calc( 1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -3010,7 +3010,7 @@ textarea.form-control {
   padding-right: calc(1.5em + 1.6rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: 98% calc( 0.375em + 0.4rem);
+  background-position: 98% calc( 0.375em + 0.4rem);
   background-size: calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
@@ -3030,13 +3030,13 @@ textarea.form-control {
 /* line 79, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated textarea.form-control:valid, textarea.form-control.valid {
   padding-right: calc(1.5em + 1.6rem);
-  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
+  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
 }
 
 /* line 89, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-select:valid, .custom-select.valid {
   border-color: #28a745;
-  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
+  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 2rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 3rem/calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
@@ -3154,7 +3154,7 @@ textarea.form-control {
   padding-right: calc(1.5em + 1.6rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
   background-repeat: no-repeat;
-  background-position: 98% calc( 0.375em + 0.4rem);
+  background-position: 98% calc( 0.375em + 0.4rem);
   background-size: calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
@@ -3174,13 +3174,13 @@ textarea.form-control {
 /* line 79, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated textarea.form-control:invalid, textarea.form-control.invalid {
   padding-right: calc(1.5em + 1.6rem);
-  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
+  background-position: top calc( 0.375em + 0.4rem) right calc( 0.375em + 0.4rem);
 }
 
 /* line 89, src/sass/bootstrap/mixins/_forms.scss */
 .was-validated .custom-select:invalid, .custom-select.invalid {
   border-color: #dc3545;
-  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
+  padding-right: calc( (1em + 1.6rem) * 3 / 4 + 3rem);
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 2rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") #fff no-repeat center right 3rem/calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);
 }
 
@@ -4740,7 +4740,7 @@ input[type="button"].btn-block {
 /* line 130, src/sass/bootstrap/_input-group.scss */
 .input-group-lg > .form-control:not(textarea),
 .input-group-lg > .custom-select {
-  height: calc( 1.5em + 1rem + 2px);
+  height: calc( 1.5em + 1rem + 2px);
 }
 
 /* line 135, src/sass/bootstrap/_input-group.scss */
@@ -4759,7 +4759,7 @@ input[type="button"].btn-block {
 /* line 147, src/sass/bootstrap/_input-group.scss */
 .input-group-sm > .form-control:not(textarea),
 .input-group-sm > .custom-select {
-  height: calc( 1.5em + 0.5rem + 2px);
+  height: calc( 1.5em + 0.5rem + 2px);
 }
 
 /* line 152, src/sass/bootstrap/_input-group.scss */
@@ -4955,8 +4955,8 @@ input[type="button"].btn-block {
 .custom-switch .custom-control-label::after {
   top: calc(0.25rem + 2px);
   left: calc(-2.25rem + 2px);
-  width: calc( 1rem - 4px);
-  height: calc( 1rem - 4px);
+  width: calc( 1rem - 4px);
+  height: calc( 1rem - 4px);
   background-color: #adb5bd;
   border-radius: 0.5rem;
   transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4985,7 +4985,7 @@ input[type="button"].btn-block {
 .custom-select {
   display: inline-block;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   padding: 0.8rem 3rem 0.8rem 2rem;
   font-size: 1rem;
   font-weight: 400;
@@ -5034,7 +5034,7 @@ input[type="button"].btn-block {
 
 /* line 268, src/sass/bootstrap/_custom-forms.scss */
 .custom-select-sm {
-  height: calc( 1.5em + 0.5rem + 2px);
+  height: calc( 1.5em + 0.5rem + 2px);
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
@@ -5043,7 +5043,7 @@ input[type="button"].btn-block {
 
 /* line 276, src/sass/bootstrap/_custom-forms.scss */
 .custom-select-lg {
-  height: calc( 1.5em + 1rem + 2px);
+  height: calc( 1.5em + 1rem + 2px);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -5055,7 +5055,7 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   margin-bottom: 0;
 }
 
@@ -5064,7 +5064,7 @@ input[type="button"].btn-block {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   margin: 0;
   opacity: 0;
 }
@@ -5097,7 +5097,7 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc( 1.5em + 1.6rem + 2px);
+  height: calc( 1.5em + 1.6rem + 2px);
   padding: 0.8rem 2rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5337,7 +5337,7 @@ input[type="button"].btn-block {
 /* line 14, src/sass/bootstrap/_nav.scss */
 .nav-link {
   display: block;
-  padding: 1rem 1rem;
+  padding: 0 1rem;
   text-transform: uppercase;
 }
 
@@ -5446,7 +5446,7 @@ input[type="button"].btn-block {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 0.5rem 0;
+  padding: 0 0;
 }
 
 /* line 28, src/sass/bootstrap/_navbar.scss */
@@ -5465,8 +5465,8 @@ input[type="button"].btn-block {
 /* line 42, src/sass/bootstrap/_navbar.scss */
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.8125rem;
-  padding-bottom: 0.8125rem;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem;
   margin-right: 0;
   font-size: 1.25rem;
   line-height: inherit;
@@ -5504,8 +5504,8 @@ input[type="button"].btn-block {
 /* line 84, src/sass/bootstrap/_navbar.scss */
 .navbar-text {
   display: inline-block;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* line 99, src/sass/bootstrap/_navbar.scss */
@@ -14097,31 +14097,43 @@ button:focus {
 
 /* line 22, src/sass/app/base.scss */
 .section {
-  padding: 6rem 0;
-  background-color: #fff;
+  padding: 2.5rem 0;
 }
 
 @media (max-width: 768.98px) {
   /* line 22, src/sass/app/base.scss */
   .section {
+    padding: 2rem 0;
+  }
+}
+
+/* line 30, src/sass/app/base.scss */
+.page-section {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+@media (max-width: 768.98px) {
+  /* line 30, src/sass/app/base.scss */
+  .page-section {
     padding: 3rem 0;
   }
 }
 
-/* line 31, src/sass/app/base.scss */
+/* line 39, src/sass/app/base.scss */
 .page-header {
-  padding: 9.5rem 0 3rem;
+  padding: 10rem 0 3rem;
   background-color: #e0eae6;
 }
 
 @media (max-width: 768.98px) {
-  /* line 31, src/sass/app/base.scss */
+  /* line 39, src/sass/app/base.scss */
   .page-header {
-    padding: 7rem 0 2rem;
+    padding: 8.5rem 0 2rem;
   }
 }
 
-/* line 38, src/sass/app/base.scss */
+/* line 46, src/sass/app/base.scss */
 .page-header .container {
   display: -ms-flexbox;
   display: flex;
@@ -14130,20 +14142,20 @@ button:focus {
 }
 
 @media (min-width: 769px) {
-  /* line 38, src/sass/app/base.scss */
+  /* line 46, src/sass/app/base.scss */
   .page-header .container {
     -ms-flex-pack: center;
         justify-content: center;
   }
 }
 
-/* line 47, src/sass/app/base.scss */
+/* line 55, src/sass/app/base.scss */
 .page-header .header-icon {
   display: none;
 }
 
 @media (min-width: 769px) {
-  /* line 47, src/sass/app/base.scss */
+  /* line 55, src/sass/app/base.scss */
   .page-header .header-icon {
     display: block;
     height: 7em;
@@ -14152,18 +14164,18 @@ button:focus {
   }
 }
 
-/* line 56, src/sass/app/base.scss */
+/* line 64, src/sass/app/base.scss */
 .page-header .header-icon use {
   fill: #8ba99c;
 }
 
-/* line 62, src/sass/app/base.scss */
+/* line 70, src/sass/app/base.scss */
 .info-list {
   line-height: 2;
   margin: 0;
 }
 
-/* line 65, src/sass/app/base.scss */
+/* line 73, src/sass/app/base.scss */
 .info-list li {
   display: -ms-flexbox;
   display: flex;
@@ -14171,18 +14183,18 @@ button:focus {
       align-items: center;
 }
 
-/* line 69, src/sass/app/base.scss */
+/* line 77, src/sass/app/base.scss */
 .info-list.mall-hours li {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
 
-/* line 75, src/sass/app/base.scss */
+/* line 83, src/sass/app/base.scss */
 .nav-pills .nav-item:not(:last-child) {
   margin-right: 1em;
 }
 
-/* line 78, src/sass/app/base.scss */
+/* line 86, src/sass/app/base.scss */
 .nav-pills .nav-link {
   border-radius: 0.25rem;
   border: 0.15em solid #6c757d;
@@ -14190,25 +14202,25 @@ button:focus {
   color: #6c757d;
 }
 
-/* line 86, src/sass/app/base.scss */
+/* line 94, src/sass/app/base.scss */
 footer {
   background-color: #317759;
   color: #e0eae6;
 }
 
-/* line 89, src/sass/app/base.scss */
+/* line 97, src/sass/app/base.scss */
 footer .footer-main {
   padding: 3rem 0;
 }
 
 @media (max-width: 768.98px) {
-  /* line 89, src/sass/app/base.scss */
+  /* line 97, src/sass/app/base.scss */
   footer .footer-main {
     padding: 3rem 0;
   }
 }
 
-/* line 95, src/sass/app/base.scss */
+/* line 103, src/sass/app/base.scss */
 footer .footer-block {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 1.5rem 2rem;
@@ -14216,48 +14228,60 @@ footer .footer-block {
   transition: background-color 300ms ease;
 }
 
-/* line 100, src/sass/app/base.scss */
+/* line 108, src/sass/app/base.scss */
 footer .footer-block:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 104, src/sass/app/base.scss */
+/* line 112, src/sass/app/base.scss */
 footer .footer-sub {
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 110, src/sass/app/base.scss */
+/* line 118, src/sass/app/base.scss */
 .hide {
   display: none !important;
 }
 
 /* line 1, src/sass/app/nav.scss */
+nav a {
+  transition: none;
+}
+
+/* line 5, src/sass/app/nav.scss */
 .navbar-main {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* line 8, src/sass/app/nav.scss */
+.navbar-main .navbar-nav li {
+  height: 5rem;
+  line-height: 5rem;
+}
+
 @media (max-width: 768.98px) {
-  /* line 5, src/sass/app/nav.scss */
+  /* line 14, src/sass/app/nav.scss */
   .navbar-main .navbar-toggler {
     padding-top: 0;
     padding-bottom: 0;
+    height: 3.75rem;
   }
-  /* line 9, src/sass/app/nav.scss */
+  /* line 19, src/sass/app/nav.scss */
   .navbar-main .navbar-nav {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.75em;
   }
 }
 
-/* line 15, src/sass/app/nav.scss */
+/* line 25, src/sass/app/nav.scss */
 .navbar-main .dropdown-menu {
   top: calc(100% + 0.3em);
   border-radius: 0;
 }
 
 @media (max-width: 768.98px) {
-  /* line 15, src/sass/app/nav.scss */
+  /* line 25, src/sass/app/nav.scss */
   .navbar-main .dropdown-menu {
     box-shadow: none;
     text-align: center;
@@ -14266,26 +14290,32 @@ footer .footer-sub {
   }
 }
 
-/* line 28, src/sass/app/nav.scss */
+/* line 38, src/sass/app/nav.scss */
 .logo-wrapper {
   position: absolute;
   top: -2rem;
   left: 1rem;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
-  width: 13.5rem;
-  height: 7.5rem;
   background-color: #fff;
 }
 
-@media (max-width: 768.98px) {
-  /* line 28, src/sass/app/nav.scss */
+@media (min-width: 576px) {
+  /* line 38, src/sass/app/nav.scss */
   .logo-wrapper {
-    width: 8.5rem;
-    height: 5rem;
+    width: 14rem;
+    height: 8rem;
   }
 }
 
-/* line 40, src/sass/app/nav.scss */
+@media (max-width: 575.98px) {
+  /* line 38, src/sass/app/nav.scss */
+  .logo-wrapper {
+    width: 11rem;
+    height: 6.5rem;
+  }
+}
+
+/* line 55, src/sass/app/nav.scss */
 .logo-wrapper .logo-link {
   display: -ms-flexbox;
   display: flex;
@@ -14298,19 +14328,19 @@ footer .footer-sub {
       justify-content: center;
 }
 
-/* line 47, src/sass/app/nav.scss */
+/* line 63, src/sass/app/nav.scss */
 .logo-wrapper .logo {
-  height: 4em;
+  height: 4rem;
 }
 
-@media (max-width: 768.98px) {
-  /* line 47, src/sass/app/nav.scss */
+@media (max-width: 575.98px) {
+  /* line 63, src/sass/app/nav.scss */
   .logo-wrapper .logo {
-    height: 2.75rem;
+    height: 3.25rem;
   }
 }
 
-/* line 55, src/sass/app/nav.scss */
+/* line 71, src/sass/app/nav.scss */
 .lang-select {
   display: -ms-flexbox;
   display: flex;
@@ -14319,41 +14349,43 @@ footer .footer-sub {
   margin: 0;
 }
 
-/* line 60, src/sass/app/nav.scss */
+/* line 76, src/sass/app/nav.scss */
 .lang-select li.active {
   background-color: #317759;
 }
 
-/* line 63, src/sass/app/nav.scss */
+/* line 79, src/sass/app/nav.scss */
 .lang-select li a {
   display: block;
   padding: 0 1em;
   color: #fff;
+  height: 2rem;
+  line-height: 2rem;
 }
 
 @media (max-width: 768.98px) {
-  /* line 55, src/sass/app/nav.scss */
+  /* line 71, src/sass/app/nav.scss */
   .lang-select {
     margin: 0 -1rem;
   }
 }
 
 @media (max-width: 768.98px) {
-  /* line 75, src/sass/app/nav.scss */
+  /* line 93, src/sass/app/nav.scss */
   body.nav-show {
     overflow: hidden;
   }
-  /* line 77, src/sass/app/nav.scss */
+  /* line 95, src/sass/app/nav.scss */
   body.nav-show .nav-overlay {
     display: block;
     opacity: 1;
   }
-  /* line 84, src/sass/app/nav.scss */
+  /* line 102, src/sass/app/nav.scss */
   body.nav-collapsing .nav-overlay {
     display: block;
     transition: opacity 350ms ease;
   }
-  /* line 90, src/sass/app/nav.scss */
+  /* line 108, src/sass/app/nav.scss */
   .nav-overlay {
     display: none;
     position: fixed;
@@ -14405,16 +14437,15 @@ footer .footer-sub {
   .hero-content {
     background-color: #47b184;
     height: 6.25rem;
-    text-align: right;
   }
 }
 
-/* line 33, src/sass/app/home.scss */
+/* line 32, src/sass/app/home.scss */
 .hero-content .container {
   height: 100%;
 }
 
-/* line 37, src/sass/app/home.scss */
+/* line 36, src/sass/app/home.scss */
 .hero-content .to-directory {
   line-height: 6.25rem;
   font-size: 1.5em;
@@ -14422,19 +14453,19 @@ footer .footer-sub {
   margin-right: 1rem;
 }
 
-/* line 42, src/sass/app/home.scss */
+/* line 41, src/sass/app/home.scss */
 .hero-content .to-directory:hover {
   color: #293a33;
 }
 
 @media (max-width: 768.98px) {
-  /* line 37, src/sass/app/home.scss */
+  /* line 36, src/sass/app/home.scss */
   .hero-content .to-directory {
     display: none;
   }
 }
 
-/* line 52, src/sass/app/home.scss */
+/* line 51, src/sass/app/home.scss */
 .mall-hours-wrapper {
   background-color: #293a33;
   color: #fff;
@@ -14443,39 +14474,45 @@ footer .footer-sub {
 }
 
 @media (min-width: 769px) {
-  /* line 52, src/sass/app/home.scss */
+  /* line 51, src/sass/app/home.scss */
   .mall-hours-wrapper {
     padding: 3.5rem 6rem;
     position: absolute;
-    left: 1rem;
+    right: 1rem;
     bottom: 0;
     transition: background-color 300ms ease;
   }
-  /* line 64, src/sass/app/home.scss */
+  /* line 63, src/sass/app/home.scss */
   .mall-hours-wrapper:hover {
     background-color: #23312b;
   }
 }
 
-/* line 69, src/sass/app/home.scss */
+/* line 68, src/sass/app/home.scss */
 .mall-hours-wrapper h2 {
   font-size: 1.25em;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-/* line 3, src/sass/app/directory.scss */
+/* line 1, src/sass/app/directory.scss */
 .category-list {
   margin: 2em -0.5em 0;
 }
 
-/* line 6, src/sass/app/directory.scss */
-.category-list .toggle-wrapper {
+/* line 5, src/sass/app/directory.scss */
+.toggle-wrapper {
   padding: 0 0.5em;
+  opacity: 0.65;
 }
 
-/* line 11, src/sass/app/directory.scss */
-.category-toggle {
+/* line 9, src/sass/app/directory.scss */
+.toggle-wrapper.active {
+  opacity: 1;
+}
+
+/* line 13, src/sass/app/directory.scss */
+.toggle-wrapper .category-toggle {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -14486,48 +14523,206 @@ footer .footer-sub {
   font-size: 14px;
   padding: 1.5em 1em;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+  margin-bottom: 1em;
 }
 
-/* line 20, src/sass/app/directory.scss */
-.category-toggle svg {
+@media (max-width: 1279.98px) {
+  /* line 13, src/sass/app/directory.scss */
+  .toggle-wrapper .category-toggle {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    padding: 1.25em;
+  }
+}
+
+/* line 30, src/sass/app/directory.scss */
+.toggle-wrapper .category-toggle svg {
   width: 3em;
   height: 3em;
   margin-bottom: 1em;
 }
 
-/* line 25, src/sass/app/directory.scss */
-.category-toggle use {
+@media (max-width: 1279.98px) {
+  /* line 30, src/sass/app/directory.scss */
+  .toggle-wrapper .category-toggle svg {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0 4em 0 1em;
+  }
+}
+
+/* line 41, src/sass/app/directory.scss */
+.toggle-wrapper .category-toggle use {
   fill: #fff;
 }
 
-/* line 30, src/sass/app/directory.scss */
-#toggle_food .category-toggle {
+/* line 46, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_food .category-toggle {
   background-color: #fd7e14;
 }
 
-/* line 34, src/sass/app/directory.scss */
-#toggle_health .category-toggle {
+/* line 48, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_food .category-toggle:hover {
+  background-color: #d76302;
+}
+
+/* line 53, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_health .category-toggle {
   background-color: #d63d54;
 }
 
-/* line 38, src/sass/app/directory.scss */
-#toggle_clothing .category-toggle {
+/* line 55, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_health .category-toggle:hover {
+  background-color: #b5263c;
+}
+
+/* line 60, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_clothing .category-toggle {
   background-color: #6f42c1;
 }
 
-/* line 42, src/sass/app/directory.scss */
-#toggle_arts .category-toggle {
+/* line 62, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_clothing .category-toggle:hover {
+  background-color: #563299;
+}
+
+/* line 67, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_arts .category-toggle {
   background-color: #007bff;
 }
 
-/* line 46, src/sass/app/directory.scss */
-#toggle_gift .category-toggle {
+/* line 69, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_arts .category-toggle:hover {
+  background-color: #0060c7;
+}
+
+/* line 74, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_gift .category-toggle {
   background-color: #07887c;
 }
 
-/* line 50, src/sass/app/directory.scss */
-#toggle_specialty .category-toggle {
+/* line 76, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_gift .category-toggle:hover {
+  background-color: #04534b;
+}
+
+/* line 81, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_specialty .category-toggle {
   background-color: #28a745;
+}
+
+/* line 83, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_specialty .category-toggle:hover {
+  background-color: #1d7a32;
+}
+
+/* line 89, src/sass/app/directory.scss */
+.store-list {
+  margin: 1em 0;
+}
+
+/* line 93, src/sass/app/directory.scss */
+.store-card {
+  overflow: hidden;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  position: relative;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 576px) {
+  /* line 93, src/sass/app/directory.scss */
+  .store-card {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  /* line 107, src/sass/app/directory.scss */
+  .store-card .mobile-border {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* line 93, src/sass/app/directory.scss */
+  .store-card {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+  /* line 114, src/sass/app/directory.scss */
+  .store-card .mobile-border {
+    border-left: 0.4rem solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 124, src/sass/app/directory.scss */
+  .store-image-wrap {
+    height: 10em;
+    margin: -1em -1em 1em -1em;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border-bottom: 0.25rem solid;
+  }
+  /* line 135, src/sass/app/directory.scss */
+  .store-image-wrap .store-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* line 124, src/sass/app/directory.scss */
+  .store-image-wrap {
+    overflow: hidden;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-right: 1em;
+  }
+  /* line 150, src/sass/app/directory.scss */
+  .store-image-wrap .store-image {
+    height: 100%;
+  }
+}
+
+/* line 160, src/sass/app/directory.scss */
+.store-title {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* line 165, src/sass/app/directory.scss */
+.store-subtitle {
+  font-size: 0.7em;
+  color: #6c757d;
+}
+
+/* line 170, src/sass/app/directory.scss */
+.store-meta {
+  font-size: 0.85em;
+  margin: 0.5em 0 0;
+  word-break: break-word;
 }
 
 /* line 1, src/sass/app/blog.scss */

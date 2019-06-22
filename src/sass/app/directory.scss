@@ -1,52 +1,174 @@
-
-
 .category-list {
   margin: 2em -0.5em 0;
-
-  .toggle-wrapper {
-    padding: 0 0.5em;
-  }
 }
 
-.category-toggle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  font-size: 14px;
-  padding: 1.5em 1em;
-  border-radius: 4px;
+.toggle-wrapper {
+  padding: 0 0.5em;
+  opacity: 0.65;
 
-  svg {
-    width: 3em;
-    height: 3em;
+  &.active {
+    opacity: 1;
+  }
+
+  .category-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 1.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 300ms ease;
     margin-bottom: 1em;
+
+    @include media-breakpoint-down(lg) {
+      flex-direction: row;
+      padding: 1.25em;
+    }
+  
+    svg {
+      width: 3em;
+      height: 3em;
+      margin-bottom: 1em;
+
+      @include media-breakpoint-down(lg) {
+        width: 2.5em;
+        height: 2.5em;
+        margin: 0 4em 0 1em;
+      }
+    }
+    use {
+      fill: #fff;
+    }
   }
-  use {
-    fill: #fff;
+
+  &#toggle_food .category-toggle {
+    background-color: $orange;
+    &:hover {
+      background-color: darken($orange, 11%);
+    }
+  }
+
+  &#toggle_health .category-toggle {
+    background-color: $pink;
+    &:hover {
+      background-color: darken($pink, 11%);
+    }
+  }
+
+  &#toggle_clothing .category-toggle {
+    background-color: $purple;
+    &:hover {
+      background-color: darken($purple, 11%);
+    }
+  }
+
+  &#toggle_arts .category-toggle {
+    background-color: $blue;
+    &:hover {
+      background-color: darken($blue, 11%);
+    }
+  }
+
+  &#toggle_gift .category-toggle {
+    background-color: $teal;
+    &:hover {
+      background-color: darken($teal, 11%);
+    }
+  }
+
+  &#toggle_specialty .category-toggle {
+    background-color: $green;
+    &:hover {
+      background-color: darken($green, 11%);
+    }
   }
 }
 
-#toggle_food .category-toggle {
-  background-color: $orange;
+.store-list {
+  margin: 1em 0;
 }
 
-#toggle_health .category-toggle {
-  background-color: $pink;
+.store-card {
+  overflow: hidden;
+  display: flex;
+  padding: 1em;
+  position: relative;
+  flex-direction: row;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-bottom: 1em;
+
+  @include media-breakpoint-up(sm) {
+    flex-direction: column;
+    .mobile-border {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+    flex-direction: row;
+    .mobile-border {
+      border-left: 0.4rem solid;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
 }
 
-#toggle_clothing .category-toggle {
-  background-color: $purple;
+.store-image-wrap {
+
+  @include media-breakpoint-up(sm) {
+    height: 10em;
+    margin: -1em -1em 1em -1em;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.25rem solid;
+
+    .store-image {
+      width: 100%;
+
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+    overflow: hidden;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+
+    .store-image {
+      height: 100%;
+    }
+  }
 }
 
-#toggle_arts .category-toggle {
-  background-color: $blue;
+.store-info {
+
 }
 
-#toggle_gift .category-toggle {
-  background-color: $teal;
+.store-title {
+  font-size: 1em;
+  font-weight: $font-weight-bold;
 }
 
-#toggle_specialty .category-toggle {
-  background-color: $green;
+.store-subtitle {
+  font-size: 0.7em;
+  color: $gray-600;
+}
+
+.store-meta {
+  font-size: 0.85em;
+  margin: 0.5em 0 0;
+  word-break: break-word;
 }

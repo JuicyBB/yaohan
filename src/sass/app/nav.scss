@@ -1,14 +1,24 @@
+nav a {
+  transition: none;
+}
+
 .navbar-main {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+
+  .navbar-nav li {
+    height: $nav-link-height;
+    line-height: $nav-link-height;
+  }
 
   @include media-breakpoint-down(sm) {
     .navbar-toggler {
       padding-top: 0;
       padding-bottom: 0;
+      height: $nav-link-height-mobile;
     }
     .navbar-nav {
       text-align: center;
-      margin-top: 1rem;
+      margin-top: 0.75em;
     }
   }
 
@@ -27,16 +37,21 @@
 
 .logo-wrapper {
   position: absolute;
-  top: -2rem;
+  top: -$subnav-height;
   left: 1rem;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
-  width: 13.5rem;
-  height: 7.5rem;
   background-color: #fff;
-  @include media-breakpoint-down(sm) {
-    width: 8.5rem;
-    height: 5rem;
+
+  @include media-breakpoint-up(sm) {
+    width: $logo-wrap-width;
+    height: $logo-wrap-height;
   }
+
+  @include media-breakpoint-down(xs) {
+    width: $logo-wrap-width-mobile;
+    height: $logo-wrap-height-mobile;
+  }
+
   .logo-link {
     display: flex;
     height: 100%;
@@ -44,10 +59,11 @@
     align-content: center;
     justify-content: center;
   }
+
   .logo {
-    height: 4em;
-    @include media-breakpoint-down(sm) {
-      height: 2.75rem;
+    height: $logo-height;
+    @include media-breakpoint-down(xs) {
+      height: $logo-height-mobile;
     }
   }
 }
@@ -64,6 +80,8 @@
       display: block;
       padding: 0 1em;
       color: #fff;
+      height: $subnav-height;
+      line-height: $subnav-height;
     }
   }
   @include media-breakpoint-down(sm) {

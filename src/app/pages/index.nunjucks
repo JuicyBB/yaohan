@@ -23,7 +23,7 @@
             Address & Map
           </a>
           <span class="d-block d-sm-inline-block mx-1 my-2"></span>
-          <a class="btn btn-highlight d-block d-sm-inline-block" href="contact.html" role="button">
+          <a class="btn btn-highlight d-block d-sm-inline-block" href="directory.html" role="button">
             <i class="fas fa-sitemap mr-1"></i>
             {{ tr['Mall Directory'] }}
           </a>
@@ -37,7 +37,7 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="page-section">
     <div class="container">
       <header class="text-center">
         <h1 class="font-weight-bold">Visit Yaohan Centre</h1>
@@ -62,7 +62,7 @@
     </div>
   </section>
 
-  <section class="section bg-light">
+  <section class="page-section bg-light">
     <div class="container">
       <header class="text-center">
         <h2 class="font-weight-bold">Latest News &amp; Events</h1>

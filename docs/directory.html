@@ -103,7 +103,7 @@
     <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
       <li class="nav-item">
         <a
-          class="nav-link"
+          class="nav-link active show"
           id="map_view_toggle"
           data-toggle="pill"
           href="#map_view_tab"
@@ -115,7 +115,7 @@
       </li>
       <li class="nav-item">
         <a
-          class="nav-link active"
+          class="nav-link"
           id="list_view_toggle"
           data-toggle="pill"
           href="#list_view_tab"
@@ -131,7 +131,7 @@
     <div class="tab-content" id="pills-tabContent">
       <!-- MAP VIEW TAB -->
       <div
-        class="tab-pane fade"
+        class="tab-pane fade show active"
         id="map_view_tab"
         role="tabpanel"
         aria-labelledby="map_view_toggle"
@@ -141,15 +141,17 @@
 
       <!-- LIST VIEW TAB -->
       <div
-        class="tab-pane fade show active"
+        class="tab-pane fade"
         id="list_view_tab"
         role="tabpanel"
         aria-labelledby="list_view_toggle"
       >
 
-        <!-- Category selection -->
+        <!-- Mobile Category Selection -->
+
+        <!-- Desktop Category selection -->
         <ul class="row list-unstyled category-list">
-          <li id="toggle_food" class="toggle-wrapper col-lg" data-category="food">
+          <li id="toggle_food" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="food">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#food" />
@@ -157,7 +159,7 @@
             <span>Food &amp; Grocery</span>
             </div>
           </li>
-          <li id="toggle_health" class="toggle-wrapper col-lg" data-category="health">
+          <li id="toggle_health" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="health">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#health" />
@@ -165,7 +167,7 @@
             <span>Health &amp; Beauty</span>
             </div>
           </li>
-          <li id="toggle_clothing" class="toggle-wrapper col-lg" data-category="clothing">
+          <li id="toggle_clothing" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="clothing">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#clothing" />
@@ -173,7 +175,7 @@
             <span>Clothing &amp; Accessories</span>
             </div>
           </li>
-          <li id="toggle_arts" class="toggle-wrapper col-lg" data-category="arts">
+          <li id="toggle_arts" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="arts">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#arts" />
@@ -181,7 +183,7 @@
             <span>Arts &amp; Craft</span>
             </div>
           </li>
-          <li id="toggle_gift" class="toggle-wrapper col-lg" data-category="gifts">
+          <li id="toggle_gift" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="gifts">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#gift" />
@@ -189,7 +191,7 @@
             <span>Gifts &amp; Hobby</span>
             </div>
           </li>
-          <li id="toggle_specialty" class="toggle-wrapper col-lg" data-category="specialty">
+          <li id="toggle_specialty" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="specialty">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#shop" />
@@ -199,10 +201,43 @@
           </li>
         </ul>
         <!-- End of Category selection -->
-        <div id="tab-content">
-            <table id="tab-results">
-            </table>
+        <div id="tab-content" class="store-list">
+          <!-- Populate Stores -->
+          <div id="stores" class="row">
           </div>
+          <!-- Store Template -->
+          <div class="store-template d-none col-lg-3 col-md-4 col-sm-6">
+            <div class="store-card">
+              <div class="mobile-border"></div>
+              <div class="store-image-wrap">
+                <img src="img/bg.jpg" class="store-image">
+              </div>
+              <div class="store-info">
+                <h5 class="store-title"></h5>
+                <div class="store-subtitle">
+                  <span class="store-category"></span>
+                  <span class="mx-1">/</span>
+                  <span class="store-type"></span>
+                </div>
+                <ul class="store-meta list-unstyled">
+                  <li class="store-id">
+                    Unit <span></span>
+                  </li>
+                  <li class="store-phone">
+                    <a href="#"></a>
+                  </li>
+                  <li class="store-email">
+                    <a href="#"></a>
+                  </li>
+                  <li class="store-website">
+                    <a href="#" target="_blank"></a>
+                  </li>
+                  <li class="store-description"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -296,10 +331,9 @@
 </div>
 
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
