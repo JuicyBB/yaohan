@@ -140,10 +140,11 @@ var jsTasks = lazypipe()
     { package: package }
   )
   .pipe(optimizejs)
-  .pipe(
-    gulp.dest,
-    paths.scripts.output
-  )
+  // Pipe non-minified
+  // .pipe(
+  //   gulp.dest,
+  //   paths.scripts.output
+  // )
   .pipe(
     rename,
     { suffix: ".min" + fileVersion }

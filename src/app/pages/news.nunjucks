@@ -36,5 +36,5 @@
     </div>
   </div>
 </section>
-<script src="../js/pages/news.js" defer></script>
+<script src="../js/pages/news.min.js" defer></script>
 {% endblock %}

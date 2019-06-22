@@ -89,5 +89,5 @@
       </div>
     </div>
   </section>
-  <script src="../js/pages/index.js" defer></script>
+  <script src="../js/pages/index.min.js" defer></script>
 {% endblock %}

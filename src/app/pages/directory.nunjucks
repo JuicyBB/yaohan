@@ -124,5 +124,5 @@
     </div>
   </div>
 </section>
-<script src="../js/pages/directory.js" defer></script>
+<script src="../js/pages/directory.min.js" defer></script>
 {% endblock %}
