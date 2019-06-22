@@ -69,7 +69,7 @@ var paths = {
     output: "docs/js/",
   },
   styles: {
-    input: "src/sass/app.scss",
+    input: "src/sass/*.scss",
     output: "docs/css/",
   },
   svgs: {
@@ -353,7 +353,7 @@ gulp.task("build:html", function() {
         })
       )
       // Fix paths
-      .pipe(replace(/(\.\.\/)/g, ""))
+      // .pipe(replace(/(\.\.\/)/g, ""))
       // output files in app folder
       .pipe(gulp.dest(paths.html.output))
   );

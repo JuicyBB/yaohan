@@ -46,7 +46,7 @@
       <div class="my-5"></div>
       <div class="row">
         <div class="col-md">
-          <img src="../img/bg.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
+          <img src="/img/bg.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
         </div>
         <div class="col-md">
           <p>Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping.</p>
@@ -75,7 +75,7 @@
       <div class="row justify-content-md-center blog">
         <div class="col-lg-5 col-md">
           <img 
-            src="../img/bg.jpg" 
+            src="/img/bg.jpg" 
             alt="Visit Yaohan Centre" 
             class="img-fluid mb-4">
         </div>
@@ -89,5 +89,5 @@
       </div>
     </div>
   </section>
-  <script src="../js/pages/index.min.js" defer></script>
+  <script src="/js/pages/index.min.js" defer></script>
 {% endblock %}

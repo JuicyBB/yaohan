@@ -53,7 +53,7 @@
         role="tabpanel"
         aria-labelledby="map_view_toggle"
       >
-        123...
+        <div id="map"></div>
       </div>
 
       <!-- LIST VIEW TAB -->
@@ -127,7 +127,7 @@
             <div class="store-card">
               <div class="mobile-border"></div>
               <div class="store-image-wrap">
-                <img src="../img/bg.jpg" class="store-image">
+                <img src="/img/bg.jpg" class="store-image">
               </div>
               <div class="store-info">
                 <h5 class="store-title"></h5>
@@ -159,5 +159,6 @@
     </div>
   </div>
 </section>
-<script src="../js/pages/directory.min.js" defer></script>
+<script src="/js/pages/directory.min.js" defer></script>
+<script src="/js/epikode.min.js" defer></script>
 {% endblock %}

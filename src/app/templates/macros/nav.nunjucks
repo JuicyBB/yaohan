@@ -16,7 +16,7 @@
     <div class="container position-relative">
       <div class="logo-wrapper">
         <a href="index.html" class="logo-link">
-          <img class="logo" src="../img/logo.svg" alt="Yaohan Centre" />
+          <img class="logo" src="/img/logo.svg" alt="Yaohan Centre" />
         </a>
       </div>
       <button
