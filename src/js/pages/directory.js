@@ -6,37 +6,37 @@ var DATA = {
       "id": "food",
       "title": "Food & Grocery",
       "title_cn": "食品雑貨",
-      "color": "#4cd3b8"
+      "color": "#fd7e14"
     },
     {
       "id": "health",
       "title": "Health & Beauty",
       "title_cn": "健康保険",
-      "color": "#4cd3b8"
+      "color": "#d63d54"
     },
     {
       "id": "clothing",
       "title": "Clothing & Accessories",
       "title_cn": "服装首飾",
-      "color": "#4cd3b8"
+      "color": "#6f42c1"
     },
     {
       "id": "arts",
       "title": "Arts & Craft",
       "title_cn": "手工藝品",
-      "color": "#4cd3b8"
+      "color": "#007bff"
     },
     {
       "id": "gifts",
       "title": "Gifts & Hobby",
       "title_cn": "禮物休閑",
-      "color": "#4cd3b8"
+      "color": "#07887c"
     },
     {
       "id": "specialty",
       "title": "Specialty & Service",
       "title_cn": "其它服務",
-      "color": "#4cd3b8"
+      "color": "#28a745"
     }
   ],
   "levels": [
