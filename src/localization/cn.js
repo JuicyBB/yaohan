@@ -10,7 +10,6 @@ module.exports = {
     'Yaohan Centre Homepage' : '八佰伴中心首頁',
     'Mall Directory' : '購物指南',
     'News & Events' : '促銷活動',
-    'News &amp; Events' : '促銷活動',
     'Contact Us' : '聯系我們',
     'View store directory' : '進入購物向導',
 

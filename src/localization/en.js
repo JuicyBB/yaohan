@@ -10,7 +10,6 @@ module.exports = {
     'Yaohan Centre Homepage' : 'Yaohan Centre Homepage',
     'Mall Directory' : 'Mall Directory',
     'News & Events' : 'News & Events',
-    'News &amp; Events' : 'News &amp; Events',
     'Contact Us' : 'Contact Us',
     'View store directory' : 'View store directory',
 
