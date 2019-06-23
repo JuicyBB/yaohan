@@ -1,10 +1,12 @@
+// Chinese font
 :lang(cn) body {
   font-family: "Microsoft JhengHei", 微軟正黑體, "lato", "Arial", sans-serif;
 }
 
+// Add Transitions for buttons and links
 a,
 button {
-  transition: all 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
   transition-duration: 500ms;
   &:focus {
     outline: none;
@@ -92,8 +94,8 @@ button {
 }
 
 footer {
-  background-color: $secondary;
-  color: $gray-100;
+  background-color: #333;
+  color: $gray-200;
   .footer-main {
     padding: 3rem 0;
     @include media-breakpoint-down(sm) {

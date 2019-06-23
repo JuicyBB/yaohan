@@ -12,56 +12,78 @@
   position: fixed;
   top: 0;
   z-index: -1;
+
+  .carousel, .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-item {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom center;
+  }
 }
 
-.hero-img {
-  width: 100%;
-  height: 100%;
-  background-image: url("/img/bg.jpg");
-  background-size: cover;
+@include media-breakpoint-up(md) {
+  .bg-1 {
+    background-image: url('../img/yaohan-1.jpg');
+  }
+  .bg-2 {
+    background-image: url('../img/yaohan-2.jpg');
+  }
+  .bg-3 {
+    background-image: url('../img/yaohan-5.jpg');
+  }
+  .bg-4 {
+    background-image: url('../img/yaohan-4.jpg');
+  }
+  .bg-5 {
+    background-image: url('../img/yaohan-3.jpg');
+  }
+}
+@include media-breakpoint-down(sm) {
+  .bg-1 {
+    background-image: url('../img/yaohan-2-mobile.jpg');
+  }
+  .bg-2 {
+    background-image: url('../img/yaohan-5-mobile.jpg');
+  }
+  .bg-3 {
+    background-image: url('../img/yaohan-1.jpg');
+  }
+  .bg-4 {
+    background-image: url('../img/yaohan-2-mobile.jpg');
+  }
+  .bg-5 {
+    background-image: url('../img/yaohan-4-mobile.jpg');
+  }
 }
 
 .hero-content {
   width: 100%;
-
-  @include media-breakpoint-up(md) {
-    background-color: $primary;
-    height: 6.25rem;
-  }
-
-  .container {
-    height: 100%;
-  }
-
-  .to-directory {
-    line-height: 6.25rem;
-    font-size: 1.5em;
-    color: #fff;
-    margin-right: 1rem;
-    &:hover {
-      color: $slate;
-    }
-
-    @include media-breakpoint-down(sm) {
-      display: none;
-    }
-  }
 }
 
 .mall-hours-wrapper {
-  background-color: $slate;
   color: #fff;
   text-align: left;
   padding: 1.5em 1.5em;
+  
+  @include media-breakpoint-down(sm) {
+    background-color: rgba(#000, 0.75); 
+  }
 
   @include media-breakpoint-up(md) {
+    background-color: rgba(#000, 0.85); 
     padding: 3.5rem 6rem;
     position: absolute;
-    right: 1rem;
+    left: 1rem;
     bottom: 0;
     transition: background-color 300ms ease;
     &:hover {
-      background-color: darken($slate, 3%);
+      background-color: rgba($slate, 0.95); 
     }
   }
 

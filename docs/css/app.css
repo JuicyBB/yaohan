@@ -14067,73 +14067,73 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-/* line 1, src/sass/app/base.scss */
+/* line 2, src/sass/app/base.scss */
 :lang(cn) body {
   font-family: "Microsoft JhengHei", 微軟正黑體, "lato", "Arial", sans-serif;
 }
 
-/* line 5, src/sass/app/base.scss */
+/* line 7, src/sass/app/base.scss */
 a,
 button {
-  transition: all 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
   transition-duration: 500ms;
 }
 
-/* line 9, src/sass/app/base.scss */
+/* line 11, src/sass/app/base.scss */
 a:focus,
 button:focus {
   outline: none;
 }
 
-/* line 14, src/sass/app/base.scss */
+/* line 16, src/sass/app/base.scss */
 .font-sm {
   font-size: 0.875rem;
 }
 
-/* line 18, src/sass/app/base.scss */
+/* line 20, src/sass/app/base.scss */
 .font-xs {
   font-size: 0.75rem;
 }
 
-/* line 22, src/sass/app/base.scss */
+/* line 24, src/sass/app/base.scss */
 .section {
   padding: 2.5rem 0;
 }
 
 @media (max-width: 768.98px) {
-  /* line 22, src/sass/app/base.scss */
+  /* line 24, src/sass/app/base.scss */
   .section {
     padding: 2rem 0;
   }
 }
 
-/* line 30, src/sass/app/base.scss */
+/* line 32, src/sass/app/base.scss */
 .page-section {
   padding: 5rem 0;
   background-color: #fff;
 }
 
 @media (max-width: 768.98px) {
-  /* line 30, src/sass/app/base.scss */
+  /* line 32, src/sass/app/base.scss */
   .page-section {
     padding: 3rem 0;
   }
 }
 
-/* line 39, src/sass/app/base.scss */
+/* line 41, src/sass/app/base.scss */
 .page-header {
   padding: 10rem 0 3rem;
   background-color: #e0eae6;
 }
 
 @media (max-width: 768.98px) {
-  /* line 39, src/sass/app/base.scss */
+  /* line 41, src/sass/app/base.scss */
   .page-header {
     padding: 8.5rem 0 2rem;
   }
 }
 
-/* line 46, src/sass/app/base.scss */
+/* line 48, src/sass/app/base.scss */
 .page-header .container {
   display: -ms-flexbox;
   display: flex;
@@ -14142,20 +14142,20 @@ button:focus {
 }
 
 @media (min-width: 769px) {
-  /* line 46, src/sass/app/base.scss */
+  /* line 48, src/sass/app/base.scss */
   .page-header .container {
     -ms-flex-pack: center;
         justify-content: center;
   }
 }
 
-/* line 55, src/sass/app/base.scss */
+/* line 57, src/sass/app/base.scss */
 .page-header .header-icon {
   display: none;
 }
 
 @media (min-width: 769px) {
-  /* line 55, src/sass/app/base.scss */
+  /* line 57, src/sass/app/base.scss */
   .page-header .header-icon {
     display: block;
     height: 7em;
@@ -14164,18 +14164,18 @@ button:focus {
   }
 }
 
-/* line 64, src/sass/app/base.scss */
+/* line 66, src/sass/app/base.scss */
 .page-header .header-icon use {
   fill: #8ba99c;
 }
 
-/* line 70, src/sass/app/base.scss */
+/* line 72, src/sass/app/base.scss */
 .info-list {
   line-height: 2;
   margin: 0;
 }
 
-/* line 73, src/sass/app/base.scss */
+/* line 75, src/sass/app/base.scss */
 .info-list li {
   display: -ms-flexbox;
   display: flex;
@@ -14183,18 +14183,18 @@ button:focus {
       align-items: center;
 }
 
-/* line 77, src/sass/app/base.scss */
+/* line 79, src/sass/app/base.scss */
 .info-list.mall-hours li {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
 
-/* line 83, src/sass/app/base.scss */
+/* line 85, src/sass/app/base.scss */
 .nav-pills .nav-item:not(:last-child) {
   margin-right: 1em;
 }
 
-/* line 86, src/sass/app/base.scss */
+/* line 88, src/sass/app/base.scss */
 .nav-pills .nav-link {
   border-radius: 0.25rem;
   border: 0.15em solid #6c757d;
@@ -14202,25 +14202,25 @@ button:focus {
   color: #6c757d;
 }
 
-/* line 94, src/sass/app/base.scss */
+/* line 96, src/sass/app/base.scss */
 footer {
-  background-color: #317759;
-  color: #e0eae6;
+  background-color: #333;
+  color: #e9ecef;
 }
 
-/* line 97, src/sass/app/base.scss */
+/* line 99, src/sass/app/base.scss */
 footer .footer-main {
   padding: 3rem 0;
 }
 
 @media (max-width: 768.98px) {
-  /* line 97, src/sass/app/base.scss */
+  /* line 99, src/sass/app/base.scss */
   footer .footer-main {
     padding: 3rem 0;
   }
 }
 
-/* line 103, src/sass/app/base.scss */
+/* line 105, src/sass/app/base.scss */
 footer .footer-block {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 1.5rem 2rem;
@@ -14228,18 +14228,18 @@ footer .footer-block {
   transition: background-color 300ms ease;
 }
 
-/* line 108, src/sass/app/base.scss */
+/* line 110, src/sass/app/base.scss */
 footer .footer-block:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 112, src/sass/app/base.scss */
+/* line 114, src/sass/app/base.scss */
 footer .footer-sub {
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 118, src/sass/app/base.scss */
+/* line 120, src/sass/app/base.scss */
 .hide {
   display: none !important;
 }
@@ -14419,76 +14419,103 @@ nav a {
   z-index: -1;
 }
 
-/* line 17, src/sass/app/home.scss */
-.hero-img {
+/* line 16, src/sass/app/home.scss */
+.hero-bg-wrapper .carousel, .hero-bg-wrapper .carousel-inner {
   width: 100%;
   height: 100%;
-  background-image: url("/img/bg.jpg");
-  background-size: cover;
 }
 
-/* line 24, src/sass/app/home.scss */
+/* line 21, src/sass/app/home.scss */
+.hero-bg-wrapper .carousel-item {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+@media (min-width: 769px) {
+  /* line 31, src/sass/app/home.scss */
+  .bg-1 {
+    background-image: url("../img/yaohan-1.jpg");
+  }
+  /* line 34, src/sass/app/home.scss */
+  .bg-2 {
+    background-image: url("../img/yaohan-2.jpg");
+  }
+  /* line 37, src/sass/app/home.scss */
+  .bg-3 {
+    background-image: url("../img/yaohan-5.jpg");
+  }
+  /* line 40, src/sass/app/home.scss */
+  .bg-4 {
+    background-image: url("../img/yaohan-4.jpg");
+  }
+  /* line 43, src/sass/app/home.scss */
+  .bg-5 {
+    background-image: url("../img/yaohan-3.jpg");
+  }
+}
+
+@media (max-width: 768.98px) {
+  /* line 48, src/sass/app/home.scss */
+  .bg-1 {
+    background-image: url("../img/yaohan-2-mobile.jpg");
+  }
+  /* line 51, src/sass/app/home.scss */
+  .bg-2 {
+    background-image: url("../img/yaohan-5-mobile.jpg");
+  }
+  /* line 54, src/sass/app/home.scss */
+  .bg-3 {
+    background-image: url("../img/yaohan-1.jpg");
+  }
+  /* line 57, src/sass/app/home.scss */
+  .bg-4 {
+    background-image: url("../img/yaohan-2-mobile.jpg");
+  }
+  /* line 60, src/sass/app/home.scss */
+  .bg-5 {
+    background-image: url("../img/yaohan-4-mobile.jpg");
+  }
+}
+
+/* line 65, src/sass/app/home.scss */
 .hero-content {
   width: 100%;
 }
 
-@media (min-width: 769px) {
-  /* line 24, src/sass/app/home.scss */
-  .hero-content {
-    background-color: #47b184;
-    height: 6.25rem;
-  }
-}
-
-/* line 32, src/sass/app/home.scss */
-.hero-content .container {
-  height: 100%;
-}
-
-/* line 36, src/sass/app/home.scss */
-.hero-content .to-directory {
-  line-height: 6.25rem;
-  font-size: 1.5em;
-  color: #fff;
-  margin-right: 1rem;
-}
-
-/* line 41, src/sass/app/home.scss */
-.hero-content .to-directory:hover {
-  color: #293a33;
-}
-
-@media (max-width: 768.98px) {
-  /* line 36, src/sass/app/home.scss */
-  .hero-content .to-directory {
-    display: none;
-  }
-}
-
-/* line 51, src/sass/app/home.scss */
+/* line 69, src/sass/app/home.scss */
 .mall-hours-wrapper {
-  background-color: #293a33;
   color: #fff;
   text-align: left;
   padding: 1.5em 1.5em;
 }
 
-@media (min-width: 769px) {
-  /* line 51, src/sass/app/home.scss */
+@media (max-width: 768.98px) {
+  /* line 69, src/sass/app/home.scss */
   .mall-hours-wrapper {
-    padding: 3.5rem 6rem;
-    position: absolute;
-    right: 1rem;
-    bottom: 0;
-    transition: background-color 300ms ease;
-  }
-  /* line 63, src/sass/app/home.scss */
-  .mall-hours-wrapper:hover {
-    background-color: #23312b;
+    background-color: rgba(0, 0, 0, 0.75);
   }
 }
 
-/* line 68, src/sass/app/home.scss */
+@media (min-width: 769px) {
+  /* line 69, src/sass/app/home.scss */
+  .mall-hours-wrapper {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 3.5rem 6rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    transition: background-color 300ms ease;
+  }
+  /* line 85, src/sass/app/home.scss */
+  .mall-hours-wrapper:hover {
+    background-color: rgba(41, 58, 51, 0.95);
+  }
+}
+
+/* line 90, src/sass/app/home.scss */
 .mall-hours-wrapper h2 {
   font-size: 1.25em;
   text-transform: uppercase;
@@ -14496,22 +14523,32 @@ nav a {
 }
 
 /* line 1, src/sass/app/directory.scss */
+.directory-tabs {
+  margin-bottom: 3em;
+}
+
+/* line 5, src/sass/app/directory.scss */
+#mall_map {
+  width: 100%;
+}
+
+/* line 9, src/sass/app/directory.scss */
 .category-list {
   margin: 2em -0.5em 0;
 }
 
-/* line 5, src/sass/app/directory.scss */
+/* line 13, src/sass/app/directory.scss */
 .toggle-wrapper {
   padding: 0 0.5em;
   opacity: 0.65;
 }
 
-/* line 9, src/sass/app/directory.scss */
+/* line 17, src/sass/app/directory.scss */
 .toggle-wrapper.active {
   opacity: 1;
 }
 
-/* line 13, src/sass/app/directory.scss */
+/* line 21, src/sass/app/directory.scss */
 .toggle-wrapper .category-toggle {
   display: -ms-flexbox;
   display: flex;
@@ -14529,7 +14566,7 @@ nav a {
 }
 
 @media (max-width: 1279.98px) {
-  /* line 13, src/sass/app/directory.scss */
+  /* line 21, src/sass/app/directory.scss */
   .toggle-wrapper .category-toggle {
     -ms-flex-direction: row;
         flex-direction: row;
@@ -14537,7 +14574,7 @@ nav a {
   }
 }
 
-/* line 30, src/sass/app/directory.scss */
+/* line 38, src/sass/app/directory.scss */
 .toggle-wrapper .category-toggle svg {
   width: 3em;
   height: 3em;
@@ -14545,7 +14582,7 @@ nav a {
 }
 
 @media (max-width: 1279.98px) {
-  /* line 30, src/sass/app/directory.scss */
+  /* line 38, src/sass/app/directory.scss */
   .toggle-wrapper .category-toggle svg {
     width: 2.5em;
     height: 2.5em;
@@ -14553,77 +14590,77 @@ nav a {
   }
 }
 
-/* line 41, src/sass/app/directory.scss */
+/* line 49, src/sass/app/directory.scss */
 .toggle-wrapper .category-toggle use {
   fill: #fff;
 }
 
-/* line 46, src/sass/app/directory.scss */
+/* line 54, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_food .category-toggle {
   background-color: #fd7e14;
 }
 
-/* line 48, src/sass/app/directory.scss */
+/* line 56, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_food .category-toggle:hover {
   background-color: #d76302;
 }
 
-/* line 53, src/sass/app/directory.scss */
+/* line 61, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_health .category-toggle {
   background-color: #d63d54;
 }
 
-/* line 55, src/sass/app/directory.scss */
+/* line 63, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_health .category-toggle:hover {
   background-color: #b5263c;
 }
 
-/* line 60, src/sass/app/directory.scss */
+/* line 68, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_clothing .category-toggle {
   background-color: #6f42c1;
 }
 
-/* line 62, src/sass/app/directory.scss */
+/* line 70, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_clothing .category-toggle:hover {
   background-color: #563299;
 }
 
-/* line 67, src/sass/app/directory.scss */
+/* line 75, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_arts .category-toggle {
   background-color: #007bff;
 }
 
-/* line 69, src/sass/app/directory.scss */
+/* line 77, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_arts .category-toggle:hover {
   background-color: #0060c7;
 }
 
-/* line 74, src/sass/app/directory.scss */
+/* line 82, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_gift .category-toggle {
   background-color: #07887c;
 }
 
-/* line 76, src/sass/app/directory.scss */
+/* line 84, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_gift .category-toggle:hover {
   background-color: #04534b;
 }
 
-/* line 81, src/sass/app/directory.scss */
+/* line 89, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_specialty .category-toggle {
   background-color: #28a745;
 }
 
-/* line 83, src/sass/app/directory.scss */
+/* line 91, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_specialty .category-toggle:hover {
   background-color: #1d7a32;
 }
 
-/* line 89, src/sass/app/directory.scss */
+/* line 97, src/sass/app/directory.scss */
 .store-list {
   margin: 1em 0;
 }
 
-/* line 93, src/sass/app/directory.scss */
+/* line 101, src/sass/app/directory.scss */
 .store-card {
   overflow: hidden;
   display: -ms-flexbox;
@@ -14640,24 +14677,24 @@ nav a {
 }
 
 @media (min-width: 576px) {
-  /* line 93, src/sass/app/directory.scss */
+  /* line 101, src/sass/app/directory.scss */
   .store-card {
     -ms-flex-direction: column;
         flex-direction: column;
   }
-  /* line 107, src/sass/app/directory.scss */
+  /* line 115, src/sass/app/directory.scss */
   .store-card .mobile-border {
     display: none;
   }
 }
 
 @media (max-width: 575.98px) {
-  /* line 93, src/sass/app/directory.scss */
+  /* line 101, src/sass/app/directory.scss */
   .store-card {
     -ms-flex-direction: row;
         flex-direction: row;
   }
-  /* line 114, src/sass/app/directory.scss */
+  /* line 122, src/sass/app/directory.scss */
   .store-card .mobile-border {
     border-left: 0.4rem solid;
     position: absolute;
@@ -14668,7 +14705,7 @@ nav a {
 }
 
 @media (min-width: 576px) {
-  /* line 124, src/sass/app/directory.scss */
+  /* line 132, src/sass/app/directory.scss */
   .store-image-wrap {
     height: 10em;
     margin: -1em -1em 1em -1em;
@@ -14681,14 +14718,14 @@ nav a {
         align-items: center;
     border-bottom: 0.25rem solid;
   }
-  /* line 135, src/sass/app/directory.scss */
+  /* line 143, src/sass/app/directory.scss */
   .store-image-wrap .store-image {
     width: 100%;
   }
 }
 
 @media (max-width: 575.98px) {
-  /* line 124, src/sass/app/directory.scss */
+  /* line 132, src/sass/app/directory.scss */
   .store-image-wrap {
     overflow: hidden;
     height: 4rem;
@@ -14700,25 +14737,25 @@ nav a {
         justify-content: center;
     margin-right: 1em;
   }
-  /* line 150, src/sass/app/directory.scss */
+  /* line 158, src/sass/app/directory.scss */
   .store-image-wrap .store-image {
     height: 100%;
   }
 }
 
-/* line 160, src/sass/app/directory.scss */
+/* line 168, src/sass/app/directory.scss */
 .store-title {
   font-size: 1em;
   font-weight: 700;
 }
 
-/* line 165, src/sass/app/directory.scss */
+/* line 173, src/sass/app/directory.scss */
 .store-subtitle {
   font-size: 0.7em;
   color: #6c757d;
 }
 
-/* line 170, src/sass/app/directory.scss */
+/* line 178, src/sass/app/directory.scss */
 .store-meta {
   font-size: 0.85em;
   margin: 0.5em 0 0;

@@ -1015,7 +1015,7 @@ img.mfp-img {
 
 /* line 431, src/sass/epikode/mapplic.scss */
 .mapplic-container > .mapplic-button {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
   position: absolute;
   margin: 12px;
 }
@@ -1038,7 +1038,7 @@ img.mfp-img {
 /* Zoom Buttons */
 /* line 451, src/sass/epikode/mapplic.scss */
 .mapplic-zoom-buttons {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
   margin: 12px;
   position: absolute;
   right: 0;
@@ -1110,7 +1110,7 @@ a.mapplic-zoomout-button {
 /* Levels */
 /* line 508, src/sass/epikode/mapplic.scss */
 .mapplic-levels {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
   right: 0;
@@ -1211,7 +1211,7 @@ a.mapplic-zoomout-button {
 /* line 592, src/sass/epikode/mapplic.scss */
 .mapplic-filter {
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   margin: 0;
   overflow: hidden;
@@ -1349,7 +1349,7 @@ a.mapplic-zoomout-button {
 /* Sidebar list */
 /* line 703, src/sass/epikode/mapplic.scss */
 .mapplic-list-container {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   height: auto;
   max-height: 100%;
@@ -1538,7 +1538,7 @@ a.mapplic-zoomout-button {
 /* line 869, src/sass/epikode/mapplic.scss */
 .mapplic-list-location h4 {
   color: #2f3435;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   margin: 4px 0 !important;
@@ -1693,7 +1693,7 @@ a.mapplic-zoomout-button {
 /* line 1007, src/sass/epikode/mapplic.scss */
 .mapplic-popup-link:hover {
   background-color: #666;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2) !important;
 }
 
 /* line 1012, src/sass/epikode/mapplic.scss */
