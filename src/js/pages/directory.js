@@ -1,8 +1,8 @@
 var isCN = window.location.pathname.indexOf("/cn/") > -1;
 
 var getStoreImageUrl = function(img) {
-  if (!img) img = 'noimage';
-  return '/img/stores/' + img + '.jpg';
+  if (!img) img = "noimage";
+  return "/img/stores/" + img + ".jpg";
 };
 
 var DATA = {
@@ -55,15 +55,15 @@ var DATA = {
       locations: [
         {
           id: "1000",
-					title: "Osaka Supermarket",
-					type: "Supermarket",
-					category: "food",
-					phone: "604-276-8808",
-					email: "customer.service@tntsupermarket.com",
+          title: "Osaka Supermarket",
+          type: "Supermarket",
+          category: "food",
+          phone: "604-276-8808",
+          email: "customer.service@tntsupermarket.com",
           description: "Fresh Seafood, Meats, Bakery and more!",
           image: "1000",
           thumbnail: "1000",
-					website: "https://www.tnt-supermarket.com",
+          website: "https://www.tnt-supermarket.com",
           title_cn: "大阪超級市場",
           zoom: 1,
         },
@@ -430,7 +430,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "髮軒",
-          x: "0.4300", 
+          x: "0.4300",
           y: "0.2535",
           zoom: 1,
         },
@@ -446,7 +446,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "華之寶中醫針灸診所",
-          x: "0.2988", 
+          x: "0.2988",
           y: "0.2535",
           zoom: 1,
         },
@@ -462,7 +462,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "保康西藥房",
-          x: "0.1878", 
+          x: "0.1878",
           y: "0.3858",
           zoom: 1,
         },
@@ -478,7 +478,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "八佰伴中心牙醫",
-          x: "0.1232", 
+          x: "0.1232",
           y: "0.4712",
           zoom: 1,
         },
@@ -494,7 +494,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "洪健邦醫生醫務所",
-          x: "0.1232", 
+          x: "0.1232",
           y: "0.5327",
           zoom: 1,
         },
@@ -510,7 +510,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "芝寶靈芝專門店",
-          x: "0.2730", 
+          x: "0.2730",
           y: "0.5700",
           zoom: 1,
         },
@@ -526,7 +526,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "F10 Quick Cut",
-          x: "0.2863", 
+          x: "0.2863",
           y: "0.6900",
           zoom: 1,
         },
@@ -558,7 +558,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "Pinky Fashion",
-          x: "0.4005", 
+          x: "0.4005",
           y: "0.2535",
           zoom: 1,
         },
@@ -574,7 +574,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "Yobo",
-          x: "0.3700", 
+          x: "0.3700",
           y: "0.2535",
           zoom: 1,
         },
@@ -590,7 +590,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "第一街時裝",
-          x: "0.4630", 
+          x: "0.4630",
           y: "0.4100",
           zoom: 1,
         },
@@ -606,7 +606,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "維泉",
-          x: "0.3730", 
+          x: "0.3730",
           y: "0.4100",
           zoom: 1,
         },
@@ -622,7 +622,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "Byworld",
-          x: "0.3430", 
+          x: "0.3430",
           y: "0.5700",
           zoom: 1,
         },
@@ -654,7 +654,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "藝聯",
-          x: "0.7750", 
+          x: "0.7750",
           y: "0.5400",
           zoom: 1,
         },
@@ -670,7 +670,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "2.12藝廊",
-          x: "0.7800", 
+          x: "0.7800",
           y: "0.5900",
           zoom: 1,
         },
@@ -686,7 +686,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "中國畫廊",
-          x: "0.2330", 
+          x: "0.2330",
           y: "0.5700",
           zoom: 1,
         },
@@ -702,7 +702,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "中國畫廊",
-          x: "0.2030", 
+          x: "0.2030",
           y: "0.5700",
           zoom: 1,
         },
@@ -718,7 +718,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "福井屋",
-          x: "0.8700", 
+          x: "0.8700",
           y: "0.5700",
           zoom: 1,
         },
@@ -734,7 +734,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "Game 館",
-          x: "0.8700", 
+          x: "0.8700",
           y: "0.6300",
           zoom: 1,
         },
@@ -750,7 +750,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "紅參健康食品",
-          x: "0.3300", 
+          x: "0.3300",
           y: "0.2535",
           zoom: 1,
         },
@@ -766,7 +766,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "福之島",
-          x: "0.7300", 
+          x: "0.7300",
           y: "0.3095",
           zoom: 1,
         },
@@ -782,7 +782,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "大萊",
-          x: "0.7700", 
+          x: "0.7700",
           y: "0.4212",
           zoom: 1,
         },
@@ -798,7 +798,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "金鈺堂",
-          x: "0.8700", 
+          x: "0.8700",
           y: "0.6900",
           zoom: 1,
         },
@@ -814,7 +814,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "海天旅游",
-          x: "0.8000", 
+          x: "0.8000",
           y: "0.6900",
           zoom: 1,
         },
@@ -830,7 +830,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "統信国際",
-          x: "0.7700", 
+          x: "0.7700",
           y: "0.6900",
           zoom: 1,
         },
@@ -846,7 +846,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "PG Homes",
-          x: "0.7400", 
+          x: "0.7400",
           y: "0.6900",
           zoom: 1,
         },
@@ -862,7 +862,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "金達旅遊",
-          x: "0.7000", 
+          x: "0.7000",
           y: "0.6900",
           zoom: 1,
         },
@@ -878,7 +878,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "克拉利淨水設備",
-          x: "0.7400", 
+          x: "0.7400",
           y: "0.5571",
           zoom: 1,
         },
@@ -894,7 +894,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "美樂假期",
-          x: "0.6700", 
+          x: "0.6700",
           y: "0.5671",
           zoom: 1,
         },
@@ -910,7 +910,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "統信国際",
-          x: "0.6700", 
+          x: "0.6700",
           y: "0.4871",
           zoom: 1,
         },
@@ -926,7 +926,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "華豐參茸海味店",
-          x: "0.4978", 
+          x: "0.4978",
           y: "0.2605",
           zoom: 1,
         },
@@ -942,7 +942,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "貨幣坊",
-          x: "0.4630", 
+          x: "0.4630",
           y: "0.2535",
           zoom: 1,
         },
@@ -958,7 +958,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "小螞蟻教育",
-          x: "0.2420", 
+          x: "0.2420",
           y: "0.2474",
           zoom: 1,
         },
@@ -974,7 +974,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "海岸商務中心",
-          x: "0.2118", 
+          x: "0.2118",
           y: "0.3295",
           zoom: 1,
         },
@@ -990,7 +990,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "置業地產",
-          x: "0.1232", 
+          x: "0.1232",
           y: "0.5900",
           zoom: 1,
         },
@@ -1006,7 +1006,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "雅芳婷",
-          x: "0.4978", 
+          x: "0.4978",
           y: "0.4100",
           zoom: 1,
         },
@@ -1022,7 +1022,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "新城市眼鏡",
-          x: "0.4330", 
+          x: "0.4330",
           y: "0.4100",
           zoom: 1,
         },
@@ -1038,7 +1038,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "萬視眼鏡",
-          x: "0.4030", 
+          x: "0.4030",
           y: "0.4100",
           zoom: 1,
         },
@@ -1054,7 +1054,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "振龍電器",
-          x: "0.3430", 
+          x: "0.3430",
           y: "0.4100",
           zoom: 1,
         },
@@ -1070,7 +1070,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "蕙蘭婚紗",
-          x: "0.3030", 
+          x: "0.3030",
           y: "0.4100",
           zoom: 1,
         },
@@ -1086,7 +1086,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "金宏國際",
-          x: "0.2730", 
+          x: "0.2730",
           y: "0.4100",
           zoom: 1,
         },
@@ -1102,7 +1102,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "甘泉淨水系統",
-          x: "0.2330", 
+          x: "0.2330",
           y: "0.4512",
           zoom: 1,
         },
@@ -1118,7 +1118,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "iTalkBB",
-          x: "0.4978", 
+          x: "0.4978",
           y: "0.5700",
           zoom: 1,
         },
@@ -1134,7 +1134,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "晶之谷",
-          x: "0.4678", 
+          x: "0.4678",
           y: "0.5700",
           zoom: 1,
         },
@@ -1150,7 +1150,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "星加旅遊",
-          x: "0.4330", 
+          x: "0.4330",
           y: "0.5700",
           zoom: 1,
         },
@@ -1166,7 +1166,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "九鑫換滙",
-          x: "0.4030", 
+          x: "0.4030",
           y: "0.5700",
           zoom: 1,
         },
@@ -1182,7 +1182,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "至活旅遊",
-          x: "0.3730", 
+          x: "0.3730",
           y: "0.5700",
           zoom: 1,
         },
@@ -1198,7 +1198,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "ICI Computer",
-          x: "0.3030", 
+          x: "0.3030",
           y: "0.5700",
           zoom: 1,
         },
@@ -1214,7 +1214,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "參芝林",
-          x: "0.4900", 
+          x: "0.4900",
           y: "0.6900",
           zoom: 1,
         },
@@ -1230,7 +1230,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "醉春秋",
-          x: "0.4270", 
+          x: "0.4270",
           y: "0.6900",
           zoom: 1,
         },
@@ -1246,7 +1246,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "法律公証人",
-          x: "0.3789", 
+          x: "0.3789",
           y: "0.6900",
           zoom: 1,
         },
@@ -1262,7 +1262,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "瑞信會計事務所",
-          x: "0.3280", 
+          x: "0.3280",
           y: "0.6900",
           zoom: 1,
         },
@@ -1278,7 +1278,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "瑞信啇業房產",
-          x: "0.2357", 
+          x: "0.2357",
           y: "0.6900",
           zoom: 1,
         },
@@ -1301,10 +1301,25 @@ DATA.levels.forEach(function(level) {
     delete store.image;
     delete store.thumbnail;
 
-    store.description = '<span>' + category.title + ' - ' + store.type + '</span><p>' + store.description + '</p>'; 
-    if (store.phone) store.description += '<a href="tel:' + store.phone + '">' + store.phone + '</a><br/>';
-    if (store.email) store.description += '<a href="mailto:' + store.email + '">' + store.email + '</a><br/>';
-    if (store.website) store.description += '<a target="_blank" href="' + store.website + '">Visit Site</a><br/>';
+    var descriptionLine = store.description;
+
+    store.description =
+      '<div class="store-subtitle">' +
+     ( isCN ? category.title_cn : category.title) +
+      " / " +
+      store.type +
+      "</div>";
+    if (store.phone)
+      store.description += '<div class="store-phone"><a href="tel:' + store.phone + '">' + store.phone + "</a></div>";
+    if (store.email)
+      store.description += '<div class="store-email"><a href="mailto:' + store.email + '">' + store.email + "</a></div>";
+    if (store.website)
+      store.description +=
+        '<div class="store-website"><a target="_blank" href="' + store.website + 
+        '">' + (isCN ? '查看商戶網站' : 'Visit website') + '</a></div>';
+    if (descriptionLine)
+      store.description +=
+        '<div class="store-description-line">' + descriptionLine + '</div>';
     if (isCN) store.title = store.title_cn;
   });
 });
@@ -1330,14 +1345,12 @@ $(function() {
       var category = DATA.groups.filter(function(group) {
         return group.id == store.category;
       })[0];
-      card.find(".store-image-wrap, .mobile-border")
-        .css("border-color", category.color);
-      card.find(".store-image")
+      card.find(".store-image-wrap, .mobile-border").css("border-color", category.color);
+      card
+        .find(".store-image")
         .attr("src", store.cardImage)
         .attr("alt", store.title);
       card.find(".store-title").html(store.title);
-      card.find(".store-category").html(category.title);
-      card.find(".store-type").html(store.type);
       card.find(".store-id span").html(store.id);
       card.find(".store-description").html(store.description);
       card.appendTo("#stores");
@@ -1346,14 +1359,17 @@ $(function() {
 
   $(".toggle-wrapper").click(function() {
     var category = $(this).data("category");
-    $('.toggle-wrapper').removeClass('active');
-    $(this).addClass('active');
+    $(".toggle-wrapper").removeClass("active");
+    $(this).addClass("active");
 
     // Scroll on click
     if (window.innerWidth <= 768) {
-      $('html, body').animate({
-        scrollTop: $("#tab-content").offset().top - 120
-      }, '300ms');
+      $("html, body").animate(
+        {
+          scrollTop: $("#tab-content").offset().top - 120,
+        },
+        "300ms"
+      );
     }
 
     load(
@@ -1366,15 +1382,15 @@ $(function() {
   load(DIRECTORY);
 
   // Map
-  var mapplic = $('#mall_map').mapplic({
+  var mapplic = $("#mall_map").mapplic({
     source: DATA,
-    sidebar: true, 			// Enable sidebar
+    sidebar: true, // Enable sidebar
     height: 700,
     search: true,
     minimap: false,
-    marker: 'hidden', 		// Disable markers
-    fillcolor: false, 		// Disable default fill color
-    fullscreen: true, 		// Enable fullscreen 
+    marker: "hidden", // Disable markers
+    fillcolor: false, // Disable default fill color
+    fullscreen: true, // Enable fullscreen
     thumbholder: true,
     // developer: true,
   });

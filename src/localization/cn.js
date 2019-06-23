@@ -36,12 +36,15 @@ module.exports = {
     'Send us a message' : 'Send us a message1',
 
     // Directory
+    'Floor plans and business information' : '商戶指南&地圖',
     'Food & Grocery' : '食品雑貨',
     'Health & Beauty' : '健康保険',
     'Clothing & Accessories' : '服装首飾',
     'Arts & Craft' : '手工藝品',
     'Gifts & Hobby' : '禮物休閑',
     'Specialty & Service' : '其它服務',
+    'Map View' : '商戶地圖',
+    'Category View' : '商戶分類',
 
     // News
     "Find out what's happening at Yaohan Centre" : "Find out what's happening at Yaohan Centre1",

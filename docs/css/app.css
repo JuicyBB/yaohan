@@ -14743,23 +14743,29 @@ nav a {
   }
 }
 
-/* line 168, src/sass/app/directory.scss */
+/* line 164, src/sass/app/directory.scss */
 .store-title {
   font-size: 1em;
   font-weight: 700;
 }
 
-/* line 173, src/sass/app/directory.scss */
+/* line 169, src/sass/app/directory.scss */
 .store-subtitle {
-  font-size: 0.7em;
-  color: #6c757d;
+  color: #adb5bd;
 }
 
-/* line 178, src/sass/app/directory.scss */
+/* line 173, src/sass/app/directory.scss */
 .store-meta {
   font-size: 0.85em;
   margin: 0.5em 0 0;
   word-break: break-word;
+}
+
+/* line 179, src/sass/app/directory.scss */
+.store-description > div {
+  margin-top: 0.25rem;
+  line-height: 1.6;
+  font-family: lato;
 }
 
 /* line 1, src/sass/app/blog.scss */

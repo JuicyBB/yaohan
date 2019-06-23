@@ -4,3 +4,16 @@ $(function() {
     console.log('frame load');
   });
 });
+
+/**
+ * =======================
+ * Contact Form
+ * =======================
+ */
+$(function() {
+  $.validate({
+    form: "#contactForm",
+    errorMessageClass: "invalid-feedback",
+    errorElementClass: "invalid",
+  });
+});

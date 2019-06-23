@@ -161,22 +161,23 @@
   }
 }
 
-.store-info {
-
-}
-
 .store-title {
   font-size: 1em;
   font-weight: $font-weight-bold;
 }
 
 .store-subtitle {
-  font-size: 0.7em;
-  color: $gray-600;
+  color: $gray-500;
 }
 
 .store-meta {
   font-size: 0.85em;
   margin: 0.5em 0 0;
   word-break: break-word;
+}
+
+.store-description > div {
+  margin-top: 0.25rem;
+  line-height: 1.6;
+  font-family: lato;
 }
