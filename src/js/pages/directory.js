@@ -1348,9 +1348,14 @@ $(function() {
     var category = $(this).data("category");
     $('.toggle-wrapper').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({
-      scrollTop: $("#tab-content").offset().top - 120
-    }, '300ms');
+
+    // Scroll on click
+    if (window.innerWidth <= 768) {
+      $('html, body').animate({
+        scrollTop: $("#tab-content").offset().top - 120
+      }, '300ms');
+    }
+
     load(
       DIRECTORY.filter(function(store) {
         return store.category == category;
