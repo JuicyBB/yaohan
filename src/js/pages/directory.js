@@ -1366,7 +1366,7 @@ $(function() {
   load(DIRECTORY);
 
   // Map
-  var mapplic = $('#map').mapplic({
+  var mapplic = $('#mall_map').mapplic({
     source: DATA,
     sidebar: true, 			// Enable sidebar
     height: 700,

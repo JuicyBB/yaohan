@@ -1,4 +1,6 @@
 $(function() {
+
+  // Blog
   var WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?per_page=1';
 
   var xhr = new XMLHttpRequest();
@@ -15,4 +17,10 @@ $(function() {
   };
   xhr.open("GET", WP_URL, true);
   xhr.send();
+
+  // Hero Image
+  $('#hero_crossfade').carousel({
+    interval: 4000,
+    pause: false,
+  });
 });

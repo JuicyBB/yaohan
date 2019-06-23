@@ -429,7 +429,7 @@
 }
 
 .mapplic-container > .mapplic-button {
-	box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 	position: absolute;
 	margin: 12px;
 } 
@@ -449,7 +449,7 @@
 
 /* Zoom Buttons */
 .mapplic-zoom-buttons {
-	box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 	margin: 12px;
 	position: absolute;
 	right: 0;
@@ -506,7 +506,7 @@ a.mapplic-zoomout-button {
 
 /* Levels */
 .mapplic-levels {
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -591,7 +591,7 @@ a.mapplic-zoomout-button {
 /* Search */
 .mapplic-filter {
 	background-color: #fff;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
 	box-sizing: border-box;
 	margin: 0;
 	overflow: hidden;
@@ -701,7 +701,7 @@ a.mapplic-zoomout-button {
 
 /* Sidebar list */
 .mapplic-list-container {
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
 	box-sizing: border-box;
 	height: auto;
 	max-height: 100%;
@@ -868,7 +868,7 @@ a.mapplic-zoomout-button {
 
 .mapplic-list-location h4 {
 	color: #2f3435;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	line-height: 18px;
 	margin: 4px 0 !important;
@@ -1006,7 +1006,7 @@ a.mapplic-zoomout-button {
 
 .mapplic-popup-link:hover {
 	background-color: #666;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2) !important;
 }
 
 .mapplic-tooltip-close {
