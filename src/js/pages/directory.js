@@ -1292,11 +1292,16 @@ DATA.levels.forEach(function(level) {
   level.locations.forEach(function(store) {
     // store.image = getStoreImageUrl(store.image);
     // store.thumbnail = getStoreImageUrl(store.thumbnail);
+
+    var category = DATA.groups.filter(function(group) {
+      return group.id == store.category;
+    })[0];
+
     store.cardImage = getStoreImageUrl(store.image);
     delete store.image;
     delete store.thumbnail;
 
-    if (store.description) store.description = '<p>' + store.description + '</p>'; 
+    store.description = '<span>' + category.title + ' - ' + store.type + '</span><p>' + store.description + '</p>'; 
     if (store.phone) store.description += '<a href="tel:' + store.phone + '">' + store.phone + '</a><br/>';
     if (store.email) store.description += '<a href="mailto:' + store.email + '">' + store.email + '</a><br/>';
     if (store.website) store.description += '<a target="_blank" href="' + store.website + '">Visit Site</a><br/>';
