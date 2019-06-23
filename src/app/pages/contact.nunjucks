@@ -11,23 +11,23 @@
     <div class="alert alert-success alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
-        <span class="sr-only">Close</span>
+        <span class="sr-only">{{ tr['Close'] }}</span>
       </button>
-      <div class="message-content text-center">Your message has been sent!</div>
+      <div class="message-content text-center">{{ tr['Your message has been sent!'] }}</div>
     </div>
     <!-- Error message -->
     <div class="alert alert-danger alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
-        <span class="sr-only">Close</span>
+        <span class="sr-only">{{ tr['Close'] }}</span>
       </button>
-      <div class="message-content text-center">Something went wrong, please try again.</div>
+      <div class="message-content text-center">{{ tr['Something went wrong, please try again.'] }}</div>
     </div>
     <div class="row justify-content-between">
       <div class="col-xl-4 col-lg-5 col-md">
         <header>
-          <h1 class="heading-4 font-weight-bold">Find us</h1>
-          <p class="text-muted">Visit Yaohan Centre in Richmond</p>
+          <h1 class="heading-4 font-weight-bold">{{ tr['Find us'] }}</h1>
+          <p class="text-muted">{{ tr['Visit Yaohan Centre in Richmond'] }}</p>
         </header>
         <div class="mb-5">
           {% include "partials/contact_info.nunjucks" %}
@@ -36,8 +36,8 @@
         </div>
       </div>
       <div class="col-xl-7 col-lg-7 col-md">
-        <h3 class="heading-4 font-weight-bold">Send us a message</h3>
-        <p class="text-muted">All fields are required.</p>
+        <h3 class="heading-4 font-weight-bold">{{ tr['Send us a message'] }}</h3>
+        <p class="text-muted">{{ tr['All fields are required.']}}</p>
         <form 
           id="contactForm" 
           autocomplete="on"
@@ -45,13 +45,13 @@
           method="POST"
           target="contactFrame">
             <div class="form-group">
-              <label for="name">Full Name</label>
+              <label for="name">{{ tr['Full Name'] }}</label>
               <input
                 type="text"
                 class="form-control"
                 id="name"
                 name="g3-name"
-                placeholder="Enter full name"
+                placeholder="{{ tr['Enter full name'] }}"
                 data-validation="required"
                 data-validation-error-msg="Please enter your name"
                 autocomplete="name"
@@ -59,26 +59,26 @@
               />
             </div>
             <div class="form-group">
-              <label for="email">Email Address</label>
+              <label for="email">{{ tr['Email Address'] }}</label>
               <input
                 type="email"
                 class="form-control"
                 id="email"
                 name="g3-email"
-                placeholder="Enter email"
+                placeholder="{{ tr['Enter email'] }}"
                 data-validation="email"
                 data-validation-error-msg="Please a valid email"
                 autocomplete="email"
               />
             </div>
             <div class="form-group">
-              <label for="phone">Phone Number</label>
+              <label for="phone">{{ tr['Phone Number'] }}</label>
               <input
                 type="tel"
                 class="form-control"
                 id="phone"
                 name="g3-phonenumber"
-                placeholder="Enter phone number"
+                placeholder="{{ tr['Enter phone number'] }}"
                 data-validation="number,length"
                 data-validation-ignore="-()"
                 data-validation-length="min10"
@@ -87,13 +87,13 @@
               />
             </div>
             <div class="form-group">
-              <label for="message">Message</label>
+              <label for="message">{{ tr['Message'] }}</label>
               <textarea
                 class="form-control"
                 rows="5"
                 id="message"
                 name="g3-comment"
-                placeholder="Enter your message"
+                placeholder="{{ tr['Enter your message'] }}"
                 data-validation="required"
                 data-validation-error-msg="Please include a message"
               ></textarea>
@@ -105,7 +105,7 @@
             <input type="hidden" name="contact-form-hash" value="6692159b8fdf0f378e537baa225c38d6357d08b6">
             <button type="submit" class="btn btn-primary">
               <i class="far fa-envelope mr-2"></i>
-              Send Message
+              {{ tr['Send Message'] }}
             </button>
           </form>
           <iframe width="0" height="0" border="0" name="contactFrame" id="contactFrame"></iframe>

@@ -41,13 +41,17 @@ $(function() {
   }
 
   $(".site-en").click(function() {
-    location.href = location.pathname.replace("/cn/", "/");
+    if (location.pathname.indexOf('/cn/') > -1) {
+      location.href = location.pathname.replace("/cn/", "/");
+    }
   });
 
   $(".site-cn").click(function() {
-    var p = location.pathname;
-    var index = location.pathname.lastIndexOf('/');
-    location.href = p.substring(0,index)+'/cn/'+p.substring(index+1);
+    if (location.pathname.indexOf('/cn/') == -1) {
+      var p = location.pathname;
+      var index = location.pathname.lastIndexOf('/');
+      location.href = p.substring(0,index)+'/cn/'+p.substring(index+1);
+    }
   });
 });
 
