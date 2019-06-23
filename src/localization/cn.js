@@ -27,7 +27,7 @@ module.exports = {
     '1st Floor' : '商場一樓',
     '2nd Floor' : '商場二樓',
     'Supermarket' : '超級市場',
-    'Address & Map' : '地址/地圖',
+    'Address & Map' : '位置及地圖',
 
     // Directions
     'Visit Yaohan Centre' : '歡迎來臨八佰伴中心',
