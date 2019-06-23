@@ -14511,7 +14511,7 @@ nav a {
   }
   /* line 85, src/sass/app/home.scss */
   .mall-hours-wrapper:hover {
-    background-color: rgba(41, 58, 51, 0.95);
+    background-color: rgba(0, 0, 0, 0.95);
   }
 }
 

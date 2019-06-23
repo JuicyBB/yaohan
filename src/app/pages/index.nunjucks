@@ -18,7 +18,7 @@
     </div>
     <div class="hero-content">
       <div class="container position-relative">
-        <div class="mall-hours-wrapper animate fadeInRight">
+        <div class="mall-hours-wrapper animate fadeInUp">
           <h2>
             <i class="far fa-clock mr-1"></i>
             {{ tr['Shopping Mall Hours'] }}
@@ -44,22 +44,24 @@
     <div class="container">
       <header class="text-center animate fadeInUp">
         <h1 class="font-weight-bold">{{ tr['Visit Yaohan Centre'] }}</h1>
-        <h2>{{ tr['Eat, shop and more.'] }}</h2>
+        <h2 class="heading-4">{{ tr['Eat, shop and more.'] }}</h2>
       </header>
       <div class="my-5"></div>
       <div class="row">
         <div class="col-md animate fadeInLeft">
-          <img src="/img/yaohan-1.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
+          <img src="/img/yaohan-about.jpg" alt="{{ tr['Visit Yaohan Centre'] }}" class="img-fluid mb-4">
         </div>
-        <div class="col-md animate fadeInRight">
-          <p>{{ tr['Home_Intro_1'] }}</p>
-          <p>{{ tr['Home_Intro_2'] }}</p>
-          <p>{{ tr['Home_Intro_3'] }}</p>
-          <a class="btn btn-primary" href="directory.html">
-            <i class="fas fa-sitemap mr-1"></i>
-            {{tr['Mall Directory']}}
-            <i class="fas fa-arrow-right ml-2"></i>
-          </a>
+        <div class="col-md d-flex animate fadeInRight">
+          <div class="align-self-center">
+            <p>{{ tr['Home_Intro_1'] }}</p>
+            <p>{{ tr['Home_Intro_2'] }}</p>
+            <p>{{ tr['Home_Intro_3'] }}</p>
+            <a class="btn btn-primary" href="directory.html">
+              <i class="fas fa-sitemap mr-1"></i>
+              {{tr['Mall Directory']}}
+              <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
