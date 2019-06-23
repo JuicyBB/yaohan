@@ -20,7 +20,7 @@
           </div>
           <a class="btn btn-info d-block d-sm-inline-block" href="contact.html" role="button">
             <i class="fas fa-map-marked-alt mr-1"></i>
-            Address & Map
+            {{ tr['Address & Map'] }}
           </a>
           <span class="d-block d-sm-inline-block mx-1 my-2"></span>
           <a class="btn btn-highlight d-block d-sm-inline-block" href="directory.html" role="button">
@@ -40,8 +40,8 @@
   <section class="page-section">
     <div class="container">
       <header class="text-center">
-        <h1 class="font-weight-bold">Visit Yaohan Centre</h1>
-        <h2>Eat, shop and more.</h2>
+        <h1 class="font-weight-bold">{{ tr['Visit Yaohan Centre'] }}</h1>
+        <h2>{{ tr['Eat, shop and more.'] }}</h2>
       </header>
       <div class="my-5"></div>
       <div class="row">
@@ -49,9 +49,9 @@
           <img src="/img/bg.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
         </div>
         <div class="col-md">
-          <p>Yaohan Centre is one of the earliest Asian Malls developed in Richmond, B.C. Yaohan Centre still shares the popularity of Richmond, B.C. for retail destination while maintaining its uniqueness in up class shopping.</p>
-          <p>Much more than a Mall, Yaohan Centre is a place where you can have lots of fun with friends and family. We offer a wealth of products and services including fine fashions, souvenirs, gifts, oriental arts &amp; crafts, paintings, herbal health food, toys, jewelry, cosmetics, home appliances, realty, floral, insurance, foreign exchange, travel and medical needs at your convenience.</p>
-          <p>For relaxation and enjoyment, visit the salons, music and book stores. You can also visit our famous supermarket which provides a wide range of Japanese and Chinese Products.</p>
+          <p>{{ tr['Home_Intro_1'] }}</p>
+          <p>{{ tr['Home_Intro_2'] }}</p>
+          <p>{{ tr['Home_Intro_3'] }}</p>
           <a class="btn btn-primary" href="directory.html">
             <i class="fas fa-sitemap mr-1"></i>
             {{tr['Mall Directory']}}
@@ -65,9 +65,9 @@
   <section class="page-section bg-light">
     <div class="container">
       <header class="text-center">
-        <h2 class="font-weight-bold">Latest News &amp; Events</h1>
+        <h2 class="font-weight-bold">{{ tr['Latest News & Events'] }}</h1>
         <a class="btn btn-link btn-lg" href="news.html">
-          See all news &amp; events 
+          {{ tr['See all news & events'] }} 
           <i class="fas fa-arrow-right ml-2"></i>
         </a>
       </header>
@@ -83,7 +83,7 @@
           <h4 class="title font-weight-bold"></h4>
           <div class="font-sm text-muted my-2 date"></div>
           <div class="excerpt"></div>
-          <a class="btn btn-primary" href="news.html">View Article<i class="fas fa-arrow-right ml-2"></i>
+          <a class="btn btn-primary" href="news.html">{{ tr['View Article'] }}<i class="fas fa-arrow-right ml-2"></i>
           </a>
         </div>
       </div>

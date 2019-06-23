@@ -1,5 +1,5 @@
 <ul class="list-unstyled info-list contact-info">
-  <li class="font-weight-bold">Address, map and phone</li>
+  <li class="font-weight-bold">{{ tr['Address, map and phone'] }}</li>
   <li class="d-flex align-items-center">
     <i class="fas fa-map-marker-alt mr-2"></i>
     3700 No. 3 Rd, Richmond B.C.
@@ -7,7 +7,7 @@
   <li>
     <i class="fas fa-directions mr-2"></i>
     <a href="https://goo.gl/maps/8xWHWMUSNqg8qkmK8" target="_blank">
-      Google maps direction
+      {{ tr['Google maps direction'] }}
     </a>
   </li>
   <li>
@@ -17,7 +17,7 @@
   {% if page != "contact" %}
   <li>
     <i class="far fa-envelope mr-2"></i>
-    <a href="contact.html">Send us a message</a>
+    <a href="contact.html">{{ tr['Send us a message'] }}</a>
   </li>
   {% endif %}
 </ul>

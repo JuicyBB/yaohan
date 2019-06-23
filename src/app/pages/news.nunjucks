@@ -9,7 +9,7 @@
     </svg>
     <div class="headlines">
       <h1 class="font-weight-bold">{{ tr['News & Events'] }}</h1>
-      <h2 class="heading-6 text-muted">Find out what's happening at Yaohan Centre</h2>
+      <h2 class="heading-6 text-muted">{{ tr["Find out what's happening at Yaohan Centre"] }}</h2>
     </div>
   </div>
 </header>
@@ -24,14 +24,14 @@
             <div class="card-text"></div>
             <a href="javascript:void(0);" class="more-link mt-2 d-inline-block">
               <i class="fas fa-plus mr-2"></i>
-              Read more
+              {{ tr['Read more'] }}
             </a>
             <div class="font-sm text-muted mt-4 card-date"></div>
           </div>
         </div>
       </div>
       <div class="text-center">
-        <button id="load_more" type="button" class="btn btn-primary">Load more posts</button>
+        <button id="load_more" type="button" class="btn btn-primary">{{ tr['Load more posts'] }}</button>
       </div>
     </div>
   </div>
