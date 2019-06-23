@@ -140,15 +140,6 @@
                   <li class="store-id">
                     Unit <span></span>
                   </li>
-                  <li class="store-phone">
-                    <a href="#"></a>
-                  </li>
-                  <li class="store-email">
-                    <a href="#"></a>
-                  </li>
-                  <li class="store-link">
-                    <a href="#" target="_blank"></a>
-                  </li>
                   <li class="store-description"></li>
                 </ul>
               </div>

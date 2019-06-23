@@ -798,8 +798,8 @@
 				$('<code></code>').addClass('mapplic-coordinates-y').appendTo(this.el);
 
 				$('.mapplic-layer', self.map).on('mousemove', function(e) {
-					var x = (e.pageX - self.map.offset().left) / self.map.width(),
-						y = (e.pageY - self.map.offset().top) / self.map.height();
+					var x = (e.pageX - self.map.offset().left) / self.map.width() + 0.05,
+						y = (e.pageY - self.map.offset().top) / self.map.height() + 0.05;
 					$('.mapplic-coordinates-x').text(parseFloat(x).toFixed(4));
 					$('.mapplic-coordinates-y').text(parseFloat(y).toFixed(4));
 				});
