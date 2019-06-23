@@ -21,6 +21,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <link rel="stylesheet" href="/css/app.min.css" />
     
     <link rel="stylesheet" href="/css/epikode.min.css" />
@@ -139,7 +143,7 @@
         role="tabpanel"
         aria-labelledby="map_view_toggle"
       >
-        <div id="mall_map"></div>
+        <div id="mall_map" class="animate fadeInUp"></div>
       </div>
 
       <!-- LIST VIEW TAB -->
@@ -150,11 +154,9 @@
         aria-labelledby="list_view_toggle"
       >
 
-        <!-- Mobile Category Selection -->
-
         <!-- Desktop Category selection -->
         <ul class="row list-unstyled category-list">
-          <li id="toggle_food" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="food">
+          <li id="toggle_food" class="toggle-wrapper active col-xl col-lg-4 col-sm-6 animate fadeInUp" data-category="food">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#food" />
@@ -162,7 +164,7 @@
             <span>食品雑貨</span>
             </div>
           </li>
-          <li id="toggle_health" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="health">
+          <li id="toggle_health" class="toggle-wrapper active col-xl col-lg-4 col-sm-6 animate fadeInUp" data-wow-delay="0.1s" data-category="health">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#health" />
@@ -170,7 +172,7 @@
             <span>健康保険</span>
             </div>
           </li>
-          <li id="toggle_clothing" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="clothing">
+          <li id="toggle_clothing" class="toggle-wrapper active col-xl col-lg-4 col-sm-6 animate fadeInUp" data-wow-delay="0.2s" data-category="clothing">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#clothing" />
@@ -178,7 +180,7 @@
             <span>服装首飾</span>
             </div>
           </li>
-          <li id="toggle_arts" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="arts">
+          <li id="toggle_arts" class="toggle-wrapper active col-xl col-lg-4 col-sm-6 animate fadeInUp" data-wow-delay="0.3s" data-category="arts">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#arts" />
@@ -186,7 +188,7 @@
             <span>手工藝品</span>
             </div>
           </li>
-          <li id="toggle_gift" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="gifts">
+          <li id="toggle_gift" class="toggle-wrapper active col-xl col-lg-4 col-sm-6 animate fadeInUp" data-wow-delay="0.4s" data-category="gifts">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#gift" />
@@ -194,7 +196,7 @@
             <span>禮物休閑</span>
             </div>
           </li>
-          <li id="toggle_specialty" class="toggle-wrapper active col-xl col-lg-4 col-sm-6" data-category="specialty">
+          <li id="toggle_specialty" class="toggle-wrapper active col-xl col-lg-4 col-sm-6 animate fadeInUp" data-wow-delay="0.5s" data-category="specialty">
             <div class="category-toggle">
             <svg class="icon header-icon">
               <use xlink:href="#shop" />
@@ -204,7 +206,7 @@
           </li>
         </ul>
         <!-- End of Category selection -->
-        <div id="tab-content" class="store-list">
+        <div id="tab-content" class="store-list animate fadeIn" data-wow-delay="0.6s">
           <!-- Populate Stores -->
           <div id="stores" class="row">
           </div>
@@ -240,7 +242,7 @@
   <div class="footer-main">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
               <i class="far fa-clock mr-2"></i>
@@ -264,19 +266,19 @@
 
             <div class="my-1">
               <a href="directory.html">
-                進入購物向導
+                購物指南
                 <i class="fas fa-long-arrow-alt-right ml-2"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
-              <i class="fas fa-map-marked mr-3"></i>Visit Yaohan Centre1
+              <i class="fas fa-map-marked mr-3"></i>歡迎來臨八佰伴中心
             </h3>
             <ul class="list-unstyled info-list contact-info">
-  <li class="font-weight-bold">Address, map and phone1</li>
+  <li class="font-weight-bold">地址，地圖, 電話</li>
   <li class="d-flex align-items-center">
     <i class="fas fa-map-marker-alt mr-2"></i>
     3700 No. 3 Rd, Richmond B.C.
@@ -284,7 +286,7 @@
   <li>
     <i class="fas fa-directions mr-2"></i>
     <a href="https://goo.gl/maps/8xWHWMUSNqg8qkmK8" target="_blank">
-      Google maps direction1
+      Google 地圖指導
     </a>
   </li>
   <li>
@@ -294,7 +296,7 @@
   
   <li>
     <i class="far fa-envelope mr-2"></i>
-    <a href="contact.html">Send us a message1</a>
+    <a href="contact.html">聯系我們</a>
   </li>
   
 </ul>
@@ -334,8 +336,10 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></script>
+
     <script src="/js/scripts.min.js"></script>
   </body>
 </html>

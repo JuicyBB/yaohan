@@ -19,7 +19,7 @@ module.exports = {
     'Home_Intro_2' : 'Much more than a Mall, Yaohan Centre is a place where you can have lots of fun with friends and family. We offer a wealth of products and services including fine fashions, souvenirs, gifts, oriental arts &amp; crafts, paintings, herbal health food, toys, jewelry, cosmetics, home appliances, realty, floral, insurance, foreign exchange, travel and medical needs at your convenience.',
     'Home_Intro_3' : 'For relaxation and enjoyment, visit the salons, music and book stores. You can also visit our famous supermarket which provides a wide range of Japanese and Chinese Products.',
     'Latest News & Events' : 'Latest News & Events',
-    'See all news & events ' : 'See all news & events ',
+    'See all news & events' : 'See all news & events',
     'View Article' : 'View Article',
     'Eat, shop and more.' : 'Eat, shop and more.',
 

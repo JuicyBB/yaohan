@@ -16,7 +16,7 @@
 <section class="section">
   <div class="container">
     <div id="news_blog" class="news-wrapper">
-      <div class="card-wrapper">
+      <div class="card-wrapper animate fadeInUp">
         <div class="card card-tmpl mb-4 hide">
           <img src="img/bg.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="text-center">
+      <div class="text-center animate fadeInUp">
         <button id="load_more" type="button" class="btn btn-primary">{{ tr['Load more posts'] }}</button>
       </div>
     </div>

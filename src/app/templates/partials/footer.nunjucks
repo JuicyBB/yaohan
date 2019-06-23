@@ -2,7 +2,7 @@
   <div class="footer-main">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
               <i class="far fa-clock mr-2"></i>
@@ -17,7 +17,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
               <i class="fas fa-map-marked mr-3"></i>{{ tr['Visit Yaohan Centre' ] }}

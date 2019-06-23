@@ -21,6 +21,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <link rel="stylesheet" href="/css/app.min.css" />
     
   </head>
@@ -94,27 +98,27 @@
     <div class="alert alert-success alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
-        <span class="sr-only">1Close</span>
+        <span class="sr-only">關閉</span>
       </button>
-      <div class="message-content text-center">1Your message has been sent!</div>
+      <div class="message-content text-center">您的查詢已發送！</div>
     </div>
     <!-- Error message -->
     <div class="alert alert-danger alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
-        <span class="sr-only">1Close</span>
+        <span class="sr-only">關閉</span>
       </button>
-      <div class="message-content text-center">1Something went wrong, please try again.</div>
+      <div class="message-content text-center">遞交出了點問題，請再試一次。</div>
     </div>
     <div class="row justify-content-between">
-      <div class="col-xl-4 col-lg-5 col-md">
+      <div class="col-xl-4 col-lg-5 col-md animate fadeInLeft">
         <header>
-          <h1 class="heading-4 font-weight-bold">1Find us</h1>
-          <p class="text-muted">1Visit Yaohan Centre in Richmond</p>
+          <h1 class="heading-4 font-weight-bold">來臨八佰伴中心</h1>
+          <p class="text-muted"></p>
         </header>
         <div class="mb-5">
           <ul class="list-unstyled info-list contact-info">
-  <li class="font-weight-bold">Address, map and phone1</li>
+  <li class="font-weight-bold">地址，地圖, 電話</li>
   <li class="d-flex align-items-center">
     <i class="fas fa-map-marker-alt mr-2"></i>
     3700 No. 3 Rd, Richmond B.C.
@@ -122,7 +126,7 @@
   <li>
     <i class="fas fa-directions mr-2"></i>
     <a href="https://goo.gl/maps/8xWHWMUSNqg8qkmK8" target="_blank">
-      Google maps direction1
+      Google 地圖指導
     </a>
   </li>
   <li>
@@ -151,9 +155,9 @@
 
         </div>
       </div>
-      <div class="col-xl-7 col-lg-7 col-md">
-        <h3 class="heading-4 font-weight-bold">Send us a message1</h3>
-        <p class="text-muted">1All fields are required.</p>
+      <div class="col-xl-7 col-lg-7 col-md animate fadeInUp">
+        <h3 class="heading-4 font-weight-bold">聯系我們</h3>
+        <p class="text-muted">想與我們分享您對八佰伴中心的意見？我們樂意聆聽閣下有關我們服務、環境和網站等的寶貴意見。請於下方填寫您的查詢內容。</p>
         <form 
           id="contactForm" 
           autocomplete="on"
@@ -161,13 +165,13 @@
           method="POST"
           target="contactFrame">
             <div class="form-group">
-              <label for="name">1Full Name</label>
+              <label for="name">名字</label>
               <input
                 type="text"
                 class="form-control"
                 id="name"
                 name="g3-name"
-                placeholder="1Enter full name"
+                placeholder="請填寫閣下全名"
                 data-validation="required"
                 data-validation-error-msg="Please enter your name"
                 autocomplete="name"
@@ -175,26 +179,26 @@
               />
             </div>
             <div class="form-group">
-              <label for="email">1Email Address</label>
+              <label for="email">電郵地址</label>
               <input
                 type="email"
                 class="form-control"
                 id="email"
                 name="g3-email"
-                placeholder="1Enter email"
+                placeholder="請填寫閣下電郵地址"
                 data-validation="email"
                 data-validation-error-msg="Please a valid email"
                 autocomplete="email"
               />
             </div>
             <div class="form-group">
-              <label for="phone">1Phone Number</label>
+              <label for="phone">電話號碼</label>
               <input
                 type="tel"
                 class="form-control"
                 id="phone"
                 name="g3-phonenumber"
-                placeholder="1Enter phone number"
+                placeholder="請填寫電話號碼"
                 data-validation="number,length"
                 data-validation-ignore="-()"
                 data-validation-length="min10"
@@ -203,13 +207,13 @@
               />
             </div>
             <div class="form-group">
-              <label for="message">1Message</label>
+              <label for="message">查詢內容</label>
               <textarea
                 class="form-control"
                 rows="5"
                 id="message"
                 name="g3-comment"
-                placeholder="1Enter your message"
+                placeholder="請填寫查詢內容"
                 data-validation="required"
                 data-validation-error-msg="Please include a message"
               ></textarea>
@@ -221,7 +225,7 @@
             <input type="hidden" name="contact-form-hash" value="6692159b8fdf0f378e537baa225c38d6357d08b6">
             <button type="submit" class="btn btn-primary">
               <i class="far fa-envelope mr-2"></i>
-              1Send Message
+              遞交
             </button>
           </form>
           <iframe width="0" height="0" border="0" name="contactFrame" id="contactFrame"></iframe>
@@ -254,7 +258,7 @@
   <div class="footer-main">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
               <i class="far fa-clock mr-2"></i>
@@ -278,19 +282,19 @@
 
             <div class="my-1">
               <a href="directory.html">
-                進入購物向導
+                購物指南
                 <i class="fas fa-long-arrow-alt-right ml-2"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
-              <i class="fas fa-map-marked mr-3"></i>Visit Yaohan Centre1
+              <i class="fas fa-map-marked mr-3"></i>歡迎來臨八佰伴中心
             </h3>
             <ul class="list-unstyled info-list contact-info">
-  <li class="font-weight-bold">Address, map and phone1</li>
+  <li class="font-weight-bold">地址，地圖, 電話</li>
   <li class="d-flex align-items-center">
     <i class="fas fa-map-marker-alt mr-2"></i>
     3700 No. 3 Rd, Richmond B.C.
@@ -298,7 +302,7 @@
   <li>
     <i class="fas fa-directions mr-2"></i>
     <a href="https://goo.gl/maps/8xWHWMUSNqg8qkmK8" target="_blank">
-      Google maps direction1
+      Google 地圖指導
     </a>
   </li>
   <li>
@@ -343,10 +347,12 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></script>
+
     <script src="/js/scripts.min.js"></script>
   </body>
 </html>

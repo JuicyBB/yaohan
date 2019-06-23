@@ -21,6 +21,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <link rel="stylesheet" href="/css/app.min.css" />
     
   </head>
@@ -94,14 +98,14 @@
     </svg>
     <div class="headlines">
       <h1 class="font-weight-bold">促銷活動</h1>
-      <h2 class="heading-6 text-muted">Find out what&#39;s happening at Yaohan Centre1</h2>
+      <h2 class="heading-6 text-muted">最新消息和活動</h2>
     </div>
   </div>
 </header>
 <section class="section">
   <div class="container">
     <div id="news_blog" class="news-wrapper">
-      <div class="card-wrapper">
+      <div class="card-wrapper animate fadeInUp">
         <div class="card card-tmpl mb-4 hide">
           <img src="img/bg.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -109,14 +113,14 @@
             <div class="card-text"></div>
             <a href="javascript:void(0);" class="more-link mt-2 d-inline-block">
               <i class="fas fa-plus mr-2"></i>
-              Read more1
+              閱讀更多
             </a>
             <div class="font-sm text-muted mt-4 card-date"></div>
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <button id="load_more" type="button" class="btn btn-primary">Load more posts1</button>
+      <div class="text-center animate fadeInUp">
+        <button id="load_more" type="button" class="btn btn-primary">更多帖子</button>
       </div>
     </div>
   </div>
@@ -129,7 +133,7 @@
   <div class="footer-main">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
               <i class="far fa-clock mr-2"></i>
@@ -153,19 +157,19 @@
 
             <div class="my-1">
               <a href="directory.html">
-                進入購物向導
+                購物指南
                 <i class="fas fa-long-arrow-alt-right ml-2"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 animate fadeIn" data-wow-delay="0.2s">
           <div class="footer-block">
             <h3 class="heading-5 mb-4">
-              <i class="fas fa-map-marked mr-3"></i>Visit Yaohan Centre1
+              <i class="fas fa-map-marked mr-3"></i>歡迎來臨八佰伴中心
             </h3>
             <ul class="list-unstyled info-list contact-info">
-  <li class="font-weight-bold">Address, map and phone1</li>
+  <li class="font-weight-bold">地址，地圖, 電話</li>
   <li class="d-flex align-items-center">
     <i class="fas fa-map-marker-alt mr-2"></i>
     3700 No. 3 Rd, Richmond B.C.
@@ -173,7 +177,7 @@
   <li>
     <i class="fas fa-directions mr-2"></i>
     <a href="https://goo.gl/maps/8xWHWMUSNqg8qkmK8" target="_blank">
-      Google maps direction1
+      Google 地圖指導
     </a>
   </li>
   <li>
@@ -183,7 +187,7 @@
   
   <li>
     <i class="far fa-envelope mr-2"></i>
-    <a href="contact.html">Send us a message1</a>
+    <a href="contact.html">聯系我們</a>
   </li>
   
 </ul>
@@ -223,8 +227,10 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></script>
+
     <script src="/js/scripts.min.js"></script>
   </body>
 </html>

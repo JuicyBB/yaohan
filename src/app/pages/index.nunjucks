@@ -18,7 +18,7 @@
     </div>
     <div class="hero-content">
       <div class="container position-relative">
-        <div class="mall-hours-wrapper">
+        <div class="mall-hours-wrapper animate fadeInRight">
           <h2>
             <i class="far fa-clock mr-1"></i>
             {{ tr['Shopping Mall Hours'] }}
@@ -42,16 +42,16 @@
 
   <section class="page-section">
     <div class="container">
-      <header class="text-center">
+      <header class="text-center animate fadeInUp">
         <h1 class="font-weight-bold">{{ tr['Visit Yaohan Centre'] }}</h1>
         <h2>{{ tr['Eat, shop and more.'] }}</h2>
       </header>
       <div class="my-5"></div>
       <div class="row">
-        <div class="col-md">
+        <div class="col-md animate fadeInLeft">
           <img src="/img/yaohan-1.jpg" alt="Visit Yaohan Centre" class="img-fluid mb-4">
         </div>
-        <div class="col-md">
+        <div class="col-md animate fadeInRight">
           <p>{{ tr['Home_Intro_1'] }}</p>
           <p>{{ tr['Home_Intro_2'] }}</p>
           <p>{{ tr['Home_Intro_3'] }}</p>
@@ -67,7 +67,7 @@
 
   <section class="page-section bg-light">
     <div class="container">
-      <header class="text-center">
+      <header class="text-center animate fadeInUp">
         <h2 class="font-weight-bold">{{ tr['Latest News & Events'] }}</h1>
         <a class="btn btn-link btn-lg" href="news.html">
           {{ tr['See all news & events'] }} 
@@ -76,13 +76,13 @@
       </header>
       <div class="my-5"></div>
       <div class="row justify-content-md-center blog">
-        <div class="col-lg-5 col-md">
+        <div class="col-lg-5 col-md animate fadeInLeft">
           <img 
             src="/img/bg.jpg" 
             alt="Visit Yaohan Centre" 
             class="img-fluid mb-4">
         </div>
-        <div class="col-lg-5 col-md">
+        <div class="col-lg-5 col-md animate fadeInRight">
           <h4 class="title font-weight-bold"></h4>
           <div class="font-sm text-muted my-2 date"></div>
           <div class="excerpt"></div>

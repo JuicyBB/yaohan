@@ -14525,30 +14525,31 @@ nav a {
 /* line 1, src/sass/app/directory.scss */
 .directory-tabs {
   margin-bottom: 3em;
+  min-height: 80vh;
 }
 
-/* line 5, src/sass/app/directory.scss */
+/* line 6, src/sass/app/directory.scss */
 #mall_map {
   width: 100%;
 }
 
-/* line 9, src/sass/app/directory.scss */
+/* line 10, src/sass/app/directory.scss */
 .category-list {
   margin: 2em -0.5em 0;
 }
 
-/* line 13, src/sass/app/directory.scss */
+/* line 14, src/sass/app/directory.scss */
 .toggle-wrapper {
   padding: 0 0.5em;
   opacity: 0.65;
 }
 
-/* line 17, src/sass/app/directory.scss */
+/* line 18, src/sass/app/directory.scss */
 .toggle-wrapper.active {
   opacity: 1;
 }
 
-/* line 21, src/sass/app/directory.scss */
+/* line 22, src/sass/app/directory.scss */
 .toggle-wrapper .category-toggle {
   display: -ms-flexbox;
   display: flex;
@@ -14566,7 +14567,7 @@ nav a {
 }
 
 @media (max-width: 1279.98px) {
-  /* line 21, src/sass/app/directory.scss */
+  /* line 22, src/sass/app/directory.scss */
   .toggle-wrapper .category-toggle {
     -ms-flex-direction: row;
         flex-direction: row;
@@ -14574,7 +14575,7 @@ nav a {
   }
 }
 
-/* line 38, src/sass/app/directory.scss */
+/* line 39, src/sass/app/directory.scss */
 .toggle-wrapper .category-toggle svg {
   width: 3em;
   height: 3em;
@@ -14582,7 +14583,7 @@ nav a {
 }
 
 @media (max-width: 1279.98px) {
-  /* line 38, src/sass/app/directory.scss */
+  /* line 39, src/sass/app/directory.scss */
   .toggle-wrapper .category-toggle svg {
     width: 2.5em;
     height: 2.5em;
@@ -14590,77 +14591,77 @@ nav a {
   }
 }
 
-/* line 49, src/sass/app/directory.scss */
+/* line 50, src/sass/app/directory.scss */
 .toggle-wrapper .category-toggle use {
   fill: #fff;
 }
 
-/* line 54, src/sass/app/directory.scss */
+/* line 55, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_food .category-toggle {
   background-color: #fd7e14;
 }
 
-/* line 56, src/sass/app/directory.scss */
+/* line 57, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_food .category-toggle:hover {
   background-color: #d76302;
 }
 
-/* line 61, src/sass/app/directory.scss */
+/* line 62, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_health .category-toggle {
   background-color: #d63d54;
 }
 
-/* line 63, src/sass/app/directory.scss */
+/* line 64, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_health .category-toggle:hover {
   background-color: #b5263c;
 }
 
-/* line 68, src/sass/app/directory.scss */
+/* line 69, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_clothing .category-toggle {
   background-color: #6f42c1;
 }
 
-/* line 70, src/sass/app/directory.scss */
+/* line 71, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_clothing .category-toggle:hover {
   background-color: #563299;
 }
 
-/* line 75, src/sass/app/directory.scss */
+/* line 76, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_arts .category-toggle {
   background-color: #007bff;
 }
 
-/* line 77, src/sass/app/directory.scss */
+/* line 78, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_arts .category-toggle:hover {
   background-color: #0060c7;
 }
 
-/* line 82, src/sass/app/directory.scss */
+/* line 83, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_gift .category-toggle {
   background-color: #07887c;
 }
 
-/* line 84, src/sass/app/directory.scss */
+/* line 85, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_gift .category-toggle:hover {
   background-color: #04534b;
 }
 
-/* line 89, src/sass/app/directory.scss */
+/* line 90, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_specialty .category-toggle {
   background-color: #28a745;
 }
 
-/* line 91, src/sass/app/directory.scss */
+/* line 92, src/sass/app/directory.scss */
 .toggle-wrapper#toggle_specialty .category-toggle:hover {
   background-color: #1d7a32;
 }
 
-/* line 97, src/sass/app/directory.scss */
+/* line 98, src/sass/app/directory.scss */
 .store-list {
   margin: 1em 0;
 }
 
-/* line 101, src/sass/app/directory.scss */
+/* line 102, src/sass/app/directory.scss */
 .store-card {
   overflow: hidden;
   display: -ms-flexbox;
@@ -14677,24 +14678,24 @@ nav a {
 }
 
 @media (min-width: 576px) {
-  /* line 101, src/sass/app/directory.scss */
+  /* line 102, src/sass/app/directory.scss */
   .store-card {
     -ms-flex-direction: column;
         flex-direction: column;
   }
-  /* line 115, src/sass/app/directory.scss */
+  /* line 116, src/sass/app/directory.scss */
   .store-card .mobile-border {
     display: none;
   }
 }
 
 @media (max-width: 575.98px) {
-  /* line 101, src/sass/app/directory.scss */
+  /* line 102, src/sass/app/directory.scss */
   .store-card {
     -ms-flex-direction: row;
         flex-direction: row;
   }
-  /* line 122, src/sass/app/directory.scss */
+  /* line 123, src/sass/app/directory.scss */
   .store-card .mobile-border {
     border-left: 0.4rem solid;
     position: absolute;
@@ -14705,7 +14706,7 @@ nav a {
 }
 
 @media (min-width: 576px) {
-  /* line 132, src/sass/app/directory.scss */
+  /* line 133, src/sass/app/directory.scss */
   .store-image-wrap {
     height: 10em;
     margin: -1em -1em 1em -1em;
@@ -14718,14 +14719,14 @@ nav a {
         align-items: center;
     border-bottom: 0.25rem solid;
   }
-  /* line 143, src/sass/app/directory.scss */
+  /* line 144, src/sass/app/directory.scss */
   .store-image-wrap .store-image {
     width: 100%;
   }
 }
 
 @media (max-width: 575.98px) {
-  /* line 132, src/sass/app/directory.scss */
+  /* line 133, src/sass/app/directory.scss */
   .store-image-wrap {
     overflow: hidden;
     height: 4rem;
@@ -14737,31 +14738,31 @@ nav a {
         justify-content: center;
     margin-right: 1em;
   }
-  /* line 158, src/sass/app/directory.scss */
+  /* line 159, src/sass/app/directory.scss */
   .store-image-wrap .store-image {
     height: 100%;
   }
 }
 
-/* line 164, src/sass/app/directory.scss */
+/* line 165, src/sass/app/directory.scss */
 .store-title {
   font-size: 1em;
   font-weight: 700;
 }
 
-/* line 169, src/sass/app/directory.scss */
+/* line 170, src/sass/app/directory.scss */
 .store-subtitle {
   color: #adb5bd;
 }
 
-/* line 173, src/sass/app/directory.scss */
+/* line 174, src/sass/app/directory.scss */
 .store-meta {
   font-size: 0.85em;
   margin: 0.5em 0 0;
   word-break: break-word;
 }
 
-/* line 179, src/sass/app/directory.scss */
+/* line 180, src/sass/app/directory.scss */
 .store-description > div {
   margin-top: 0.25rem;
   line-height: 1.6;
@@ -14775,11 +14776,16 @@ nav a {
 }
 
 /* line 5, src/sass/app/blog.scss */
+.news-wrapper .card-wrapper {
+  min-height: 80vh;
+}
+
+/* line 9, src/sass/app/blog.scss */
 .news-wrapper .card-text {
   overflow: hidden;
 }
 
-/* line 7, src/sass/app/blog.scss */
+/* line 11, src/sass/app/blog.scss */
 .news-wrapper .card-text.truncated-text {
   height: 150px;
 }

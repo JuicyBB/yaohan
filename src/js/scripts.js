@@ -1,9 +1,10 @@
-/**
- * =======================
- * Navigation
- * =======================
- */
 $(function() {
+
+  /**
+   * =======================
+   * Navigation
+   * =======================
+   */
   var navIsOpen = false;
 
   $("#main_menu").on("shown.bs.collapse", function() {
@@ -33,7 +34,11 @@ $(function() {
     }
   });
 
-  // Translation
+  /**
+   * =======================
+   * Translation
+   * =======================
+   */
   if (location.href.indexOf("/cn/") > -1) {
     $(".site-cn").addClass("active");
   } else {
@@ -53,4 +58,21 @@ $(function() {
       location.href = p.substring(0,index)+'/cn/'+p.substring(index+1);
     }
   });
+
+  /**
+   * =======================
+   * Animation
+   * =======================
+   */
+  wow = new WOW(
+    {
+      boxClass: 'animate',
+      animateClass: 'animated',
+      offset: 0,
+      mobile: true,
+      live: true
+    }
+  );
+  wow.init();
 });
+
