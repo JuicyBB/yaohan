@@ -1394,4 +1394,9 @@ $(function() {
     thumbholder: true,
     // developer: true,
   });
+
+  // Toggle Category View Scroll
+  $('#list_view_toggle').on('shown.bs.tab', function () {
+    $(window).scrollTop($(window).scrollTop()+1);
+  });
 });

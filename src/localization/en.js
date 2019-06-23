@@ -48,7 +48,7 @@ module.exports = {
     'Category View' : 'Category View',
 
     // News
-    "Find out what's happening at Yaohan Centre" : "Find out what's happening at Yaohan Centre1",
+    "Find out what's happening at Yaohan Centre" : "Find out what's happening at Yaohan Centre",
     'Read more' : 'Read more',
     'Load more posts' : 'Load more posts',
 
