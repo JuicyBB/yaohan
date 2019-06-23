@@ -65,6 +65,7 @@ var DATA = {
           thumbnail: "1000",
 					website: "https://www.tnt-supermarket.com",
           title_cn: "大阪超級市場",
+          zoom: 1,
         },
         {
           id: "1035",
@@ -78,6 +79,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "華菀粥麵",
+          zoom: 1,
         },
         {
           id: "1040",
@@ -91,6 +93,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "駿興",
+          zoom: 1,
         },
         {
           id: "1045",
@@ -104,6 +107,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "金飯碗",
+          zoom: 1,
         },
         {
           id: "1050",
@@ -117,6 +121,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "百德潮洲美食",
+          zoom: 1,
         },
         {
           id: "1055",
@@ -130,6 +135,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "綠豆苗",
+          zoom: 1,
         },
         {
           id: "1060",
@@ -143,6 +149,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "果汁王",
+          zoom: 1,
         },
         {
           id: "1065",
@@ -156,6 +163,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "福寶堂",
+          zoom: 1,
         },
         {
           id: "1070",
@@ -169,6 +177,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "咖哩屋",
+          zoom: 1,
         },
         {
           id: "1075",
@@ -182,6 +191,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "新世紀",
+          zoom: 1,
         },
         {
           id: "1080",
@@ -195,6 +205,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "愛家面館",
+          zoom: 1,
         },
         {
           id: "1085",
@@ -208,6 +219,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "田園東北麵館",
+          zoom: 1,
         },
         {
           id: "1090",
@@ -221,6 +233,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "大塘燒臘",
+          zoom: 1,
         },
         {
           id: "1095",
@@ -234,6 +247,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "韓國食品",
+          zoom: 1,
         },
         {
           id: "1100",
@@ -247,6 +261,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "鹿鳴春",
+          zoom: 1,
         },
         {
           id: "1105",
@@ -260,6 +275,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "鮮果鮮",
+          zoom: 1,
         },
         {
           id: "1020",
@@ -273,6 +289,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "友禾圖書",
+          zoom: 1,
         },
         {
           id: "1005",
@@ -286,6 +303,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "理想假期工作坊",
+          zoom: 1,
         },
         {
           id: "1010",
@@ -299,6 +317,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "平安保險",
+          zoom: 1,
         },
         {
           id: "1015",
@@ -312,6 +331,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "永盛參茸海味",
+          zoom: 1,
         },
         {
           id: "1025",
@@ -325,6 +345,7 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "加聯銀業",
+          zoom: 1,
         },
         {
           id: "1030",
@@ -338,8 +359,10 @@ var DATA = {
           thumbnail: "noimage",
           website: "",
           title_cn: "時代教育集團",
+          zoom: 1,
         },
       ],
+      zoom: 1,
     },
     {
       id: "second",
@@ -361,6 +384,7 @@ var DATA = {
           title_cn: "加拿大生活体驗館",
           x: "0.7007",
           y: "0.5571",
+          zoom: 1,
         },
         {
           id: "2025",
@@ -376,6 +400,7 @@ var DATA = {
           title_cn: "千田髮廊",
           x: "0.8300",
           y: "0.5000",
+          zoom: 1,
         },
         {
           id: "2135",
@@ -391,6 +416,7 @@ var DATA = {
           title_cn: "好時光",
           x: "0.6722",
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2215",
@@ -405,7 +431,8 @@ var DATA = {
           website: "",
           title_cn: "髮軒",
           x: "0.4300", 
-          y: "0.2535"
+          y: "0.2535",
+          zoom: 1,
         },
         {
           id: "2235",
@@ -420,7 +447,8 @@ var DATA = {
           website: "",
           title_cn: "華之寶中醫針灸診所",
           x: "0.2988", 
-          y: "0.2535"
+          y: "0.2535",
+          zoom: 1,
         },
         {
           id: "2260",
@@ -435,7 +463,8 @@ var DATA = {
           website: "",
           title_cn: "保康西藥房",
           x: "0.1878", 
-          y: "0.3858"
+          y: "0.3858",
+          zoom: 1,
         },
         {
           id: "2265",
@@ -450,7 +479,8 @@ var DATA = {
           website: "",
           title_cn: "八佰伴中心牙醫",
           x: "0.1232", 
-          y: "0.4712"
+          y: "0.4712",
+          zoom: 1,
         },
         {
           id: "2270",
@@ -465,7 +495,8 @@ var DATA = {
           website: "",
           title_cn: "洪健邦醫生醫務所",
           x: "0.1232", 
-          y: "0.5327"
+          y: "0.5327",
+          zoom: 1,
         },
         {
           id: "2440",
@@ -480,7 +511,8 @@ var DATA = {
           website: "",
           title_cn: "芝寶靈芝專門店",
           x: "0.2730", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2550",
@@ -495,7 +527,8 @@ var DATA = {
           website: "",
           title_cn: "F10 Quick Cut",
           x: "0.2863", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2100",
@@ -510,7 +543,8 @@ var DATA = {
           website: "",
           title_cn: "優絲美",
           x: "0.7007",
-          y: "0.4435"
+          y: "0.4435",
+          zoom: 1,
         },
         {
           id: "2220",
@@ -525,7 +559,8 @@ var DATA = {
           website: "",
           title_cn: "Pinky Fashion",
           x: "0.4005", 
-          y: "0.2535"
+          y: "0.2535",
+          zoom: 1,
         },
         {
           id: "2225",
@@ -540,7 +575,8 @@ var DATA = {
           website: "",
           title_cn: "Yobo",
           x: "0.3700", 
-          y: "0.2535"
+          y: "0.2535",
+          zoom: 1,
         },
         {
           id: "2310",
@@ -556,6 +592,7 @@ var DATA = {
           title_cn: "第一街時裝",
           x: "0.4630", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2325",
@@ -571,6 +608,7 @@ var DATA = {
           title_cn: "維泉",
           x: "0.3730", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2425",
@@ -585,7 +623,8 @@ var DATA = {
           website: "",
           title_cn: "Byworld",
           x: "0.3430", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2020",
@@ -600,7 +639,8 @@ var DATA = {
           website: "",
           title_cn: "藝苑",
           x: "0.8000",
-          y: "0.4435"
+          y: "0.4435",
+          zoom: 1,
         },
         {
           id: "2105",
@@ -616,6 +656,7 @@ var DATA = {
           title_cn: "藝聯",
           x: "0.7750", 
           y: "0.5400",
+          zoom: 1,
         },
         {
           id: "2110",
@@ -631,6 +672,7 @@ var DATA = {
           title_cn: "2.12藝廊",
           x: "0.7800", 
           y: "0.5900",
+          zoom: 1,
         },
         {
           id: "2450",
@@ -645,7 +687,8 @@ var DATA = {
           website: "",
           title_cn: "中國畫廊",
           x: "0.2330", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2455",
@@ -660,7 +703,8 @@ var DATA = {
           website: "",
           title_cn: "中國畫廊",
           x: "0.2030", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2030",
@@ -675,7 +719,8 @@ var DATA = {
           website: "",
           title_cn: "福井屋",
           x: "0.8700", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2035",
@@ -690,7 +735,8 @@ var DATA = {
           website: "",
           title_cn: "Game 館",
           x: "0.8700", 
-          y: "0.6300"
+          y: "0.6300",
+          zoom: 1,
         },
         {
           id: "2230",
@@ -705,7 +751,8 @@ var DATA = {
           website: "",
           title_cn: "紅參健康食品",
           x: "0.3300", 
-          y: "0.2535"
+          y: "0.2535",
+          zoom: 1,
         },
         {
           id: "2005",
@@ -720,7 +767,8 @@ var DATA = {
           website: "",
           title_cn: "福之島",
           x: "0.7300", 
-          y: "0.3095"
+          y: "0.3095",
+          zoom: 1,
         },
         {
           id: "2015",
@@ -735,7 +783,8 @@ var DATA = {
           website: "",
           title_cn: "大萊",
           x: "0.7700", 
-          y: "0.4212"
+          y: "0.4212",
+          zoom: 1,
         },
         {
           id: "2040",
@@ -750,7 +799,8 @@ var DATA = {
           website: "",
           title_cn: "金鈺堂",
           x: "0.8700", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2045",
@@ -765,7 +815,8 @@ var DATA = {
           website: "",
           title_cn: "海天旅游",
           x: "0.8000", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2050",
@@ -780,7 +831,8 @@ var DATA = {
           website: "",
           title_cn: "統信国際",
           x: "0.7700", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2055",
@@ -795,7 +847,8 @@ var DATA = {
           website: "",
           title_cn: "PG Homes",
           x: "0.7400", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2060",
@@ -810,7 +863,8 @@ var DATA = {
           website: "",
           title_cn: "金達旅遊",
           x: "0.7000", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2115",
@@ -826,6 +880,7 @@ var DATA = {
           title_cn: "克拉利淨水設備",
           x: "0.7400", 
           y: "0.5571",
+          zoom: 1,
         },
         {
           id: "2125",
@@ -841,6 +896,7 @@ var DATA = {
           title_cn: "美樂假期",
           x: "0.6700", 
           y: "0.5671",
+          zoom: 1,
         },
         {
           id: "2130",
@@ -856,6 +912,7 @@ var DATA = {
           title_cn: "統信国際",
           x: "0.6700", 
           y: "0.4871",
+          zoom: 1,
         },
         {
           id: "2205",
@@ -870,7 +927,8 @@ var DATA = {
           website: "",
           title_cn: "華豐參茸海味店",
           x: "0.4978", 
-          y: "0.2605"
+          y: "0.2605",
+          zoom: 1,
         },
         {
           id: "2210",
@@ -885,7 +943,8 @@ var DATA = {
           website: "",
           title_cn: "貨幣坊",
           x: "0.4630", 
-          y: "0.2535"
+          y: "0.2535",
+          zoom: 1,
         },
         {
           id: "2245",
@@ -900,7 +959,8 @@ var DATA = {
           website: "",
           title_cn: "小螞蟻教育",
           x: "0.2420", 
-          y: "0.2474"
+          y: "0.2474",
+          zoom: 1,
         },
         {
           id: "2255",
@@ -915,7 +975,8 @@ var DATA = {
           website: "",
           title_cn: "海岸商務中心",
           x: "0.2118", 
-          y: "0.3295"
+          y: "0.3295",
+          zoom: 1,
         },
         {
           id: "2275",
@@ -930,7 +991,8 @@ var DATA = {
           website: "",
           title_cn: "置業地產",
           x: "0.1232", 
-          y: "0.5900"
+          y: "0.5900",
+          zoom: 1,
         },
         {
           id: "2300",
@@ -946,6 +1008,7 @@ var DATA = {
           title_cn: "雅芳婷",
           x: "0.4978", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2315",
@@ -961,6 +1024,7 @@ var DATA = {
           title_cn: "新城市眼鏡",
           x: "0.4330", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2320",
@@ -976,6 +1040,7 @@ var DATA = {
           title_cn: "萬視眼鏡",
           x: "0.4030", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2330",
@@ -991,6 +1056,7 @@ var DATA = {
           title_cn: "振龍電器",
           x: "0.3430", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2340",
@@ -1006,6 +1072,7 @@ var DATA = {
           title_cn: "蕙蘭婚紗",
           x: "0.3030", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2345",
@@ -1021,6 +1088,7 @@ var DATA = {
           title_cn: "金宏國際",
           x: "0.2730", 
           y: "0.4100",
+          zoom: 1,
         },
         {
           id: "2350",
@@ -1035,7 +1103,8 @@ var DATA = {
           website: "",
           title_cn: "甘泉淨水系統",
           x: "0.2330", 
-          y: "0.4512"
+          y: "0.4512",
+          zoom: 1,
         },
         {
           id: "2400",
@@ -1050,7 +1119,8 @@ var DATA = {
           website: "",
           title_cn: "iTalkBB",
           x: "0.4978", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2405",
@@ -1065,7 +1135,8 @@ var DATA = {
           website: "",
           title_cn: "晶之谷",
           x: "0.4678", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2410",
@@ -1080,7 +1151,8 @@ var DATA = {
           website: "",
           title_cn: "星加旅遊",
           x: "0.4330", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2415",
@@ -1095,7 +1167,8 @@ var DATA = {
           website: "",
           title_cn: "九鑫換滙",
           x: "0.4030", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2420",
@@ -1110,7 +1183,8 @@ var DATA = {
           website: "",
           title_cn: "至活旅遊",
           x: "0.3730", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2430",
@@ -1125,7 +1199,8 @@ var DATA = {
           website: "",
           title_cn: "ICI Computer",
           x: "0.3030", 
-          y: "0.5700"
+          y: "0.5700",
+          zoom: 1,
         },
         {
           id: "2500",
@@ -1140,7 +1215,8 @@ var DATA = {
           website: "",
           title_cn: "參芝林",
           x: "0.4900", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2510",
@@ -1155,7 +1231,8 @@ var DATA = {
           website: "",
           title_cn: "醉春秋",
           x: "0.4270", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2515",
@@ -1170,7 +1247,8 @@ var DATA = {
           website: "",
           title_cn: "法律公証人",
           x: "0.3789", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2535",
@@ -1185,7 +1263,8 @@ var DATA = {
           website: "",
           title_cn: "瑞信會計事務所",
           x: "0.3280", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
         {
           id: "2560",
@@ -1200,7 +1279,8 @@ var DATA = {
           website: "",
           title_cn: "瑞信啇業房產",
           x: "0.2357", 
-          y: "0.6900"
+          y: "0.6900",
+          zoom: 1,
         },
       ],
     },
