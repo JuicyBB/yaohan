@@ -1123,6 +1123,7 @@ var DATA = {
           image: "noimage",
           thumbnail: "noimage",
           website: "",
+          title_cn: "ICI Computer",
           x: "0.3030", 
           y: "0.5700"
         },
@@ -1209,8 +1210,11 @@ var DATA = {
 // Update dynamic data
 DATA.levels.forEach(function(level) {
   level.locations.forEach(function(store) {
-    store.image = getStoreImageUrl(store.image);
-    store.thumbnail = getStoreImageUrl(store.thumbnail);
+    // store.image = getStoreImageUrl(store.image);
+    // store.thumbnail = getStoreImageUrl(store.thumbnail);
+    store.cardImage = getStoreImageUrl(store.image);
+    delete store.image;
+    delete store.thumbnail;
 
     if (store.description) store.description = '<p>' + store.description + '</p>'; 
     if (store.phone) store.description += '<a href="tel:' + store.phone + '">' + store.phone + '</a><br/>';
@@ -1244,7 +1248,7 @@ $(function() {
       card.find(".store-image-wrap, .mobile-border")
         .css("border-color", category.color);
       card.find(".store-image")
-        .attr("src", store.image)
+        .attr("src", store.cardImage)
         .attr("alt", store.title);
       card.find(".store-title").html(store.title);
       card.find(".store-category").html(category.title);
