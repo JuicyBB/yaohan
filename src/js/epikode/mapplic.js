@@ -1281,7 +1281,8 @@
 					if (self.minimap) self.minimap.addLayer(level);
 
 					// build layer control
-					self.levelselect.append($('<button></button>').attr('value', level.id).text(level.title));
+					// YAOH-36
+					self.levelselect.append($('<button></button>').addClass('btn levels-btn').attr('value', level.id).text(level.title));
 
 					// shown level
 					if (!shownLevel || level.show)	shownLevel = level.id;
@@ -1302,11 +1303,12 @@
 			// level switcher
 			if (levelnr > 1) {
 				self.levels = $('<div></div>').addClass('mapplic-levels');
-				var up = $('<a href="#"></a>').addClass('d-none mapplic-levels-up').appendTo(self.levels);
+				var up = $('<a href="#"></a>').addClass('d-none mapplic-levels-up').appendTo(self.levels); // YAOH-36
 				self.levelselect.appendTo(self.levels);
-				var down = $('<a href="#"></a>').addClass('d-none mapplic-levels-down').appendTo(self.levels);
+				var down = $('<a href="#"></a>').addClass('d-none mapplic-levels-down').appendTo(self.levels); // YAOH-36
 				self.container.el.append(self.levels);
 			
+				// YAOH-36
 				$('button', self.levelselect).click(function() {
 					var value = $(this).val();
 					self.switchLevel(value);
@@ -1544,7 +1546,6 @@
 
 		/* PUBLIC METHODS */
 		self.switchLevel = function(target) {
-			$('button', self.selectLevel).removeClass('selected');
 			switch (target) {
 				case '+':
 					target = $('option:selected', self.levelselect).removeAttr('selected').prev().prop('selected', 'selected').val();
@@ -1552,8 +1553,10 @@
 				case '-':
 					target = $('option:selected', self.levelselect).removeAttr('selected').next().prop('selected', 'selected').val();
 					break;
-				default: 
-					$('button[value="' + target + '"]', self.levelselect).addClass('selected');
+				default:
+					// YAOH-36
+					$('button', self.selectLevel).removeClass('active');
+					$('button[value="' + target + '"]', self.levelselect).addClass('active');
 			}
 
 			// no such layer

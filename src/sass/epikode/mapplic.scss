@@ -506,7 +506,8 @@ a.mapplic-zoomout-button {
 
 /* Levels */
 .mapplic-levels {
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+	// YAOH-36
+	// box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -526,7 +527,8 @@ a.mapplic-zoomout-button {
 	color: #2f3435;
 	margin: 0;
 	padding: 10px 8px;
-	margin-right: 20px;
+	// YAOH-36
+	// margin-right: 20px;
 	font-size: 13px;
 	font-weight: 600;
 	outline: none;

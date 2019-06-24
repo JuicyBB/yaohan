@@ -1110,7 +1110,6 @@ a.mapplic-zoomout-button {
 /* Levels */
 /* line 508, src/sass/epikode/mapplic.scss */
 .mapplic-levels {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
   right: 0;
@@ -1118,13 +1117,13 @@ a.mapplic-zoomout-button {
   overflow: hidden;
 }
 
-/* line 517, src/sass/epikode/mapplic.scss */
+/* line 518, src/sass/epikode/mapplic.scss */
 .mapplic-levels > * {
   display: block;
   box-sizing: border-box;
 }
 
-/* line 522, src/sass/epikode/mapplic.scss */
+/* line 523, src/sass/epikode/mapplic.scss */
 .mapplic-levels-select {
   background-color: #fff;
   border: none;
@@ -1132,14 +1131,13 @@ a.mapplic-zoomout-button {
   color: #2f3435;
   margin: 0;
   padding: 10px 8px;
-  margin-right: 20px;
   font-size: 13px;
   font-weight: 600;
   outline: none;
   -webkit-appearance: none;
 }
 
-/* line 536, src/sass/epikode/mapplic.scss */
+/* line 538, src/sass/epikode/mapplic.scss */
 .mapplic-levels a {
   background-color: #fff;
   background-repeat: no-repeat;
@@ -1152,30 +1150,30 @@ a.mapplic-zoomout-button {
   right: 0;
 }
 
-/* line 548, src/sass/epikode/mapplic.scss */
+/* line 550, src/sass/epikode/mapplic.scss */
 .mapplic-levels a:active {
   background-color: #f8f8f8;
 }
 
-/* line 552, src/sass/epikode/mapplic.scss */
+/* line 554, src/sass/epikode/mapplic.scss */
 .mapplic-levels .mapplic-levels-up {
   background-image: url(/img/plugins/arrow-up.svg);
 }
 
-/* line 556, src/sass/epikode/mapplic.scss */
+/* line 558, src/sass/epikode/mapplic.scss */
 .mapplic-levels .mapplic-levels-down {
   background-image: url(/img/plugins/arrow-down.svg);
   bottom: 0;
 }
 
-/* line 561, src/sass/epikode/mapplic.scss */
+/* line 563, src/sass/epikode/mapplic.scss */
 .mapplic-levels a.mapplic-disabled {
   background-color: #eee;
   cursor: default;
 }
 
 /* Sidebar */
-/* line 567, src/sass/epikode/mapplic.scss */
+/* line 569, src/sass/epikode/mapplic.scss */
 .mapplic-sidebar {
   width: 30%;
   height: 100%;
@@ -1185,30 +1183,30 @@ a.mapplic-zoomout-button {
   pointer-events: none;
 }
 
-/* line 576, src/sass/epikode/mapplic.scss */
+/* line 578, src/sass/epikode/mapplic.scss */
 .mapplic-sidebar > * {
   pointer-events: auto;
 }
 
-/* line 580, src/sass/epikode/mapplic.scss */
+/* line 582, src/sass/epikode/mapplic.scss */
 .mapplic-container {
   float: right;
 }
 
 /* Right sidebar */
-/* line 585, src/sass/epikode/mapplic.scss */
+/* line 587, src/sass/epikode/mapplic.scss */
 .mapplic-sidebar-right .mapplic-container {
   float: left;
 }
 
-/* line 586, src/sass/epikode/mapplic.scss */
+/* line 588, src/sass/epikode/mapplic.scss */
 .mapplic-sidebar-right .mapplic-sidebar {
   float: right;
   padding: 92px 12px 12px 0;
 }
 
 /* Search */
-/* line 592, src/sass/epikode/mapplic.scss */
+/* line 594, src/sass/epikode/mapplic.scss */
 .mapplic-filter {
   background-color: #fff;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
@@ -1222,7 +1220,7 @@ a.mapplic-zoomout-button {
   z-index: 1;
 }
 
-/* line 605, src/sass/epikode/mapplic.scss */
+/* line 607, src/sass/epikode/mapplic.scss */
 .mapplic-search-input {
   background-image: url(/img/plugins/magnifier.svg) !important;
   background-size: 14px 14px !important;
@@ -1242,12 +1240,12 @@ a.mapplic-zoomout-button {
   padding: 24px 24px 4px 0 !important;
 }
 
-/* line 624, src/sass/epikode/mapplic.scss */
+/* line 626, src/sass/epikode/mapplic.scss */
 .mapplic-search-input:focus {
   outline: none !important;
 }
 
-/* line 628, src/sass/epikode/mapplic.scss */
+/* line 630, src/sass/epikode/mapplic.scss */
 .mapplic-search-input::-webkit-input-placeholder {
   color: #ccc;
   font-weight: 400;
@@ -1261,14 +1259,14 @@ a.mapplic-zoomout-button {
   font-weight: 400;
 }
 
-/* line 633, src/sass/epikode/mapplic.scss */
+/* line 635, src/sass/epikode/mapplic.scss */
 .mapplic-search-input::-ms-clear {
   display: none;
   width: 0;
   height: 0;
 }
 
-/* line 635, src/sass/epikode/mapplic.scss */
+/* line 637, src/sass/epikode/mapplic.scss */
 .mapplic-search-clear {
   background-image: url(/img/plugins/cross.svg);
   background-size: 8px 8px;
@@ -1288,19 +1286,19 @@ a.mapplic-zoomout-button {
 }
 
 /* Search Disabled */
-/* line 654, src/sass/epikode/mapplic.scss */
+/* line 656, src/sass/epikode/mapplic.scss */
 .mapplic-sidebar-nosearch {
   padding-top: 56px;
 }
 
-/* line 655, src/sass/epikode/mapplic.scss */
+/* line 657, src/sass/epikode/mapplic.scss */
 .mapplic-sidebar-nosearch .mapplic-filter {
   margin-top: -44px;
   height: 44px;
 }
 
 /* Tags */
-/* line 661, src/sass/epikode/mapplic.scss */
+/* line 663, src/sass/epikode/mapplic.scss */
 .mapplic-filter-tags {
   text-align: right;
   position: absolute;
@@ -1311,7 +1309,7 @@ a.mapplic-zoomout-button {
   overflow: hidden;
 }
 
-/* line 671, src/sass/epikode/mapplic.scss */
+/* line 673, src/sass/epikode/mapplic.scss */
 .mapplic-tag {
   background-color: #2f3434;
   border-radius: 12px;
@@ -1324,7 +1322,7 @@ a.mapplic-zoomout-button {
   display: inline-block;
 }
 
-/* line 683, src/sass/epikode/mapplic.scss */
+/* line 685, src/sass/epikode/mapplic.scss */
 .mapplic-tag > span {
   background-image: url(/img/plugins/cross-light.svg);
   background-position: center;
@@ -1339,7 +1337,7 @@ a.mapplic-zoomout-button {
   transition: opacity 0.2s;
 }
 
-/* line 697, src/sass/epikode/mapplic.scss */
+/* line 699, src/sass/epikode/mapplic.scss */
 .mapplic-tag:hover > span {
   -ms-transform: scale(1.2);
       transform: scale(1.2);
@@ -1347,7 +1345,7 @@ a.mapplic-zoomout-button {
 }
 
 /* Sidebar list */
-/* line 703, src/sass/epikode/mapplic.scss */
+/* line 705, src/sass/epikode/mapplic.scss */
 .mapplic-list-container {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
@@ -1358,7 +1356,7 @@ a.mapplic-zoomout-button {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 713, src/sass/epikode/mapplic.scss */
+/* line 715, src/sass/epikode/mapplic.scss */
 .mapplic-list-container:before {
   display: block;
   content: '';
@@ -1369,7 +1367,7 @@ a.mapplic-zoomout-button {
   z-index: 100;
 }
 
-/* line 723, src/sass/epikode/mapplic.scss */
+/* line 725, src/sass/epikode/mapplic.scss */
 .mapplic-list {
   list-style: none;
   padding: 0;
@@ -1379,7 +1377,7 @@ a.mapplic-zoomout-button {
   height: 100%;
 }
 
-/* line 732, src/sass/epikode/mapplic.scss */
+/* line 734, src/sass/epikode/mapplic.scss */
 .mapplic-list-container ol {
   border-color: #eee;
   list-style: none;
@@ -1387,18 +1385,18 @@ a.mapplic-zoomout-button {
   margin: 0;
 }
 
-/* line 739, src/sass/epikode/mapplic.scss */
+/* line 741, src/sass/epikode/mapplic.scss */
 .mapplic-list-expandable {
   background-color: #fff;
   padding: 10px 0;
 }
 
-/* line 744, src/sass/epikode/mapplic.scss */
+/* line 746, src/sass/epikode/mapplic.scss */
 .mapplic-list-container li {
   margin: 0 !important;
 }
 
-/* line 748, src/sass/epikode/mapplic.scss */
+/* line 750, src/sass/epikode/mapplic.scss */
 .mapplic-list-category > a {
   background-color: #fff;
   border-radius: 4px;
@@ -1414,12 +1412,12 @@ a.mapplic-zoomout-button {
   transition: background-color 0.2s;
 }
 
-/* line 763, src/sass/epikode/mapplic.scss */
+/* line 765, src/sass/epikode/mapplic.scss */
 .mapplic-list-category > a:hover {
   background-color: #f8f8f8;
 }
 
-/* line 767, src/sass/epikode/mapplic.scss */
+/* line 769, src/sass/epikode/mapplic.scss */
 .mapplic-list-category h4 {
   display: inline-block;
   font-size: 14px;
@@ -1428,12 +1426,12 @@ a.mapplic-zoomout-button {
   margin: 0;
 }
 
-/* line 775, src/sass/epikode/mapplic.scss */
+/* line 777, src/sass/epikode/mapplic.scss */
 .mapplic-list-category h4.mapplic-margin {
   margin-top: 9px;
 }
 
-/* line 779, src/sass/epikode/mapplic.scss */
+/* line 781, src/sass/epikode/mapplic.scss */
 .mapplic-about {
   color: #aaa;
   display: block;
@@ -1443,7 +1441,7 @@ a.mapplic-zoomout-button {
 }
 
 /* Thumbnail */
-/* line 788, src/sass/epikode/mapplic.scss */
+/* line 790, src/sass/epikode/mapplic.scss */
 .mapplic-list-category .mapplic-thumbnail {
   background-color: #aaa;
   border-radius: 50%;
@@ -1451,14 +1449,14 @@ a.mapplic-zoomout-button {
   height: 40px;
 }
 
-/* line 795, src/sass/epikode/mapplic.scss */
+/* line 797, src/sass/epikode/mapplic.scss */
 .mapplic-list-category .mapplic-thumbnail-placeholder {
   font-size: 18px;
   font-weight: bold;
   line-height: 25px;
 }
 
-/* line 801, src/sass/epikode/mapplic.scss */
+/* line 803, src/sass/epikode/mapplic.scss */
 .mapplic-thumbnail {
   border-radius: 0px;
   box-shadow: none !important;
@@ -1469,7 +1467,7 @@ a.mapplic-zoomout-button {
   object-fit: cover;
 }
 
-/* line 811, src/sass/epikode/mapplic.scss */
+/* line 813, src/sass/epikode/mapplic.scss */
 .mapplic-thumbnail-placeholder {
   background-color: #eee;
   box-sizing: border-box;
@@ -1483,7 +1481,7 @@ a.mapplic-zoomout-button {
   text-align: center;
 }
 
-/* line 824, src/sass/epikode/mapplic.scss */
+/* line 826, src/sass/epikode/mapplic.scss */
 .mapplic-list-category > a .mapplic-list-count {
   color: #aaa;
   font-size: 12px;
@@ -1492,19 +1490,19 @@ a.mapplic-zoomout-button {
 }
 
 /* List location */
-/* line 832, src/sass/epikode/mapplic.scss */
+/* line 834, src/sass/epikode/mapplic.scss */
 .mapplic-list-location {
   border-color: #aaa;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* line 838, src/sass/epikode/mapplic.scss */
+/* line 840, src/sass/epikode/mapplic.scss */
 .mapplic-list-location[data-location=init] {
   display: none !important;
 }
 
-/* line 842, src/sass/epikode/mapplic.scss */
+/* line 844, src/sass/epikode/mapplic.scss */
 .mapplic-list-location > a {
   background-color: #fff;
   border-left: 2px solid transparent;
@@ -1515,27 +1513,27 @@ a.mapplic-zoomout-button {
   transition: border, background-color 0.1s;
 }
 
-/* line 852, src/sass/epikode/mapplic.scss */
+/* line 854, src/sass/epikode/mapplic.scss */
 .mapplic-list-location > a:after {
   content: '';
   display: block;
   clear: both;
 }
 
-/* line 858, src/sass/epikode/mapplic.scss */
+/* line 860, src/sass/epikode/mapplic.scss */
 .mapplic-list-location > a:hover,
 .mapplic-list-location > a:focus,
 .mapplic-list-location.mapplic-focus > a {
   background-color: #fafafa;
 }
 
-/* line 864, src/sass/epikode/mapplic.scss */
+/* line 866, src/sass/epikode/mapplic.scss */
 .mapplic-list-location.mapplic-active > a {
   background-color: #fafafa;
   border-color: inherit;
 }
 
-/* line 869, src/sass/epikode/mapplic.scss */
+/* line 871, src/sass/epikode/mapplic.scss */
 .mapplic-list-location h4 {
   color: #2f3435;
   font-size: 14px;
@@ -1547,7 +1545,7 @@ a.mapplic-zoomout-button {
 }
 
 /* Tooltip */
-/* line 880, src/sass/epikode/mapplic.scss */
+/* line 882, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip {
   display: none;
   position: absolute;
@@ -1558,7 +1556,7 @@ a.mapplic-zoomout-button {
   pointer-events: none;
 }
 
-/* line 891, src/sass/epikode/mapplic.scss */
+/* line 893, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip:after {
   content: '';
   border-color: #fff transparent transparent transparent !important;
@@ -1573,7 +1571,7 @@ a.mapplic-zoomout-button {
   margin-left: -7px;
 }
 
-/* line 905, src/sass/epikode/mapplic.scss */
+/* line 907, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-wrap {
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -1583,25 +1581,25 @@ a.mapplic-zoomout-button {
   pointer-events: auto;
 }
 
-/* line 914, src/sass/epikode/mapplic.scss */
+/* line 916, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-wrap::after {
   content: '';
   clear: both;
   display: table;
 }
 
-/* line 920, src/sass/epikode/mapplic.scss */
+/* line 922, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip img {
   max-width: 100%;
 }
 
-/* line 924, src/sass/epikode/mapplic.scss */
+/* line 926, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip .mapplic-image {
   margin: -16px;
   max-width: none;
 }
 
-/* line 929, src/sass/epikode/mapplic.scss */
+/* line 931, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-title {
   color: #333;
   display: inline-block;
@@ -1611,25 +1609,25 @@ a.mapplic-zoomout-button {
   margin: 0 12px 0 0 !important;
 }
 
-/* line 938, src/sass/epikode/mapplic.scss */
+/* line 940, src/sass/epikode/mapplic.scss */
 .has-image .mapplic-tooltip-title {
   color: #fff;
   margin: -20px 12px 20px 0 !important;
 }
 
-/* line 943, src/sass/epikode/mapplic.scss */
+/* line 945, src/sass/epikode/mapplic.scss */
 .mapplic-hovertip,
 .mapplic-hovertip > .mapplic-tooltip-wrap {
   pointer-events: none;
 }
 
-/* line 948, src/sass/epikode/mapplic.scss */
+/* line 950, src/sass/epikode/mapplic.scss */
 .mapplic-hovertip > .mapplic-tooltip-wrap {
   min-width: 20px;
   padding: 6px 14px;
 }
 
-/* line 953, src/sass/epikode/mapplic.scss */
+/* line 955, src/sass/epikode/mapplic.scss */
 .mapplic-hovertip .mapplic-tooltip-title {
   margin: 0 !important;
   font-size: 16px;
@@ -1637,7 +1635,7 @@ a.mapplic-zoomout-button {
   text-align: center;
 }
 
-/* line 960, src/sass/epikode/mapplic.scss */
+/* line 962, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-content {
   margin-top: 10px;
   margin-bottom: 6px;
@@ -1646,7 +1644,7 @@ a.mapplic-zoomout-button {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 968, src/sass/epikode/mapplic.scss */
+/* line 970, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip .mapplic-thumbnail {
   border-radius: 50% !important;
   width: 48px;
@@ -1654,7 +1652,7 @@ a.mapplic-zoomout-button {
   margin-right: 12px;
 }
 
-/* line 975, src/sass/epikode/mapplic.scss */
+/* line 977, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-description,
 .mapplic-tooltip p {
   color: #888;
@@ -1663,18 +1661,18 @@ a.mapplic-zoomout-button {
   margin: 0;
 }
 
-/* line 983, src/sass/epikode/mapplic.scss */
+/* line 985, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip p {
   margin-top: 0;
   margin-bottom: 6px;
 }
 
-/* line 988, src/sass/epikode/mapplic.scss */
+/* line 990, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-description p:last-child {
   margin: 0;
 }
 
-/* line 992, src/sass/epikode/mapplic.scss */
+/* line 994, src/sass/epikode/mapplic.scss */
 .mapplic-popup-link {
   background-color: #888;
   border-radius: 4px;
@@ -1690,13 +1688,13 @@ a.mapplic-zoomout-button {
   transition: background-color 0.2s, box-shadow 0.2s;
 }
 
-/* line 1007, src/sass/epikode/mapplic.scss */
+/* line 1009, src/sass/epikode/mapplic.scss */
 .mapplic-popup-link:hover {
   background-color: #666;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2) !important;
 }
 
-/* line 1012, src/sass/epikode/mapplic.scss */
+/* line 1014, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-close {
   background-image: url(/img/plugins/cross.svg);
   background-position: center;
@@ -1716,13 +1714,13 @@ a.mapplic-zoomout-button {
   transition: opacity 0.2s;
 }
 
-/* line 1033, src/sass/epikode/mapplic.scss */
+/* line 1035, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-close:hover {
   opacity: 1.0;
 }
 
 /* Lightbox */
-/* line 1038, src/sass/epikode/mapplic.scss */
+/* line 1040, src/sass/epikode/mapplic.scss */
 .mapplic-lightbox-title {
   color: #333;
   font-weight: bold;
@@ -1730,7 +1728,7 @@ a.mapplic-zoomout-button {
   margin-bottom: 20px;
 }
 
-/* line 1045, src/sass/epikode/mapplic.scss */
+/* line 1047, src/sass/epikode/mapplic.scss */
 .mapplic-lightbox {
   background-color: #fff;
   position: relative;
@@ -1740,68 +1738,68 @@ a.mapplic-zoomout-button {
   margin: 20px auto;
 }
 
-/* line 1054, src/sass/epikode/mapplic.scss */
+/* line 1056, src/sass/epikode/mapplic.scss */
 .mapplic-lightbox:after {
   content: '';
   display: block;
   clear: both;
 }
 
-/* line 1060, src/sass/epikode/mapplic.scss */
+/* line 1062, src/sass/epikode/mapplic.scss */
 .mapplic-popup-image {
   outline: none;
 }
 
-/* line 1064, src/sass/epikode/mapplic.scss */
+/* line 1066, src/sass/epikode/mapplic.scss */
 .mfp-bg {
   z-index: 99981 !important;
 }
 
-/* line 1065, src/sass/epikode/mapplic.scss */
+/* line 1067, src/sass/epikode/mapplic.scss */
 .mfp-wrap {
   z-index: 99982 !important;
 }
 
-/* line 1066, src/sass/epikode/mapplic.scss */
+/* line 1068, src/sass/epikode/mapplic.scss */
 .mfp-content {
   z-index: 99983 !important;
 }
 
 /* Lightbox animation */
-/* line 1069, src/sass/epikode/mapplic.scss */
+/* line 1071, src/sass/epikode/mapplic.scss */
 .mfp-fade.mfp-bg {
   opacity: 0;
   transition: all 0.15s ease-out;
 }
 
-/* line 1076, src/sass/epikode/mapplic.scss */
+/* line 1078, src/sass/epikode/mapplic.scss */
 .mfp-fade.mfp-bg.mfp-ready {
   opacity: 0.8;
 }
 
-/* line 1077, src/sass/epikode/mapplic.scss */
+/* line 1079, src/sass/epikode/mapplic.scss */
 .mfp-fade.mfp-bg.mfp-removing {
   opacity: 0;
 }
 
-/* line 1079, src/sass/epikode/mapplic.scss */
+/* line 1081, src/sass/epikode/mapplic.scss */
 .mfp-fade.mfp-wrap .mfp-content {
   opacity: 0;
   transition: all 0.15s ease-out;
 }
 
-/* line 1086, src/sass/epikode/mapplic.scss */
+/* line 1088, src/sass/epikode/mapplic.scss */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
   opacity: 1;
 }
 
-/* line 1087, src/sass/epikode/mapplic.scss */
+/* line 1089, src/sass/epikode/mapplic.scss */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
 
 /* Toggle */
-/* line 1090, src/sass/epikode/mapplic.scss */
+/* line 1092, src/sass/epikode/mapplic.scss */
 .mapplic-toggle {
   display: block;
   cursor: pointer;
@@ -1811,7 +1809,7 @@ a.mapplic-zoomout-button {
   min-height: 20px;
 }
 
-/* line 1099, src/sass/epikode/mapplic.scss */
+/* line 1101, src/sass/epikode/mapplic.scss */
 .mapplic-toggle > .mapplic-toggle-circle {
   background-color: #aaa;
   border-radius: 50%;
@@ -1827,7 +1825,7 @@ a.mapplic-zoomout-button {
   transition: 0.2s;
 }
 
-/* line 1112, src/sass/epikode/mapplic.scss */
+/* line 1114, src/sass/epikode/mapplic.scss */
 .mapplic-toggle:before {
   background-color: #fff;
   border: 1px solid #e4e4e4;
@@ -1842,23 +1840,23 @@ a.mapplic-zoomout-button {
   height: 18px;
 }
 
-/* line 1126, src/sass/epikode/mapplic.scss */
+/* line 1128, src/sass/epikode/mapplic.scss */
 .mapplic-toggle > input {
   display: none;
 }
 
-/* line 1127, src/sass/epikode/mapplic.scss */
+/* line 1129, src/sass/epikode/mapplic.scss */
 .mapplic-toggle > input:checked + span {
   -ms-transform: scale(0.7);
       transform: scale(0.7);
 }
 
-/* line 1131, src/sass/epikode/mapplic.scss */
+/* line 1133, src/sass/epikode/mapplic.scss */
 .mapplic-list-category {
   position: relative;
 }
 
-/* line 1132, src/sass/epikode/mapplic.scss */
+/* line 1134, src/sass/epikode/mapplic.scss */
 .mapplic-list-category .mapplic-toggle {
   position: absolute;
   right: 20px;
@@ -1868,7 +1866,7 @@ a.mapplic-zoomout-button {
 }
 
 /* Legend */
-/* line 1141, src/sass/epikode/mapplic.scss */
+/* line 1143, src/sass/epikode/mapplic.scss */
 .mapplic-legend {
   background-color: rgba(255, 255, 255, 0.9);
   margin: 12px;
@@ -1878,7 +1876,7 @@ a.mapplic-zoomout-button {
   bottom: 0;
 }
 
-/* line 1150, src/sass/epikode/mapplic.scss */
+/* line 1152, src/sass/epikode/mapplic.scss */
 .mapplic-legend-label {
   display: block;
   font-size: 14px;
@@ -1892,7 +1890,7 @@ a.mapplic-zoomout-button {
   -ms-user-select: none;
 }
 
-/* line 1163, src/sass/epikode/mapplic.scss */
+/* line 1165, src/sass/epikode/mapplic.scss */
 .mapplic-legend-key {
   background-color: #aaa;
   border: 2px solid #fff;
@@ -1906,102 +1904,102 @@ a.mapplic-zoomout-button {
 }
 
 /* Reveal */
-/* line 1176, src/sass/epikode/mapplic.scss */
+/* line 1178, src/sass/epikode/mapplic.scss */
 .mapplic-revealed {
   display: block !important;
 }
 
 /* Portrait mode */
-/* line 1181, src/sass/epikode/mapplic.scss */
+/* line 1183, src/sass/epikode/mapplic.scss */
 .mapplic-portrait .mapplic-container,
 .mapplic-portrait .mapplic-sidebar {
   width: 100% !important;
 }
 
-/* line 1186, src/sass/epikode/mapplic.scss */
+/* line 1188, src/sass/epikode/mapplic.scss */
 .mapplic-portrait .mapplic-sidebar {
   padding: 92px 12px 12px 12px !important;
 }
 
-/* line 1190, src/sass/epikode/mapplic.scss */
+/* line 1192, src/sass/epikode/mapplic.scss */
 .mapplic-portrait .mapplic-tooltip {
   max-width: 240px;
 }
 
-/* line 1194, src/sass/epikode/mapplic.scss */
+/* line 1196, src/sass/epikode/mapplic.scss */
 .mapplic-portrait .mapplic-minimap-background {
   width: 100px !important;
 }
 
-/* line 1198, src/sass/epikode/mapplic.scss */
+/* line 1200, src/sass/epikode/mapplic.scss */
 .mapplic-portrait.mapplic-element {
   height: auto !important;
 }
 
-/* line 1202, src/sass/epikode/mapplic.scss */
+/* line 1204, src/sass/epikode/mapplic.scss */
 .mapplic-portrait .mapplic-list-container {
   max-height: 600px;
 }
 
 /* Retina */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  /* line 1208, src/sass/epikode/mapplic.scss */
+  /* line 1210, src/sass/epikode/mapplic.scss */
   .mapplic-pin {
     background-image: url(/img/plugins/pin@2x.png);
   }
-  /* line 1209, src/sass/epikode/mapplic.scss */
+  /* line 1211, src/sass/epikode/mapplic.scss */
   .mapplic-pin.orange {
     background-image: url(/img/plugins/pin-orange@2x.png);
   }
-  /* line 1210, src/sass/epikode/mapplic.scss */
+  /* line 1212, src/sass/epikode/mapplic.scss */
   .mapplic-pin.yellow {
     background-image: url(/img/plugins/pin-yellow@2x.png);
   }
-  /* line 1211, src/sass/epikode/mapplic.scss */
+  /* line 1213, src/sass/epikode/mapplic.scss */
   .mapplic-pin.green {
     background-image: url(/img/plugins/pin-green@2x.png);
   }
-  /* line 1212, src/sass/epikode/mapplic.scss */
+  /* line 1214, src/sass/epikode/mapplic.scss */
   .mapplic-pin.blue {
     background-image: url(/img/plugins/pin-blue@2x.png);
   }
-  /* line 1213, src/sass/epikode/mapplic.scss */
+  /* line 1215, src/sass/epikode/mapplic.scss */
   .mapplic-pin.purple {
     background-image: url(/img/plugins/pin-purple@2x.png);
   }
 }
 
 /* Map */
-/* line 1217, src/sass/epikode/mapplic.scss */
+/* line 1219, src/sass/epikode/mapplic.scss */
 .mapplic-element svg {
   width: 100%;
   height: 100%;
 }
 
-/* line 1222, src/sass/epikode/mapplic.scss */
+/* line 1224, src/sass/epikode/mapplic.scss */
 .mapplic-element svg a {
   cursor: pointer;
 }
 
-/* line 1226, src/sass/epikode/mapplic.scss */
+/* line 1228, src/sass/epikode/mapplic.scss */
 .mapplic-clickable:not(g),
 g.mapplic-clickable > * {
   cursor: pointer;
   transition: opacity 0.2s;
 }
 
-/* line 1234, src/sass/epikode/mapplic.scss */
+/* line 1236, src/sass/epikode/mapplic.scss */
 .mapplic-map-image *[id^=nopointer] {
   pointer-events: none;
 }
 
-/* line 1238, src/sass/epikode/mapplic.scss */
+/* line 1240, src/sass/epikode/mapplic.scss */
 [id^=landmarks] .mapplic-clickable {
   cursor: pointer;
 }
 
 /* Developer tools */
-/* line 1243, src/sass/epikode/mapplic.scss */
+/* line 1245, src/sass/epikode/mapplic.scss */
 .mapplic-coordinates {
   background-color: rgba(255, 255, 255, 0.9);
   color: #333;
@@ -2017,13 +2015,13 @@ g.mapplic-clickable > * {
 
 /* SKINS */
 /* mapplic-booking */
-/* line 1258, src/sass/epikode/mapplic.scss */
+/* line 1260, src/sass/epikode/mapplic.scss */
 .mapplic-booking .mapplic-active,
 .mapplic-booking .mapplic-active > * {
   fill: #A8D865;
 }
 
-/* line 1263, src/sass/epikode/mapplic.scss */
+/* line 1265, src/sass/epikode/mapplic.scss */
 .mapplic-booking .unavailable,
 .mapplic-booking .unavailable > * {
   fill: #F7B332;
@@ -2032,28 +2030,28 @@ g.mapplic-clickable > * {
 }
 
 /* mapplic-dark */
-/* line 1271, src/sass/epikode/mapplic.scss */
+/* line 1273, src/sass/epikode/mapplic.scss */
 .mapplic-dark .mapplic-tooltip-wrap {
   background-color: #333;
 }
 
-/* line 1275, src/sass/epikode/mapplic.scss */
+/* line 1277, src/sass/epikode/mapplic.scss */
 .mapplic-dark .mapplic-tooltip:after {
   border-color: #333 transparent transparent transparent !important;
 }
 
-/* line 1279, src/sass/epikode/mapplic.scss */
+/* line 1281, src/sass/epikode/mapplic.scss */
 .mapplic-dark .mapplic-tooltip-title {
   color: #fff;
 }
 
-/* line 1283, src/sass/epikode/mapplic.scss */
+/* line 1285, src/sass/epikode/mapplic.scss */
 .mapplic-dark .mapplic-tooltip-description,
 .mapplic-dark .mapplic-tooltip p {
   color: #bbb;
 }
 
-/* line 1288, src/sass/epikode/mapplic.scss */
+/* line 1290, src/sass/epikode/mapplic.scss */
 .mapplic-dark .mapplic-tooltip-close {
   background-color: rgba(51, 51, 51, 0.5);
   background-image: url(/img/plugins/cross-light.svg) !important;
@@ -2061,7 +2059,7 @@ g.mapplic-clickable > * {
 
 /* INTERACTIVE ELEMENTS */
 /* clickable elements */
-/* line 1295, src/sass/epikode/mapplic.scss */
+/* line 1297, src/sass/epikode/mapplic.scss */
 .mapplic-clickable:not(g),
 g.mapplic-clickable > * {
   opacity: 0.9;
@@ -2069,14 +2067,14 @@ g.mapplic-clickable > * {
 }
 
 /* hovered elements */
-/* line 1302, src/sass/epikode/mapplic.scss */
+/* line 1304, src/sass/epikode/mapplic.scss */
 .mapplic-clickable:not(g):hover,
 g.mapplic-clickable:hover > * {
   opacity: 0.8;
 }
 
 /* active elements */
-/* line 1308, src/sass/epikode/mapplic.scss */
+/* line 1310, src/sass/epikode/mapplic.scss */
 .mapplic-active,
 a.mapplic-active > path,
 g.mapplic-active > * {
@@ -2084,19 +2082,19 @@ g.mapplic-active > * {
 }
 
 /* Transparent */
-/* line 1315, src/sass/epikode/mapplic.scss */
+/* line 1317, src/sass/epikode/mapplic.scss */
 .mapplic-transparent .mapplic-clickable:not(g),
 .mapplic-transparent g.mapplic-clickable > * {
   opacity: 0.6;
 }
 
-/* line 1320, src/sass/epikode/mapplic.scss */
+/* line 1322, src/sass/epikode/mapplic.scss */
 .mapplic-transparent .mapplic-clickable:not(g):hover,
 .mapplic-transparent g.mapplic-clickable:hover > * {
   opacity: 0.8;
 }
 
-/* line 1325, src/sass/epikode/mapplic.scss */
+/* line 1327, src/sass/epikode/mapplic.scss */
 .mapplic-transparent .mapplic-active,
 .mapplic-transparent a.mapplic-active > path,
 .mapplic-transparent g.mapplic-active > * {
@@ -2104,47 +2102,47 @@ g.mapplic-active > * {
 }
 
 /* Mall example - Custom */
-/* line 1332, src/sass/epikode/mapplic.scss */
+/* line 1334, src/sass/epikode/mapplic.scss */
 #landmarks-ground .mapplic-clickable,
 #landmarks-underground .mapplic-clickable,
 #landmarks-level1 .mapplic-clickable {
   opacity: 1 !important;
 }
 
-/* line 1338, src/sass/epikode/mapplic.scss */
+/* line 1340, src/sass/epikode/mapplic.scss */
 #landmarks-ground polygon.mapplic-active,
 #landmarks-ground path.mapplic-active {
   fill: #ADDB2C;
 }
 
-/* line 1343, src/sass/epikode/mapplic.scss */
+/* line 1345, src/sass/epikode/mapplic.scss */
 #landmarks-underground polygon.mapplic-active,
 #landmarks-underground path.mapplic-active {
   fill: #7EE0CD;
 }
 
-/* line 1348, src/sass/epikode/mapplic.scss */
+/* line 1350, src/sass/epikode/mapplic.scss */
 #landmarks-level1 polygon.mapplic-active,
 #landmarks-level1 path.mapplic-active {
   fill: #F9684B;
 }
 
 /* CUSTOM STYLES */
-/* line 1354, src/sass/epikode/mapplic.scss */
+/* line 1356, src/sass/epikode/mapplic.scss */
 .mapplic-image,
 .mapplic-tooltip {
   max-width: 300px !important;
 }
 
 /* tooltip width */
-/* line 1356, src/sass/epikode/mapplic.scss */
+/* line 1358, src/sass/epikode/mapplic.scss */
 .mapplic-tooltip-content {
   max-height: 160px;
 }
 
 /* tooltip height*/
 /* example custom pin */
-/* line 1359, src/sass/epikode/mapplic.scss */
+/* line 1361, src/sass/epikode/mapplic.scss */
 .mapplic-pin.my-new-pin {
   /* replace 'my-new-pin' with the name of your pin */
   background-image: url(/img/plugins/my-new-pin.png);
