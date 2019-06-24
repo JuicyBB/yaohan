@@ -1178,7 +1178,7 @@
 
 			// create container
 			self.container = new Container().init();
-			self.levelselect = $('<select></select>').addClass('mapplic-levels-select');
+			self.levelselect = $('<div></div>').addClass('mapplic-levels-select');
 
 			// create minimap
 			if (self.o.minimap) self.minimap = new Minimap().init();
@@ -1281,7 +1281,7 @@
 					if (self.minimap) self.minimap.addLayer(level);
 
 					// build layer control
-					self.levelselect.prepend($('<option></option>').attr('value', level.id).text(level.title));
+					self.levelselect.append($('<button></button>').attr('value', level.id).text(level.title));
 
 					// shown level
 					if (!shownLevel || level.show)	shownLevel = level.id;
@@ -1302,12 +1302,12 @@
 			// level switcher
 			if (levelnr > 1) {
 				self.levels = $('<div></div>').addClass('mapplic-levels');
-				var up = $('<a href="#"></a>').addClass('mapplic-levels-up').appendTo(self.levels);
+				var up = $('<a href="#"></a>').addClass('d-none mapplic-levels-up').appendTo(self.levels);
 				self.levelselect.appendTo(self.levels);
-				var down = $('<a href="#"></a>').addClass('mapplic-levels-down').appendTo(self.levels);
+				var down = $('<a href="#"></a>').addClass('d-none mapplic-levels-down').appendTo(self.levels);
 				self.container.el.append(self.levels);
 			
-				self.levelselect.change(function() {
+				$('button', self.levelselect).click(function() {
 					var value = $(this).val();
 					self.switchLevel(value);
 				});
@@ -1544,6 +1544,7 @@
 
 		/* PUBLIC METHODS */
 		self.switchLevel = function(target) {
+			$('button', self.selectLevel).removeClass('selected');
 			switch (target) {
 				case '+':
 					target = $('option:selected', self.levelselect).removeAttr('selected').prev().prop('selected', 'selected').val();
@@ -1551,8 +1552,8 @@
 				case '-':
 					target = $('option:selected', self.levelselect).removeAttr('selected').next().prop('selected', 'selected').val();
 					break;
-				default:
-					$('option[value="' + target + '"]', self.levelselect).prop('selected', 'selected');
+				default: 
+					$('button[value="' + target + '"]', self.levelselect).addClass('selected');
 			}
 
 			// no such layer

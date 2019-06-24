@@ -50,6 +50,7 @@ var DATA = {
     {
       id: "ground",
       title: "Ground floor",
+      title_cn: "1Ground floor",
       map: "/img/maps/first-floor.svg",
       minimap: "/img/maps/first-floor.svg",
       locations: [
@@ -367,6 +368,7 @@ var DATA = {
     {
       id: "second",
       title: "Second floor",
+      title_cn: "1Second floor",
       map: "/img/maps/second-floor.svg",
       minimap: "/img/maps/second-floor.svg",
       locations: [
@@ -1289,6 +1291,7 @@ var DATA = {
 
 // Update dynamic data
 DATA.levels.forEach(function(level) {
+  if (isCN) level.title = level.title_cn;
   level.locations.forEach(function(store) {
     // store.image = getStoreImageUrl(store.image);
     // store.thumbnail = getStoreImageUrl(store.thumbnail);
