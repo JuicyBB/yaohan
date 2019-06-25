@@ -95,21 +95,21 @@
 <section class="section contact-section">
   <div class="container">
     <!-- Success message -->
-    <div class="alert alert-success alert-dismissible d-none" role="alert">
+    <!-- <div class="alert alert-success alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         <span class="sr-only">關閉</span>
       </button>
       <div class="message-content text-center">您的查詢已發送！</div>
-    </div>
+    </div> -->
     <!-- Error message -->
-    <div class="alert alert-danger alert-dismissible d-none" role="alert">
+    <!-- <div class="alert alert-danger alert-dismissible d-none" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         <span class="sr-only">關閉</span>
       </button>
       <div class="message-content text-center">遞交出了點問題，請再試一次。</div>
-    </div>
+    </div> -->
     <div class="row justify-content-between">
       <div class="col-xl-4 col-lg-5 col-md animate fadeInLeft">
         <header>
@@ -160,17 +160,14 @@
         <p class="text-muted">想與我們分享您對八佰伴中心的意見？我們樂意聆聽閣下有關我們服務、環境和網站等的寶貴意見。請於下方填寫您的查詢內容。</p>
         <form 
           id="contactForm" 
-          autocomplete="on"
-          action="https://yaohanblog.data.blog/contact/#contact-form-3"
-          method="POST"
-          target="contactFrame">
+          autocomplete="on">
             <div class="form-group">
               <label for="name">名字</label>
               <input
                 type="text"
                 class="form-control"
                 id="name"
-                name="g3-name"
+                name="name"
                 placeholder="請填寫閣下全名"
                 data-validation="required"
                 data-validation-error-msg="Please enter your name"
@@ -184,7 +181,7 @@
                 type="email"
                 class="form-control"
                 id="email"
-                name="g3-email"
+                name="email"
                 placeholder="請填寫閣下電郵地址"
                 data-validation="email"
                 data-validation-error-msg="Please a valid email"
@@ -197,7 +194,7 @@
                 type="tel"
                 class="form-control"
                 id="phone"
-                name="g3-phonenumber"
+                name="phone-number"
                 placeholder="請填寫電話號碼"
                 data-validation="number,length"
                 data-validation-ignore="-()"
@@ -212,23 +209,23 @@
                 class="form-control"
                 rows="5"
                 id="message"
-                name="g3-comment"
+                name="comment"
                 placeholder="請填寫查詢內容"
                 data-validation="required"
                 data-validation-error-msg="Please include a message"
               ></textarea>
             </div>
-            <input type="hidden" id="_wpnonce" name="_wpnonce" value="0ddd1c9dad">
-            <input type="hidden" name="_wp_http_referer" value="http://www.yaohancentre.com/contact.html">
-            <input type="hidden" name="contact-form-id" value="3">
-            <input type="hidden" name="action" value="grunion-contact-form">
-            <input type="hidden" name="contact-form-hash" value="6692159b8fdf0f378e537baa225c38d6357d08b6">
             <button type="submit" class="btn btn-primary">
               <i class="far fa-envelope mr-2"></i>
               遞交
             </button>
           </form>
-          <iframe width="0" height="0" border="0" name="contactFrame" id="contactFrame"></iframe>
+          <div class="alert alert-success d-none" role="alert">
+            <div class="message-content text-center">您的查詢已發送！</div>
+          </div>
+          <div class="alert alert-danger d-none" role="alert">
+            <div class="message-content text-center">遞交出了點問題，請再試一次。</div>
+          </div>
           <!-- Contact form ends -->
       </div>
     </div>
