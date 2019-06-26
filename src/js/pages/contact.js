@@ -12,6 +12,8 @@ $(function() {
 
   $("#contactForm").submit(function(e) {
     $('.alert').addClass('d-none');
+    $('#loadingButton').removeClass('d-none');
+    $('#submitButton').addClass('d-none');
 
     e.preventDefault();
     $.ajax({
@@ -26,6 +28,8 @@ $(function() {
       error: function() {
         $('.alert-danger').removeClass('d-none');
         $("html, body").animate({ scrollTop: "0px" });
+        $('#loadingButton').addClass('d-none');
+        $('#submitButton').removeClass('d-none');
       }
     });
   });

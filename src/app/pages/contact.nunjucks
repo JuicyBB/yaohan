@@ -38,6 +38,12 @@
       <div class="col-xl-7 col-lg-7 col-md animate fadeInUp">
         <h3 class="heading-4 font-weight-bold">{{ tr['Send us a message'] }}</h3>
         <p class="text-muted">{{ tr['All fields are required.']}}</p>
+        <div class="alert alert-success d-none" role="alert">
+          <div class="message-content text-center">{{ tr['Your message has been sent!'] }}</div>
+        </div>
+        <div class="alert alert-danger d-none" role="alert">
+          <div class="message-content text-center">{{ tr['Something went wrong, please try again.'] }}</div>
+        </div>
         <form 
           id="contactForm" 
           autocomplete="on">
@@ -96,16 +102,16 @@
               ></textarea>
             </div>
             <button type="submit" class="btn btn-primary">
-              <i class="far fa-envelope mr-2"></i>
-              {{ tr['Send Message'] }}
+              <span id="submitButton">
+                <i class="far fa-envelope mr-2"></i>
+                {{ tr['Send Message'] }}
+              </span>
+              <span id="loadingButton" class="d-none">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span>Loading...</span>
+              </span>
             </button>
           </form>
-          <div class="alert alert-success d-none" role="alert">
-            <div class="message-content text-center">{{ tr['Your message has been sent!'] }}</div>
-          </div>
-          <div class="alert alert-danger d-none" role="alert">
-            <div class="message-content text-center">{{ tr['Something went wrong, please try again.'] }}</div>
-          </div>
           <!-- Contact form ends -->
       </div>
     </div>
