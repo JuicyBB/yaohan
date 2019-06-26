@@ -11,6 +11,9 @@ var onloadCallback = function() {
 
  $(function() {
 
+  // Wake API
+  $.get("https://epk-api.herokuapp.com/");
+
   $.validate({
     form: "#contactForm",
     errorMessageClass: "invalid-feedback",
