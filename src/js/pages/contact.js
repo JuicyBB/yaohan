@@ -3,7 +3,14 @@
  * Contact Form
  * =======================
  */
-$(function() {
+var onloadCallback = function() {
+    grecaptcha.render('captcha', {
+    'sitekey' : '6LdCsKoUAAAAAKy_wrsGGQP6ulTqOdO1578JzRJh'
+  });
+};
+
+ $(function() {
+
   $.validate({
     form: "#contactForm",
     errorMessageClass: "invalid-feedback",
@@ -11,26 +18,31 @@ $(function() {
   });
 
   $("#contactForm").submit(function(e) {
-    $('.alert').addClass('d-none');
-    $('#loadingButton').removeClass('d-none');
-    $('#submitButton').addClass('d-none');
-
     e.preventDefault();
-    $.ajax({
-      url: "https://epk-api.herokuapp.com/api/yaohan/email",
-      method: "POST",
-      data: $(this).serialize(),
-      success: function() {
-        $('.alert-success').removeClass('d-none');
-        $('#contactForm').addClass('d-none');
-        $("html, body").animate({ scrollTop: "0px" });
-      },
-      error: function() {
-        $('.alert-danger').removeClass('d-none');
-        $("html, body").animate({ scrollTop: "0px" });
-        $('#loadingButton').addClass('d-none');
-        $('#submitButton').removeClass('d-none');
-      }
-    });
+
+    if (grecaptcha.getResponse().length > 0) {
+      $('.alert').addClass('d-none');
+      $('#loadingButton').removeClass('d-none');
+      $('#submitButton').addClass('d-none');
+
+      $.ajax({
+        url: "https://epk-api.herokuapp.com/api/yaohan/email",
+        method: "POST",
+        data: $(this).serialize(),
+        success: function() {
+          $('.alert-success').removeClass('d-none');
+          $('#contactForm').addClass('d-none');
+          $("html, body").animate({ scrollTop: "0px" });
+        },
+        error: function() {
+          $('.alert-danger').removeClass('d-none');
+          $("html, body").animate({ scrollTop: "0px" });
+          $('#loadingButton').addClass('d-none');
+          $('#submitButton').removeClass('d-none');
+        }
+      });
+    } else {
+      $('#captcha div:first').css('border', '1px solid red');
+    }
   });
 });
