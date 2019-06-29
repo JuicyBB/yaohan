@@ -1301,6 +1301,7 @@ DATA.levels.forEach(function(level) {
     var category = DATA.groups.filter(function(group) {
       return group.id == store.category;
     })[0];
+    store.fill = category.color;
 
     store.cardImage = getStoreImageUrl(store.image);
     delete store.image;
@@ -1333,10 +1334,6 @@ DATA.levels.forEach(function(level) {
       store.description +=
         '<div class="store-description-line">' + descriptionLine + '</div>';
     if (isCN) store.title = store.title_cn;
-    // Fill color on map
-    var storeSvg = '#' + store.id;
-    $('#mall_map').find(storeSvg).css('fill', category.color);
-    console.log($('#mall_map').find(storeSvg));
   });
 });
 // });
