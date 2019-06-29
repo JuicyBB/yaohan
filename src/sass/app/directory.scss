@@ -133,7 +133,7 @@
 .store-image-wrap {
 
   @include media-breakpoint-up(sm) {
-    height: 10em;
+    height: 12em;
     margin: -1em -1em 1em -1em;
     overflow: hidden;
     display: flex;
@@ -145,6 +145,10 @@
       width: 100%;
 
     }
+  }
+
+  @include media-breakpoint-between(md, lg) {
+    height: 10em;
   }
 
   @include media-breakpoint-down(xs) {
@@ -181,4 +185,27 @@
   margin-top: 0.25rem;
   line-height: 1.6;
   font-family: lato;
+}
+
+// Map levels
+// YAOH-36
+.mapplic-levels {
+  overflow: visible !important;
+}
+.mapplic-levels-select {
+  padding: 0 !important;
+  background-color: transparent !important;
+  .levels-btn {
+    margin-left: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 6px rgba(0,0,0,.1);
+    background-color: #fff;
+    &.active {
+      background-color: $secondary;
+      color: #fff;
+    }
+    &:hover {
+      box-shadow: 1px 1px 6px rgba(0,0,0,.2);
+    }
+  }
 }

@@ -1282,7 +1282,7 @@
 
 					// build layer control
 					// YAOH-36
-					self.levelselect.append($('<button></button>').addClass('btn levels-btn').attr('value', level.id).text(level.title));
+					self.levelselect.append($('<button></button>').addClass('btn btn-sm levels-btn').attr('value', level.id).text(level.title));
 
 					// shown level
 					if (!shownLevel || level.show)	shownLevel = level.id;
