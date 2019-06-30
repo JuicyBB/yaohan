@@ -42,16 +42,16 @@
 
   <section class="page-section">
     <div class="container">
-      <header class="text-center animate fadeInUp">
+      <header class="text-center animate fadeIn">
         <h1 class="font-weight-bold">{{ tr['Visit Yaohan Centre'] }}</h1>
         <h2 class="heading-4">{{ tr['Eat, shop and more.'] }}</h2>
       </header>
       <div class="my-5"></div>
       <div class="row">
-        <div class="col-md animate fadeInLeft">
+        <div class="col-md animate fadeInRight">
           <img src="/img/yaohan-about.jpg" alt="{{ tr['Visit Yaohan Centre'] }}" class="img-fluid mb-4">
         </div>
-        <div class="col-md d-flex animate fadeInRight">
+        <div class="col-md d-flex animate fadeIn">
           <div class="align-self-center">
             <p>{{ tr['Home_Intro_1'] }}</p>
             <p>{{ tr['Home_Intro_2'] }}</p>
@@ -69,7 +69,7 @@
 
   <section class="page-section bg-light">
     <div class="container">
-      <header class="text-center animate fadeInUp">
+      <header class="text-center animate fadeIn">
         <h2 class="font-weight-bold">{{ tr['Latest News & Events'] }}</h1>
         <a class="btn btn-link btn-lg" href="news.html">
           {{ tr['See all news & events'] }} 
@@ -77,14 +77,14 @@
         </a>
       </header>
       <div class="my-5"></div>
-      <div class="row justify-content-md-center blog">
-        <div class="col-lg-5 col-md animate fadeInLeft">
+      <div class="row justify-content-md-center blog animate fadeIn">
+        <div class="col-lg-5 col-md">
           <img 
             src="/img/yaohan-1.jpg" 
             alt="Visit Yaohan Centre" 
             class="img-fluid mb-4">
         </div>
-        <div class="col-lg-5 col-md animate fadeInRight">
+        <div class="col-lg-5 col-md">
           <h4 class="title font-weight-bold"></h4>
           <div class="font-sm text-muted my-2 date"></div>
           <div class="excerpt"></div>
