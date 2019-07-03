@@ -299,7 +299,7 @@ var DATA = {
           category: "specialty",
           phone: "604-370-3038",
           email: "",
-          description: "Contact Person: Paulina Lee",
+          description: "Contact Person: Paulina Lee @ 778-997-8911",
           image: "1005",
           thumbnail: "1005",
           website: "http://www.dreamva.ca",
@@ -1351,6 +1351,11 @@ var DIRECTORY = DATA.levels[0].locations.concat(DATA.levels[1].locations);
 $(function() {
   var load = function(stores) {
     $("#stores").empty();
+
+    stores.sort(function(a, b) {
+      console.log(a.title - b.title);
+      return a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1;
+    });
 
     stores.forEach(function(store) {
       var card = $(".store-template")
