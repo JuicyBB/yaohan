@@ -48,7 +48,7 @@
       </header>
       <div class="my-5"></div>
       <div class="row">
-        <div class="col-md animate fadeInRight">
+        <div class="col-md animate fadeIn">
           <img src="/img/yaohan-about.jpg" alt="{{ tr['Visit Yaohan Centre'] }}" class="img-fluid mb-4">
         </div>
         <div class="col-md d-flex animate fadeIn">

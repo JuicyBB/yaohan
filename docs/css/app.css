@@ -14827,6 +14827,18 @@ nav a {
   height: 150px;
 }
 
+/* line 15, src/sass/app/blog.scss */
+.news-wrapper .card-text ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+/* line 19, src/sass/app/blog.scss */
+.news-wrapper .card-text ul li img {
+  max-width: 100%;
+}
+
 /* line 1, src/sass/app/contact.scss */
 .contact-container {
   max-width: 1000px;

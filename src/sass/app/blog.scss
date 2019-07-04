@@ -11,5 +11,14 @@
     &.truncated-text {
       height: 150px;
     }
+
+    ul {
+      list-style: none;
+      padding-inline-start: 0;
+
+      li img {
+        max-width: 100%;
+      }
+    }
   }
 }
