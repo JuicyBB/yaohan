@@ -16,7 +16,7 @@ $(function() {
     $(this).addClass('hide');
   };
 
-  function bindMore(card) {
+  function bindCard(card) {
     var current = card.find(".card-text");
     // truncate if more than max height
     if (current.height() > TRUNCATE_MAX_HEIGHT) {
@@ -32,38 +32,61 @@ $(function() {
     card.find(".more-link").bind('click', untruncate);
   }
 
+  function generateCard(post) {
+    var card = $('.card-tmpl').clone().removeClass('hide card-tmpl'),
+      date = new Date(post.date);
+
+    card.attr('id', post.id);
+    card.find('.card-img-top').attr('src', post.jetpack_featured_media_url)
+        .attr('alt', post.title.rendered);
+    card.find('.card-title').html(post.title.rendered);
+    card.find('.card-text').html(post.content.rendered);
+    card.find('.card-date').html('Posted on ' + date.toDateString());
+    card.appendTo('.card-wrapper');
+    bindCard(card);
+  }
+
   function loadPage() {
-    var WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?per_page=' + PAGE_SIZE +'&page=' + PAGE_NUMBER;
+    var WP_STICKY_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?per_page=' + PAGE_SIZE +'&page=' + PAGE_NUMBER;
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
           var data = JSON.parse(xhr.response);
 
           data.forEach(function(post, index) {
-            var card = $('.card-tmpl').clone().removeClass('hide card-tmpl'),
-              date = new Date(post.date);
-
-            card.attr('id', post.id);
-            card.find('.card-img-top').attr('src', post.jetpack_featured_media_url)
-                .attr('alt', post.title.rendered);
-            card.find('.card-title').html(post.title.rendered);
-            card.find('.card-text').html(post.content.rendered);
-            card.find('.card-date').html('Posted on ' + date.toDateString());
-            card.appendTo('.card-wrapper');
-            bindMore(card);
+            if ($('#' + post.id).length == 0) {
+              generateCard(post);
+              if (data.length < PAGE_SIZE) $('#load_more').hide();
+            }
           });
-
-          if (data.length < PAGE_SIZE) $('#load_more').hide();
         } else if (this.readyState == 4) {
           $('#load_more').hide();
         }
     };
-    xhr.open("GET", WP_URL, true);
+    xhr.open("GET", WP_STICKY_URL, true);
     xhr.send();
     PAGE_NUMBER++;
   }
 
-  loadPage();
+  function loadSticky() {
+    var WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?sticky=true';
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var data = JSON.parse(xhr.response);
+
+          data.forEach(function(post, index) {
+            generateCard(post);
+          });
+
+          loadPage();
+        }
+    };
+    xhr.open("GET", WP_URL, true);
+    xhr.send();
+  }
+
+  loadSticky();
 
   $('#load_more').click(function() {
     loadPage();
