@@ -14434,58 +14434,73 @@ nav a {
   background-position: bottom center;
 }
 
+/* line 30, src/sass/app/home.scss */
+.bg-promo {
+  background-image: url("../img/promo.png");
+  background-size: contain !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+@media (max-width: 768.98px) {
+  /* line 30, src/sass/app/home.scss */
+  .bg-promo {
+    background-position: center 130px !important;
+  }
+}
+
 @media (min-width: 769px) {
-  /* line 31, src/sass/app/home.scss */
+  /* line 42, src/sass/app/home.scss */
   .bg-1 {
     background-image: url("../img/yaohan-1.jpg");
   }
-  /* line 34, src/sass/app/home.scss */
+  /* line 45, src/sass/app/home.scss */
   .bg-2 {
     background-image: url("../img/yaohan-2.jpg");
   }
-  /* line 37, src/sass/app/home.scss */
+  /* line 48, src/sass/app/home.scss */
   .bg-3 {
     background-image: url("../img/yaohan-5.jpg");
   }
-  /* line 40, src/sass/app/home.scss */
+  /* line 51, src/sass/app/home.scss */
   .bg-4 {
     background-image: url("../img/yaohan-4.jpg");
   }
-  /* line 43, src/sass/app/home.scss */
+  /* line 54, src/sass/app/home.scss */
   .bg-5 {
     background-image: url("../img/yaohan-3.jpg");
   }
 }
 
 @media (max-width: 768.98px) {
-  /* line 48, src/sass/app/home.scss */
+  /* line 59, src/sass/app/home.scss */
   .bg-1 {
     background-image: url("../img/yaohan-2-mobile.jpg");
   }
-  /* line 51, src/sass/app/home.scss */
+  /* line 62, src/sass/app/home.scss */
   .bg-2 {
     background-image: url("../img/yaohan-5-mobile.jpg");
   }
-  /* line 54, src/sass/app/home.scss */
+  /* line 65, src/sass/app/home.scss */
   .bg-3 {
     background-image: url("../img/yaohan-1.jpg");
   }
-  /* line 57, src/sass/app/home.scss */
+  /* line 68, src/sass/app/home.scss */
   .bg-4 {
     background-image: url("../img/yaohan-2-mobile.jpg");
   }
-  /* line 60, src/sass/app/home.scss */
+  /* line 71, src/sass/app/home.scss */
   .bg-5 {
     background-image: url("../img/yaohan-4-mobile.jpg");
   }
 }
 
-/* line 65, src/sass/app/home.scss */
+/* line 76, src/sass/app/home.scss */
 .hero-content {
   width: 100%;
 }
 
-/* line 69, src/sass/app/home.scss */
+/* line 80, src/sass/app/home.scss */
 .mall-hours-wrapper {
   color: #fff;
   text-align: left;
@@ -14493,14 +14508,14 @@ nav a {
 }
 
 @media (max-width: 768.98px) {
-  /* line 69, src/sass/app/home.scss */
+  /* line 80, src/sass/app/home.scss */
   .mall-hours-wrapper {
     background-color: rgba(0, 0, 0, 0.75);
   }
 }
 
 @media (min-width: 769px) {
-  /* line 69, src/sass/app/home.scss */
+  /* line 80, src/sass/app/home.scss */
   .mall-hours-wrapper {
     background-color: rgba(0, 0, 0, 0.85);
     padding: 3.5rem 6rem;
@@ -14509,13 +14524,13 @@ nav a {
     bottom: 0;
     transition: background-color 300ms ease;
   }
-  /* line 85, src/sass/app/home.scss */
+  /* line 96, src/sass/app/home.scss */
   .mall-hours-wrapper:hover {
     background-color: rgba(0, 0, 0, 0.95);
   }
 }
 
-/* line 90, src/sass/app/home.scss */
+/* line 101, src/sass/app/home.scss */
 .mall-hours-wrapper h2 {
   font-size: 1.25em;
   text-transform: uppercase;

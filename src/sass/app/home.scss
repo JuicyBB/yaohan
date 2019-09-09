@@ -27,6 +27,17 @@
   }
 }
 
+.bg-promo {
+  background-image: url('../img/promo.png');
+  background-size: contain !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+
+  @include media-breakpoint-down(sm) {
+    background-position: center 130px !important;
+  }
+}
+
 @include media-breakpoint-up(md) {
   .bg-1 {
     background-image: url('../img/yaohan-1.jpg');
