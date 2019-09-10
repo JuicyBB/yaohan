@@ -14445,62 +14445,63 @@ nav a {
 @media (max-width: 768.98px) {
   /* line 30, src/sass/app/home.scss */
   .bg-promo {
-    background-position: center 80px !important;
+    background-image: url("../img/promo-mobile.png");
+    background-size: cover !important;
   }
 }
 
 @media (min-width: 769px) {
-  /* line 42, src/sass/app/home.scss */
+  /* line 43, src/sass/app/home.scss */
   .bg-1 {
     background-image: url("../img/yaohan-1.jpg");
   }
-  /* line 45, src/sass/app/home.scss */
+  /* line 46, src/sass/app/home.scss */
   .bg-2 {
     background-image: url("../img/yaohan-2.jpg");
   }
-  /* line 48, src/sass/app/home.scss */
+  /* line 49, src/sass/app/home.scss */
   .bg-3 {
     background-image: url("../img/yaohan-5.jpg");
   }
-  /* line 51, src/sass/app/home.scss */
+  /* line 52, src/sass/app/home.scss */
   .bg-4 {
     background-image: url("../img/yaohan-4.jpg");
   }
-  /* line 54, src/sass/app/home.scss */
+  /* line 55, src/sass/app/home.scss */
   .bg-5 {
     background-image: url("../img/yaohan-3.jpg");
   }
 }
 
 @media (max-width: 768.98px) {
-  /* line 59, src/sass/app/home.scss */
+  /* line 60, src/sass/app/home.scss */
   .bg-1 {
     background-image: url("../img/yaohan-2-mobile.jpg");
   }
-  /* line 62, src/sass/app/home.scss */
+  /* line 63, src/sass/app/home.scss */
   .bg-2 {
     background-image: url("../img/yaohan-5-mobile.jpg");
   }
-  /* line 65, src/sass/app/home.scss */
+  /* line 66, src/sass/app/home.scss */
   .bg-3 {
     background-image: url("../img/yaohan-1.jpg");
   }
-  /* line 68, src/sass/app/home.scss */
+  /* line 69, src/sass/app/home.scss */
   .bg-4 {
     background-image: url("../img/yaohan-2-mobile.jpg");
   }
-  /* line 71, src/sass/app/home.scss */
+  /* line 72, src/sass/app/home.scss */
   .bg-5 {
     background-image: url("../img/yaohan-4-mobile.jpg");
   }
 }
 
-/* line 76, src/sass/app/home.scss */
+/* line 77, src/sass/app/home.scss */
 .hero-content {
   width: 100%;
 }
 
-/* line 80, src/sass/app/home.scss */
+/* line 81, src/sass/app/home.scss */
 .mall-hours-wrapper {
   color: #fff;
   text-align: left;
@@ -14508,14 +14509,14 @@ nav a {
 }
 
 @media (max-width: 768.98px) {
-  /* line 80, src/sass/app/home.scss */
+  /* line 81, src/sass/app/home.scss */
   .mall-hours-wrapper {
     background-color: rgba(0, 0, 0, 0.75);
   }
 }
 
 @media (min-width: 769px) {
-  /* line 80, src/sass/app/home.scss */
+  /* line 81, src/sass/app/home.scss */
   .mall-hours-wrapper {
     background-color: rgba(0, 0, 0, 0.85);
     padding: 3.5rem 6rem;
@@ -14524,13 +14525,13 @@ nav a {
     bottom: 0;
     transition: background-color 300ms ease;
   }
-  /* line 96, src/sass/app/home.scss */
+  /* line 97, src/sass/app/home.scss */
   .mall-hours-wrapper:hover {
     background-color: rgba(0, 0, 0, 0.95);
   }
 }
 
-/* line 101, src/sass/app/home.scss */
+/* line 102, src/sass/app/home.scss */
 .mall-hours-wrapper h2 {
   font-size: 1.25em;
   text-transform: uppercase;
