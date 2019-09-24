@@ -1,6 +1,6 @@
 $(function() {
   var PAGE_NUMBER = 1,
-    PAGE_SIZE = 2,
+    PAGE_SIZE = 4,
     TRUNCATE_MAX_HEIGHT = 160;
 
   /**
