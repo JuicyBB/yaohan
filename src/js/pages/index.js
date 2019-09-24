@@ -1,7 +1,7 @@
 $(function() {
 
   // Blog
-  var WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?per_page=1';
+  var WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?per_page=1&tags_exclude=17437';
 
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
