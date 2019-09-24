@@ -1,4 +1,4 @@
-{% set page = "news" %} {% set pageTitle = "News & Events" %} {% extends "layout.nunjucks" %}
+{% set page = "promotions" %} {% set pageTitle = "Promotions" %} {% extends "layout.nunjucks" %}
 
 <!-- Page content-->
 {% block content %}
@@ -8,8 +8,8 @@
       <use xlink:href="#announce" />
     </svg>
     <div class="headlines">
-      <h1 class="font-weight-bold">{{ tr['News & Events'] }}</h1>
-      <h2 class="heading-6 text-muted">{{ tr["Find out what's happening at Yaohan Centre"] }}</h2>
+      <h1 class="font-weight-bold">{{ tr['Promotions'] }}</h1>
+      <h2 class="heading-6 text-muted">{{ tr["Store Promotion"] }}</h2>
     </div>
   </div>
 </header>

@@ -47,7 +47,11 @@ $(function() {
   }
 
   function loadPage() {
-    var WP_STICKY_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?per_page=' + PAGE_SIZE +'&page=' + PAGE_NUMBER;
+    var WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?per_page=' + PAGE_SIZE +'&page=' + PAGE_NUMBER;
+    
+    if ($('#promotions-page').length > 0) WP_URL += '&tags=17437';
+    else WP_URL += '&tags_exclude=17437';
+
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -63,13 +67,17 @@ $(function() {
           $('#load_more').hide();
         }
     };
-    xhr.open("GET", WP_STICKY_URL, true);
+    xhr.open("GET", WP_URL, true);
     xhr.send();
     PAGE_NUMBER++;
   }
 
   function loadSticky() {
-    var WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?sticky=true';
+    var WP_STICKY_URL = 'https://public-api.wordpress.com/wp/v2/sites/yaohanblog.data.blog/posts?sticky=true';
+
+    if ($('#promotions-page').length > 0) WP_STICKY_URL += '&tags=17437';
+    else WP_STICKY_URL += '&tags_exclude=17437';
+
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -82,7 +90,7 @@ $(function() {
           loadPage();
         }
     };
-    xhr.open("GET", WP_URL, true);
+    xhr.open("GET", WP_STICKY_URL, true);
     xhr.send();
   }
 

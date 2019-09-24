@@ -31,7 +31,7 @@
     {% endif %}
   </head>
 
-  <body>
+  <body id="{{ page }}-page">
 
     <!-- Navigation-->
     {% import 'macros/nav.nunjucks' as nav %}

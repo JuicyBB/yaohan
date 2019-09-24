@@ -10,6 +10,7 @@ module.exports = {
     'Yaohan Centre Homepage' : 'Yaohan Centre Homepage',
     'Mall Directory' : 'Mall Directory',
     'News & Events' : 'News & Events',
+    'Promotions' : 'Promotions',
     'Contact Us' : 'Contact Us',
     'View store directory' : 'View store directory',
 
@@ -51,6 +52,9 @@ module.exports = {
     "Find out what's happening at Yaohan Centre" : "Find out what's happening at Yaohan Centre",
     'Read more' : 'Read more',
     'Load more posts' : 'Load more posts',
+
+    // Promos
+    'Store Promotion' : 'Store Promotion',
 
     //Contact
     'Close' : 'Close',

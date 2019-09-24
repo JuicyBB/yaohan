@@ -9,7 +9,8 @@ module.exports = {
     'Home' : '首頁',
     'Yaohan Centre Homepage' : '八佰伴中心首頁',
     'Mall Directory' : '購物指南',
-    'News & Events' : '促銷活動',
+    'News & Events' : '商場活動',
+    'Promotions' : '促銷活動',
     'Contact Us' : '聯系我們',
     'View store directory' : '查看購物指南',
 
@@ -50,6 +51,9 @@ module.exports = {
     "Find out what's happening at Yaohan Centre" : "最新消息和活動",
     'Read more' : '閱讀更多',
     'Load more posts' : '更多帖子',
+
+    // Promos
+    'Store Promotion' : '精選優惠及活動',
 
     //Contact
     'Close' : '關閉',
