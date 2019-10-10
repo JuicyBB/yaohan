@@ -710,7 +710,7 @@ var DATA = {
         },
         {
           id: "2035",
-          title: "Game Boutique TV Pad",
+          title: "Multimedia Game Boutique",
           type: "Electronic Games",
           category: "gifts",
           phone: "604-279-0851",
@@ -719,7 +719,7 @@ var DATA = {
           image: "2035",
           thumbnail: "2035",
           website: "",
-          title_cn: "Game 館",
+          title_cn: "Multimedia Game Boutique",
           x: "0.8700",
           y: "0.6300",
           zoom: 1,
