@@ -538,7 +538,7 @@ var DATA = {
           type: "Fashion",
           category: "clothing",
           phone: "604-277-7758",
-          email: "",
+          email: " maplecare@gmail.com",
           description: "",
           image: "2100",
           thumbnail: "2100",
