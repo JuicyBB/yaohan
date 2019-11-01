@@ -534,7 +534,7 @@ var DATA = {
         },
         {
           id: "2100",
-          title: "All for Women",
+          title: "Charmily",
           type: "Fashion",
           category: "clothing",
           phone: "604-277-7758",
