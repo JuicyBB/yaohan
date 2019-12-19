@@ -283,7 +283,7 @@ var DATA = {
           title: "Harmony Books & Video",
           type: "Book's & Magazines",
           category: "gifts",
-          phone: "604-278-1668",
+          phone: "604-278-1688",
           email: "",
           description: "",
           image: "1020",
