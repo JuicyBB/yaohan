@@ -822,8 +822,8 @@ var DATA = {
         },
         {
           id: "2055",
-          title: "Specialty & Service - Real Estate Investment & Consulting",
-          type: "Realty",
+          title: "President Global Home",
+          type: "Specialty & Service - Real Estate Investment & Consulting",
           category: "specialty",
           phone: "604-912-0102",
           email: "",
