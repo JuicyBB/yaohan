@@ -807,7 +807,7 @@ var DATA = {
         {
           id: "2050",
           title: "President Global Immigration Services Group Ltd.",
-          type: "Specialty & Service - Immigration Consulting & Visa Service",
+          type: "Immigration Consulting & Visa Service",
           category: "specialty",
           phone: "604-332-0183",
           email: "",
@@ -823,7 +823,7 @@ var DATA = {
         {
           id: "2055",
           title: "President Global Home",
-          type: "Specialty & Service - Real Estate Investment & Consulting",
+          type: "Real Estate Investment & Consulting",
           category: "specialty",
           phone: "604-912-0102",
           email: "",
@@ -887,7 +887,7 @@ var DATA = {
         {
           id: "2130",
           title: "President Global Consulting Group Ltd",
-          type: "Specialty & Service - Education & Immigration Consulting",
+          type: "Education & Immigration Consulting",
           category: "specialty",
           phone: "604-370-2855",
           email: "",
