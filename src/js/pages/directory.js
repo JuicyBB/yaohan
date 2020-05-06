@@ -1142,7 +1142,7 @@ var DATA = {
         },
         {
           id: "2415",
-          title: "Homecare",
+          title: "Home Care",
           type: "Health & Wellness",
           category: "health",
           phone: "778-317-3855 / 778-956-8996",
@@ -1151,7 +1151,7 @@ var DATA = {
           image: "2415",
           thumbnail: "2415",
           website: "",
-          title_cn: "空置",
+          title_cn: "Home Care",
           x: "0.4030",
           y: "0.5700",
           zoom: 1,
