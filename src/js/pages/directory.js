@@ -889,7 +889,7 @@ var DATA = {
           title: "President Global Immigration Consulting",
           type: "Education & Immigration Consulting",
           category: "specialty",
-          phone: "604-370-2855",
+          phone: "604-332-0183, 604-370-2855",
           email: "",
           description: "",
           image: "2130",
