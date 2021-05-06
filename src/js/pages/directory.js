@@ -585,7 +585,7 @@ var DATA = {
           title: "Fashion Square",
           type: "Fashion",
           category: "clothing",
-          phone: "604-273-1383",
+          phone: "604-889-8238",
           email: "",
           description: "",
           image: "2310",
