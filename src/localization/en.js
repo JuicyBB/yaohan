@@ -41,10 +41,11 @@ module.exports = {
     'Floor plans and business information' : 'Floor plans and business information',
     'Food & Grocery' : 'Food & Grocery',
     'Health & Beauty' : 'Health & Beauty',
-    'Clothing & Accessories' : 'Clothing & Accessories',
+    'Clothing' : 'Clothing',
     'Arts & Craft' : 'Arts & Craft',
     'Gifts & Hobby' : 'Gifts & Hobby',
     'Specialty & Service' : 'Specialty & Service',
+    'Education' : 'Education',
     'Map View' : 'Map View',
     'Category View' : 'Category View',
 

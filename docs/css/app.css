@@ -14672,12 +14672,22 @@ nav a {
   background-color: #1d7a32;
 }
 
+/* line 96, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_education .category-toggle {
+  background-color: #17a2b8;
+}
+
 /* line 98, src/sass/app/directory.scss */
+.toggle-wrapper#toggle_education .category-toggle:hover {
+  background-color: #117686;
+}
+
+/* line 104, src/sass/app/directory.scss */
 .store-list {
   margin: 1em 0;
 }
 
-/* line 102, src/sass/app/directory.scss */
+/* line 108, src/sass/app/directory.scss */
 .store-card {
   overflow: hidden;
   display: -ms-flexbox;
@@ -14694,24 +14704,24 @@ nav a {
 }
 
 @media (min-width: 576px) {
-  /* line 102, src/sass/app/directory.scss */
+  /* line 108, src/sass/app/directory.scss */
   .store-card {
     -ms-flex-direction: column;
         flex-direction: column;
   }
-  /* line 116, src/sass/app/directory.scss */
+  /* line 122, src/sass/app/directory.scss */
   .store-card .mobile-border {
     display: none;
   }
 }
 
 @media (max-width: 575.98px) {
-  /* line 102, src/sass/app/directory.scss */
+  /* line 108, src/sass/app/directory.scss */
   .store-card {
     -ms-flex-direction: row;
         flex-direction: row;
   }
-  /* line 123, src/sass/app/directory.scss */
+  /* line 129, src/sass/app/directory.scss */
   .store-card .mobile-border {
     border-left: 0.4rem solid;
     position: absolute;
@@ -14722,7 +14732,7 @@ nav a {
 }
 
 @media (min-width: 576px) {
-  /* line 133, src/sass/app/directory.scss */
+  /* line 139, src/sass/app/directory.scss */
   .store-image-wrap {
     height: 12em;
     margin: -1em -1em 1em -1em;
@@ -14735,21 +14745,21 @@ nav a {
         align-items: center;
     border-bottom: 0.25rem solid;
   }
-  /* line 144, src/sass/app/directory.scss */
+  /* line 150, src/sass/app/directory.scss */
   .store-image-wrap .store-image {
     width: 100%;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1279.98px) {
-  /* line 133, src/sass/app/directory.scss */
+  /* line 139, src/sass/app/directory.scss */
   .store-image-wrap {
     height: 10em;
   }
 }
 
 @media (max-width: 575.98px) {
-  /* line 133, src/sass/app/directory.scss */
+  /* line 139, src/sass/app/directory.scss */
   .store-image-wrap {
     overflow: hidden;
     height: 4rem;
@@ -14761,49 +14771,49 @@ nav a {
         justify-content: center;
     margin-right: 1em;
   }
-  /* line 163, src/sass/app/directory.scss */
+  /* line 169, src/sass/app/directory.scss */
   .store-image-wrap .store-image {
     height: 100%;
   }
 }
 
-/* line 169, src/sass/app/directory.scss */
+/* line 175, src/sass/app/directory.scss */
 .store-title {
   font-size: 1em;
   font-weight: 700;
 }
 
-/* line 174, src/sass/app/directory.scss */
+/* line 180, src/sass/app/directory.scss */
 .store-subtitle {
   color: #adb5bd;
 }
 
-/* line 178, src/sass/app/directory.scss */
+/* line 184, src/sass/app/directory.scss */
 .store-meta {
   font-size: 0.85em;
   margin: 0.5em 0 0;
   word-break: break-word;
 }
 
-/* line 184, src/sass/app/directory.scss */
+/* line 190, src/sass/app/directory.scss */
 .store-description > div {
   margin-top: 0.25rem;
   line-height: 1.6;
   font-family: lato;
 }
 
-/* line 192, src/sass/app/directory.scss */
+/* line 198, src/sass/app/directory.scss */
 .mapplic-levels {
   overflow: visible !important;
 }
 
-/* line 195, src/sass/app/directory.scss */
+/* line 201, src/sass/app/directory.scss */
 .mapplic-levels-select {
   padding: 0 !important;
   background-color: transparent !important;
 }
 
-/* line 198, src/sass/app/directory.scss */
+/* line 204, src/sass/app/directory.scss */
 .mapplic-levels-select .levels-btn {
   margin-left: 10px;
   font-weight: bold;
@@ -14811,13 +14821,13 @@ nav a {
   background-color: #fff;
 }
 
-/* line 203, src/sass/app/directory.scss */
+/* line 209, src/sass/app/directory.scss */
 .mapplic-levels-select .levels-btn.active {
   background-color: #317759;
   color: #fff;
 }
 
-/* line 207, src/sass/app/directory.scss */
+/* line 213, src/sass/app/directory.scss */
 .mapplic-levels-select .levels-btn:hover {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
 }

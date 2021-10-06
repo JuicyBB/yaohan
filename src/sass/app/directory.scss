@@ -93,6 +93,12 @@
       background-color: darken($green, 11%);
     }
   }
+  &#toggle_education .category-toggle {
+    background-color: $cyan;
+    &:hover {
+      background-color: darken($cyan, 11%);
+    }
+  }
 }
 
 .store-list {

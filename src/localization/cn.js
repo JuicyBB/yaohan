@@ -40,10 +40,11 @@ module.exports = {
     'Floor plans and business information' : '商戶指南&地圖',
     'Food & Grocery' : '食品雑貨',
     'Health & Beauty' : '健康保険',
-    'Clothing & Accessories' : '服装首飾',
+    'Clothing' : '服装首飾',
     'Arts & Craft' : '手工藝品',
     'Gifts & Hobby' : '禮物休閑',
     'Specialty & Service' : '其它服務',
+    'Education' : '教育',
     'Map View' : '商戶地圖',
     'Category View' : '商戶分類',
 

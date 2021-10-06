@@ -23,7 +23,7 @@ var DATA = {
     },
     {
       id: "clothing",
-      title: "Clothing & Accessories",
+      title: "Clothing",
       title_cn: "服装首飾",
       color: "#6f42c1",
     },
@@ -44,6 +44,12 @@ var DATA = {
       title: "Specialty & Service",
       title_cn: "其它服務",
       color: "#28a745",
+    },
+    {
+      id: "education",
+      title: "Education",
+      title_cn: "教育",
+      color: "#17a2b8",
     },
   ],
   levels: [
@@ -728,13 +734,13 @@ var DATA = {
           id: "2230",
           title: "New Progress Learning Centre Ltd",
           type: "Interactive Learning",
-          category: "specialty",
+          category: "education",
           phone: "604-771-2477",
           email: "",
           description: "",
           image: "2230",
           thumbnail: "2230",
-          website: "",
+          website: "https://www.newprogress.ca",
           title_cn: "新進展教育中心",
           x: "0.3300",
           y: "0.2535",
@@ -807,8 +813,8 @@ var DATA = {
         {
           id: "2050",
           title: "Sohya Tech",
-          type: "",
-          category: "specialty",
+          type: "Education",
+          category: "education",
           phone: "604-998-6995",
           email: "",
           description: "",
@@ -934,16 +940,16 @@ var DATA = {
         },
         {
           id: "2245",
-          title: "Little Ants Education",
-          type: "Interactive Learning",
+          title: "Vacant",
+          type: "Vacant",
           category: "specialty",
-          phone: "778-829-3832",
+          phone: "",
           email: "",
           description: "",
-          image: "2245",
-          thumbnail: "2245",
-          website: "http://www.taoxuelife.net",
-          title_cn: "小螞蟻教育中心",
+          image: "noimage",
+          thumbnail: "noimage",
+          website: "",
+          title_cn: "空置",
           x: "0.2420",
           y: "0.2474",
           zoom: 1,
@@ -1208,7 +1214,7 @@ var DATA = {
           id: "2510",
           title: "Ivy League Education",
           type: "Education",
-          category: "specialty",
+          category: "education",
           phone: "604-888-5989",
           email: "ivyleaguegroup@hotmail.com",
           description: "",
@@ -1353,7 +1359,6 @@ $(function() {
     $("#stores").empty();
 
     stores.sort(function(a, b) {
-      console.log(a.title - b.title);
       return a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1;
     });
 
