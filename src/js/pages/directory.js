@@ -652,7 +652,7 @@ var DATA = {
         },
         {
           id: "2105",
-          title: "Rotai - massage products",
+          title: "Rotai - Massage Products",
           type: "Massage Products",
           category: "specialty",
           phone: "604-968-7111",
