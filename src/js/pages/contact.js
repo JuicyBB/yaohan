@@ -12,7 +12,7 @@ var onloadCallback = function() {
  $(function() {
 
   // Wake API
-  $.get("https://epk-api.herokuapp.com/");
+  $.get("https://epikode-api.uw.r.appspot.com/");
 
   $.validate({
     form: "#contactForm",
@@ -29,7 +29,7 @@ var onloadCallback = function() {
       $('#submitButton').addClass('d-none');
 
       $.ajax({
-        url: "https://epk-api.herokuapp.com/api/yaohan/email",
+        url: "https://epikode-api.uw.r.appspot.com/api/yaohan/email",
         method: "POST",
         data: $(this).serialize(),
         success: function() {
