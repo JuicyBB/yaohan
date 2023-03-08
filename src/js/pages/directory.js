@@ -661,7 +661,7 @@ var DATA = {
           image: "2105",
           thumbnail: "2105",
           website: "",
-          title_cn: "諾換匯",
+          title_cn: "一諾換匯",
           x: "0.7750",
           y: "0.5400",
           zoom: 1,
