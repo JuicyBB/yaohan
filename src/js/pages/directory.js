@@ -342,7 +342,7 @@ var DATA = {
         },
         {
           id: "1025",
-          title: "Kingmark (Canada)",
+          title: "Kingmark (Canada) Currency Exchange Inc.",
           type: "Money Exchange",
           category: "specialty",
           phone: "604-273-8100",
