@@ -72,4 +72,13 @@ module.exports = {
     'Enter email' : '請填寫閣下電郵地址',
     'Enter phone number' : '請填寫電話號碼',
     'Enter your message' : '請填寫查詢內容',
+
+    //Shopping Centre Guidelines
+    'Shopping Centre Guidelines' : 'Shopping Centre Guidelines',
+    'Rules and mall information' : 'Rules and mall information',
+    'rule1' : 'All guests must be fully dressed and shoes must be worn at all times',
+    'rule2' : 'No animals are permitted within the mall , with the exception of licensed service animals',
+    'rule3' : 'No bicycles, skateboards, rollerblades, scooters, kid\'s ride on motorized cars or other similar equipment in the mall\'s indoor common area',
+    'rule4' : 'No smoking, vaping or any illegal drug use in the mall',
+    'rule5' : 'CCTV and video surveillance are installed in the mall\'s common areas, and activities may be monitored',
 };

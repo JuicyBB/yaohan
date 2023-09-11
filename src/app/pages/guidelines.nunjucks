@@ -1,0 +1,28 @@
+{% set page = "" %} {% set pageTitle = "Rules & Guidelines" %} {% extends "layout.nunjucks" %}
+
+<!-- Page content-->
+{% block content %}
+<header class="page-header">
+  <div class="container">
+    <svg class="icon header-icon">
+      <use xlink:href="#mall-3" />
+    </svg>
+    <div class="headlines">
+      <h1 class="font-weight-bold">{{ tr['Shopping Centre Guidelines'] }}</h1>
+      <h2 class="heading-6 mb-0 text-muted">{{ tr["Rules and mall information"] }}</h2>
+    </div>
+  </div>
+</header>
+<section class="section">
+  <div class="container">
+   <ul>
+    <li>{{ tr['rule1'] }}</li>
+    <li>{{ tr['rule2'] }}</li>
+    <li>{{ tr['rule3'] }}</li>
+    <li>{{ tr['rule4'] }}</li>
+    <li>{{ tr['rule5'] }}</li>
+   </ul>
+  </div>
+</section>
+<script src="/js/pages/post.min.js" defer></script>
+{% endblock %}
