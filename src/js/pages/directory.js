@@ -261,7 +261,7 @@ var DATA = {
           title: "Ciwu Noodle House",
           type: "Food",
           category: "food",
-          phone: "604-284-0487",
+          phone: "604-285-8811",
           email: "",
           description: "",
           image: "1100",
