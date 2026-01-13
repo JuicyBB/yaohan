@@ -1293,7 +1293,7 @@ var DATA = {
         {
           id: "2600",
           title: "Management Office",
-          type: "Other",
+          type: "specialty",
           category: "specialty",
           phone: "604-231-0601",
           email: "admin@yaohancentre.com",

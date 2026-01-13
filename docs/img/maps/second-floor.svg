@@ -476,6 +476,13 @@
        d="m 181.125,311.33334 53.75,-51 7.875,8 v 43.125 z"
        id="2350"
        inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#447821;fill-opacity:1;stroke:none;stroke-width:0.89950317"
+       id="2600"
+       width="49.807995"
+       height="61.128239"
+       x="62.492764"
+       y="429.1044" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -519,13 +526,6 @@
        height="21.170698"
        x="143.27969"
        y="254.65807" />
-    <rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.89950317;stroke-opacity:1"
-       id="rect4747"
-       width="49.807995"
-       height="61.128239"
-       x="62.492764"
-       y="429.1044" />
     <rect
        style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.84343791;stroke-opacity:1"
        id="rect4749"
@@ -1627,6 +1627,17 @@
      transform="translate(0,-77.708338)"
      style="display:inline"
      sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99240637;text-anchor:middle"
+       x="87.39676"
+       y="462.57852"
+       id="text4903-2600"><tspan
+         sodipodi:role="line"
+         id="tspan4901-2600"
+         x="87.39676"
+         y="462.57852"
+         style="font-size:8px;fill:#ffffff;stroke-width:0.99240637">2600</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:8px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99240637"

@@ -13,5 +13,6 @@
   "liveServer.settings.root": "/docs",
   "files.associations": {
     "*.nunjucks": "html"
-  }
+  },
+  "livePreview.defaultPreviewPath": "/docs/index.html"
 }
