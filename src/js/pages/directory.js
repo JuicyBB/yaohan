@@ -671,7 +671,7 @@ var DATA = {
           title: "2.12 Arts & Craft",
           type: "Art and Craft",
           category: "arts",
-          phone: "604-231-8112",
+          phone: "778-838-3212",
           email: "",
           description: "",
           image: "2110",
